@@ -48,17 +48,22 @@ margin-left: 190%;}
 .panel__image.panel__image--book {
         display: flex;
         position: relative;
-        
+
+      
     }
      
     
+
+
+    
     .books__book__img {
-            width: 100%;
-            max-width: 20px;
+            width: 10px;
+            max-width:100px;
             will-change: transform;
             transform-origin: 0 100%;
             transform: rotate(-10deg);
             transition: transform 0.3s ease-out;
+
     }
     
     .books__book__img:hover {
