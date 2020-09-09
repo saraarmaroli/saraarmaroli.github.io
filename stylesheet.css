@@ -43,35 +43,14 @@ color:#D15353;
 margin-left: 190%;}
 
 
-/* Center the book */
+
+/* per home page- Center the book */
 .panel__image.panel__image--book {
         display: flex;
-        justify-content: center;
-        align-items: center;
         position: relative;
-        top: 60px;
+        
     }
-    
-    /* .product-panel--book .panel__image--book {
-            position: absolute;
-            max-width: 500px;
-            top: calc(-5em - 5vw);
-            right: 0;
-    }
-    
-    .product-panel .panel__image {
-            width: calc(30% + 2vw);
-            -ms-flex-order: 1;
-            order: 1;
-    } */
-    
-    .article__content a:not(.btn):not(.toolbar-item) {
-            color: #006fc6;
-    }
-    
-    .product-panel--book .panel__image--book img {
-            width: 100% !important;
-    }
+     
     
     .books__book__img {
             width: 100%;
