@@ -6,14 +6,45 @@
         src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
 
 
-/* per home page*/
-#contenitore{ width: auto;
-        background-color: FFE6B0;
-        display: flex;
-        justify-content: center;
-        margin-top: auto;
-        }
 
+                   
+body{width: auto;
+                /* a few lines to be sure that the cover stays in the middle of the screen */
+         display: flex;
+         justify-content: center;
+margin-top: 8%;
+margin-bottom: 10%;}
+
+
+.book-cover{   text-align: center;
+        position: relative; 
+        width: 15cm;
+        height: 21;
+       }
+
+#author{font-family: BodoniFLF-BoldItalic;
+        font-size: 66px;
+       
+}
+#title{font-family: BodoniFLF-Bold;
+        font-size: 110px;
+        margin-top: -80px;      
+}
+
+.text-cover{position: absolute; 
+        white-space: nowrap;
+        top: 1010px; 
+      margin-left: 60%;
+color:#D15353;
+
+}
+
+.logo{margin-top:-45%;
+margin-left: 190%;}
+
+
+
+/* per home page- Center the book */
 .panel__image.panel__image--book {
         display: flex;
         position: relative;
@@ -49,6 +80,7 @@
         
 }
 
+#contenitore-1{ background-color: FFE6B0;}
 
     .container{
         width:800px;
