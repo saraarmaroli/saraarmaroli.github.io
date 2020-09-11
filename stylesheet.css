@@ -169,8 +169,19 @@ padding-bottom:10%;}
                
                 }
 
-                .sinistro{float:left;}
+                .sinistro{float:left;
+                margin-left:-15%;}
 
-                .destro{float:right;}
+                .sinistro2{float:left;
+                        margin-left:15%;
+        }
+        
+
+                .destro{float:right;
+                margin-right:10%;}
+
+                .destro2{float:right;
+                        margin-right:8%;}
+        
 
                 
