@@ -78,6 +78,10 @@ color:1D7268;
 }
 
 body{margin:0;}
+
+
+
+/* per home page-sezione 2*/
 .contenitore{
         background-color: FFE6B0;
         display: flex;
@@ -91,12 +95,12 @@ body{margin:0;}
         font-size: 100%;
         margin: 0;
         text-align:center;
-        padding-top:5%;
+        padding-top:8%;
         }
 
 
-
-/* per home page-sezione 2*/
+.titolo-sezione2{text-align:center;
+padding-bottom:10%;}
 
 
     .griglia{ 
