@@ -37,8 +37,14 @@
         margin-right:15px; 
       }
       
+      #final-dissertation{color:1D7268 !important; 
+        margin-top:5px;
+        text-align: right;
+        margin-left:60%; }
+
+
       .navbar {
-          background-color:eeb076; 
+          background-color:F0C482; 
           font-family: Helvetica, Arial, sans-serif;
         font-size: 9pt;
         font-weight: bold;
@@ -47,6 +53,8 @@
         margin-bottom: 0px !important;
 
         }
+
+        #final-dissertation{text-align: right;}
 
 
 
@@ -68,9 +76,8 @@ body{margin:0;}
         }
 
 .copertina{margin-top:auto;
-
-        padding-bottom: 10%;
-        background-color:eeb076;
+        padding-bottom: 5%;
+        background-color:F0C482;
         text-align:center;}
 
 .titolo{margin-top:-50px;
@@ -90,6 +97,8 @@ font-family: Coustard-Regular;
          margin-bottom: 100%;
 }
 
+.freccia{width:50px;
+         margin-top: 10%;}
 
 .panel__image.panel__image--book {
         display: flex;
