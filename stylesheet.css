@@ -58,7 +58,25 @@
 
 
 
-/* per home page*/
+/* per home page sezione 1*/
+.copertina{margin-top:auto;
+        padding-bottom: 5%;
+        background-color:F0C482;
+        text-align:center;}
+
+.titolo{margin-top:-50px;
+
+}
+
+.titolo1{font-size: 45px;
+        font-family: Chonburi-Regular;
+        color:1D7268;}
+
+#titolo2{font-size: 20px;
+font-family: Coustard-Regular;
+color:1D7268;
+}
+
 body{margin:0;}
 .contenitore{
         background-color: FFE6B0;
@@ -73,29 +91,20 @@ body{margin:0;}
         font-size: 100%;
         margin: 0;
         text-align:center;
+        padding-top:5%;
         }
 
-.copertina{margin-top:auto;
-        padding-bottom: 5%;
-        background-color:F0C482;
-        text-align:center;}
 
-.titolo{margin-top:-50px;
 
-color:1D7268;}
+/* per home page-sezione 2*/
 
-#titolo1{font-size: 45px;
-        font-family: Chonburi-Regular;}
 
-#titolo2{font-size: 20px;
-font-family: Coustard-Regular;
-}
-
-    .griglia{margin-top: 10%;
+    .griglia{ 
         margin-right:auto;
          margin-left:auto;
          margin-bottom: 100%;
 }
+
 
 .freccia{width:50px;
          margin-top: 10%;}
