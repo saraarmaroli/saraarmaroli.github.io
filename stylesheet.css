@@ -5,6 +5,9 @@
 {font-family: BodoniFLF-Bold;
         src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
 
+ @font-face 
+{font-family: FrankRuhlLibre-Black;
+        src: url('font/FrankRuhlLibre-Black.ttf') format('truetype');}
 
 /* per home page*/
 body{margin:0;}
@@ -17,13 +20,25 @@ body{margin:0;}
         margin: 0;
         padding: 0;
         border: 0;
-
+        font: inherit;
         font-size: 100%;
         margin: 0;
+        text-align:center;
         }
 
-.copertina{margin-bottom: 20%;}
+.copertina{margin-top:auto;
 
+        padding-bottom: 10%;
+        background-color:eeb076;
+        text-align:center;}
+
+.titolo{margin-top:-50px;
+font-family: FrankRuhlLibre-Black;
+color:1D7268;}
+
+#titolo1{font-size: 45px;}
+
+#titolo2{font-size: 20px;}
 
     .griglia{margin-top: 10%;
         margin-right:auto;
