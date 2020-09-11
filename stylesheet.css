@@ -7,12 +7,30 @@
 
 
 /* per home page*/
-#contenitore{ width: auto;
+body{margin:0;}
+.contenitore{
         background-color: FFE6B0;
         display: flex;
         justify-content: center;
         margin-top: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        border: 0;
+
+        font-size: 100%;
+        margin: 0;
         }
+
+.copertina{margin-bottom: 20%;}
+
+
+    .griglia{margin-top: 10%;
+        margin-right:auto;
+         margin-left:auto;
+         margin-bottom: 100%;
+}
+
 
 .panel__image.panel__image--book {
         display: flex;
@@ -43,12 +61,6 @@
     }
 
 
-    .griglia{margin-top: 10%;
-        margin-right:auto;
-         margin-left:auto;
-        
-}
-
 
     .container{
         width:800px;
@@ -62,7 +74,7 @@
                 width:800px;
                 height:200px;
                 line-height:200px;
-                margin-top:50%;
+                margin-top:40%;
                 margin-left: -20%;
                 
                 }
@@ -79,3 +91,5 @@
                 .sinistro{float:left;}
 
                 .destro{float:right;}
+
+                
