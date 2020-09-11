@@ -129,7 +129,9 @@ padding-bottom:10%;}
             transition: transform 0.3s ease-out;
     }
 
-    #book-3D{margin-top:-25%;}
+    #book-3D{margin-top:-30%;}
+
+    #kindle{margin-top:-70%;}
 
     
     .books__book__img:hover {
@@ -170,10 +172,10 @@ padding-bottom:10%;}
                 }
 
                 .sinistro{float:left;
-                margin-left:-15%;}
+                margin-left:-18%;}
 
                 .sinistro2{float:left;
-                        margin-left:11%;
+                        margin-left:5%;
         }
         
 
@@ -184,4 +186,31 @@ padding-bottom:10%;}
                         margin-right:8%;}
         
 
+                .caption1{font-size: 20px;
+                        font-family: Coustard-Regular;
+                        color:1D7268;
+                        margin-left:100%;
+                        margin-top: -40%;
+                }
+
+                .caption2{font-size: 20px;
+                        font-family: Coustard-Regular;
+                        color:1D7268;
+                        margin-left:100%;
+                        margin-top: -70%;
+                }
+
+                .caption3{font-size: 20px;
+                        font-family: Coustard-Regular;
+                        color:1D7268;
+                        margin-left:140%;
+                        margin-top: -100%;
+                }
+
+                .caption4{font-size: 20px;
+                        font-family: Coustard-Regular;
+                        color:1D7268;
+                        margin-left:250%;
+                        margin-top: -150%;
                 
+                }
