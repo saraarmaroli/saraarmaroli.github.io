@@ -74,7 +74,7 @@
 
 .titolo1{font-size: 50px;
         font-family: Chonburi-Regular;
-        color:5D987D;}
+        color:F18D3C;}
 
 .titolo2{font-size: 20px;
 font-family: Coustard-Regular;
@@ -92,7 +92,7 @@ body{margin:0;
 
 /* per home page-sezione 2*/
 .contenitore{
-        background-color:FACE9E;
+        background-color:FDFFD6;
         display: flex;
         justify-content: center;
         margin-top: auto;
@@ -226,7 +226,7 @@ padding-bottom:10%;}
 
 
 .interruzione-freccia {text-align: center;
-        background-color: FACE9E;
+        background-color: FDFFD6;
 margin-top:-20%;
 margin-bottom: 4%;}
 
@@ -303,7 +303,7 @@ margin-top:10%;
 
 /*sezione 4*/
 
-.sezione4{ background-color: FACE9E;;
+.sezione4{ background-color: FDFFD6;
         padding-top:8%;
         text-align: center;
         padding-bottom: 10%;}
