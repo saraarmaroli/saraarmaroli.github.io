@@ -68,14 +68,16 @@
 
 }
 
-.titolo1{font-size: 45px;
+.titolo1{font-size: 50px;
         font-family: Chonburi-Regular;
         color:1D7268;}
 
-#titolo2{font-size: 20px;
+.titolo2{font-size: 20px;
 font-family: Coustard-Regular;
 color:1D7268;
 }
+
+#sotto-titolo {margin-top:-1%;}
 
 body{margin:0;
         
@@ -268,26 +270,27 @@ margin-right:-30%;}
         }
 }
               
-                @media (max-width: 992px){.kindle {width: 350px;
+                @media (max-width: 992px){.kindle {width: 500px;
                        
                      
                 }
-                .smartphone {width: 350px;} 
-                .tablet  {width: 350px;}
-                 .libro{width: 350px;}
+                .smartphone {width: 500px;} 
+                .tablet  {width: 500px;}
+                 .libro{width: 500px;}
                 .sinistro{float:none;
-             
-                margin-left: 15%;}
+                        margin-top:5%;
+                margin-left: -1%;}
                 .destro{float:none;
-                        margin-left: 15%;
-                margin-top:200px;}
+                        margin-left: 10%;
+                margin-top:250px;}
                 .sinistro2{float:none;
-                        margin-left: 15%;
-                margin-top:520px;}
+                        margin-left: 25%;
+                margin-top:650px;}
 
                 .destro2{float:none;
                          margin-left: 25%;
-                        margin-top:250px;}
+                        margin-top:250px;
+                }
                         
                 .container-2{ width:400px;
                         height:400px;
@@ -296,22 +299,24 @@ margin-right:-30%;}
                         margin-left: -10%;}
 
                 .caption1{
-                        margin-left:50%;
+                        margin-left:90%;
                         margin-top: -50%;
+                        font-size:25px;
                         }
 
                         .caption2{
+                                margin-left:90%;
+                                margin-top: -70%;
+                                font-size:25px;
+                        }
+        
+                        .caption3{font-size:25px;
+                                margin-left:40%;
+                                margin-top:-20% ;
+                        }
+        
+                        .caption4{font-size:25px;
                                 margin-left:50%;
-                                margin-top: -60%;
-                        }
-        
-                        .caption3{
-                                margin-left:20%;
-                                margin-top:-25% ;
-                        }
-        
-                        .caption4{
-                                margin-left:20%;
                                 margin-top: -15%;
                         
                         }
