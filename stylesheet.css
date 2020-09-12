@@ -70,11 +70,11 @@
 
 .titolo1{font-size: 50px;
         font-family: Chonburi-Regular;
-        color:1D7268;}
+        color:3AA494;}
 
 .titolo2{font-size: 20px;
 font-family: Coustard-Regular;
-color:1D7268;
+color:3AA494;
 }
 
 #sotto-titolo {margin-top:-1%;}
@@ -88,11 +88,10 @@ body{margin:0;
 
 /* per home page-sezione 2*/
 .contenitore{
-        background-color: FFE6B0;
+        background-color:F4D5A4;
         display: flex;
         justify-content: center;
         margin-top: auto;
-      
         margin: 0;
         padding: 0;
         border: 0;
@@ -111,7 +110,7 @@ padding-bottom:10%;}
     .griglia{ 
         margin-right:auto;
          margin-left:auto;
-         margin-bottom: 100%;
+         margin-bottom: 8%;
 }
 
 
@@ -222,8 +221,24 @@ padding-bottom:10%;}
 
 
 
+.interruzione-freccia {text-align: center;
+        background-color: F4D5A4;
+margin-top:-20%;
+margin-bottom: 5%;}
 
-@media (width:1024px){.kindle {width: 350px;
+
+/*sezione 3*/
+
+.sezione3{ background-color: F6DEB6;
+padding-top:8%;
+text-align: center;
+padding-bottom: 40%;}
+
+
+/*media queries*/
+@media (width:1024px){.griglia{ margin-bottom:110%;}
+        
+  .kindle {width: 350px;
                        
                      
 }
@@ -270,7 +285,11 @@ margin-right:-30%;}
         }
 }
               
-                @media (max-width: 992px){.kindle {width: 500px;
+                @media (max-width: 992px){.griglia{ margin-bottom:100%;}
+                        
+                        
+                        
+                        .kindle {width: 500px;
                        
                      
                 }
