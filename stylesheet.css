@@ -236,7 +236,7 @@ margin-bottom: 5%;}
 .sezione3{ background-color: F6DEB6;
 padding-top:8%;
 text-align: center;
-padding-bottom: 20%;}
+padding-bottom: 8%;}
 
 .drawing1{float:left;
         margin-left:20%;}
@@ -277,6 +277,37 @@ margin-top:15%;
 margin-left:47%;
 font-size:16px;}
 
+.sub-paragraph{font-size: 30px;
+        font-family: Chonburi-Regular;
+        color:3AA494;
+margin-top:10%;
+}
+
+.sub-paragraph2{font-family: Coustard-Regular;}
+
+
+.pre-scrollable { text-align:left;
+        margin-top:3%;
+        margin-left: 10%;
+        margin-right:10%;
+        padding-bottom: 1%;
+        background-color: black;
+}
+.punctuaction{color:white;}
+.linky {
+	color: #FF6666;
+}
+.rel{color: #a6e22e;}
+.word{color: yellow;}
+
+
+/*sezione 4*/
+
+.sezione4{ background-color: FFEBCD;
+        padding-top:8%;
+        text-align: center;
+        padding-bottom: 10%;}
+        
 
 /*media queries*/
 @media (width:1024px){.griglia{ margin-bottom:110%;}
