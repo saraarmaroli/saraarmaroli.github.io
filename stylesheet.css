@@ -9,6 +9,10 @@
 {font-family: FrankRuhlLibre-Black;
         src: url('font/FrankRuhlLibre-Black.ttf') format('truetype');}
 
+ @font-face 
+{font-family: FrankRuhlLibre-Light;
+                src: url('font/FrankRuhlLibre-Light.ttf') format('truetype');}
+
 @font-face 
         {font-family:Chonburi-Regular;
                 src: url('font/Chonburi-Regular.ttf') format('truetype');}
@@ -232,7 +236,46 @@ margin-bottom: 5%;}
 .sezione3{ background-color: F6DEB6;
 padding-top:8%;
 text-align: center;
-padding-bottom: 40%;}
+padding-bottom: 20%;}
+
+.drawing1{float:left;
+        margin-left:20%;}
+
+.drawing2{float:right;
+         margin-right:15%;
+        margin-top:3%;}
+
+.drawing3{float:left;
+        margin-left:20%;
+               margin-top:3%;}
+
+.drawing4{float:right;
+         margin-right: 15%;
+         margin-top:4%;}
+       
+.description1-sezione3{font-family: Coustard-Regular;
+        color:black;
+margin-top:10%;
+margin-right:35%;
+font-size:16px;}
+
+.description2-sezione3{font-family: Coustard-Regular;
+        color:black;
+margin-top:15%;
+margin-left:47%;
+font-size:16px;}
+
+.description3-sezione3{font-family: Coustard-Regular;
+        color:black;
+margin-top:13%;
+margin-right:35%;
+font-size:16px;}
+
+.description4-sezione3{font-family: Coustard-Regular;
+        color:black;
+margin-top:15%;
+margin-left:47%;
+font-size:16px;}
 
 
 /*media queries*/
