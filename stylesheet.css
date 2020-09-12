@@ -48,7 +48,7 @@
 
 
       .navbar {
-          background-color:F0C482; 
+          background-color:FFE6B0; 
           font-family: Helvetica, Arial, sans-serif;
         font-size: 9pt;
         font-weight: bold;
@@ -65,7 +65,7 @@
 /* per home page sezione 1*/
 .copertina{margin-top:auto;
         padding-bottom: 5%;
-        background-color:F0C482;
+        background-color:FFE6B0;
         text-align:center;}
 
 .titolo{margin-top:-50px;
@@ -92,7 +92,7 @@ body{margin:0;
 
 /* per home page-sezione 2*/
 .contenitore{
-        background-color:F4D5A4;
+        background-color:FACE9E;
         display: flex;
         justify-content: center;
         margin-top: auto;
@@ -226,14 +226,14 @@ padding-bottom:10%;}
 
 
 .interruzione-freccia {text-align: center;
-        background-color: F4D5A4;
+        background-color: FACE9E;
 margin-top:-20%;
 margin-bottom: 5%;}
 
 
 /*sezione 3*/
 
-.sezione3{ background-color: F6DEB6;
+.sezione3{ background-color: FFE6B0;;
 padding-top:8%;
 text-align: center;
 padding-bottom: 8%;}
@@ -303,7 +303,7 @@ margin-top:10%;
 
 /*sezione 4*/
 
-.sezione4{ background-color: FFEBCD;
+.sezione4{ background-color: FACE9E;;
         padding-top:8%;
         text-align: center;
         padding-bottom: 10%;}
@@ -359,7 +359,7 @@ margin-right:-30%;}
         }
 }
               
-                @media (max-width: 992px){ .nav-link{margin-left: -600%;}
+                @media (max-width: 992px){ .nav-link{margin-left: -400%;}
                 #final-dissertation{ margin-top:-5%;
                 margin-left:75%;}
                       
