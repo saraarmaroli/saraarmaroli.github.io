@@ -1,0 +1,38 @@
+/*------------NAVBAR STYLE------------------------*/
+#about{letter-spacing: 2px;margin-right: 0px;
+  color:1D7268;
+  margin-top: 5px;
+  margin-left:50px;
+  margin-bottom: 0px;
+  text-align: left;}
+
+
+
+
+/* -------------------DISCLAIMER––––––––––––––––––––––––*/
+        .modal-content {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+
+        .button { 
+            background-color:transparent;
+            outline: none;
+            border: none;
+        }
+        
+        .button:hover {
+          color: #aeb0c8;
+        } /*modifica del bottone quando passa il mouse*/
+        
+
+.modal-body {
+  font-size: 8pt;
+}
+
+
+.modal-title{font-family: Coustard-Regular;
+  color:5D987D;}
+
+
+

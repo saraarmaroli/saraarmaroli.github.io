@@ -20,31 +20,33 @@
  @font-face 
         {font-family:Coustard-Regular;
                         src: url('font/Coustard-Regular.ttf') format('truetype');}      
-
+  
 
 /*------------NAVBAR STYLE------------------------*/
-.nav-link { 
-        margin-right: 0px;
-        color:1D7268;
-        margin-top: 5px;
-        margin-left:50px;
-        margin-bottom: 0px;
-        text-align: left;
-    
-        }
+
       
+        #about{letter-spacing: 2px;
+                margin-right: 0px;
+                color:1D7268;
+                margin-top: 6px;
+                margin-left:50px;
+                margin-bottom: 0px;
+                text-align: left;
+                white-space: nowrap;}
 
       #Sara {
         color:1D7268 !important; 
-        margin-top:5px;
+        margin-top:6px;
         margin-left:15px; 
         margin-right:15px; 
+        white-space: nowrap;
       }
       
       #final-dissertation{color:1D7268 !important; 
         margin-top:5px;
         text-align: right;
-        margin-left:50%; }
+        margin-left:50%;
+        white-space: nowrap; }
 
 
       .navbar {
@@ -55,10 +57,36 @@
         letter-spacing: 2px;
         border-radius: 0px !important;
         margin-bottom: 0px !important;
-        white-space: nowrap;
+        
+        color:1D7268;
 
         }
 
+/* -------------------about-modal––––––––––––––––––––––––*/
+
+.modal-title{font-family: Coustard-Regular;
+color:5D987D;}
+
+.modal-content {
+        font-family: Helvetica, Arial, sans-serif;   
+    }
+
+    .button { 
+        background-color:transparent;
+        outline: none;
+        border: none;
+        color:1D7268; 
+    }
+
+    .button:hover {
+        color: #aeb0c8;
+      } /*modifica del bottone quando passa il mouse*/
+
+.modal-body {
+font-size: 8pt;
+color: black;
+
+    }
 
 
 
@@ -362,7 +390,7 @@ margin-right:-30%;}
         }
 }
               
-                @media (max-width: 992px){ .nav-link{margin-left: -300%;}
+                @media (max-width: 992px){ #about{margin-left: -300%;}
                 #final-dissertation{ margin-top:-5%;
                 margin-left:75%;}
                       
