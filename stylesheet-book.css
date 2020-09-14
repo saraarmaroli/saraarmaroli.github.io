@@ -7,37 +7,76 @@
 
 
 
-                   
-body{width: auto;
-                /* a few lines to be sure that the cover stays in the middle of the screen */
-         display: flex;
-         justify-content: center;
-margin-top: 8%;
-margin-bottom: 10%;}
 
 
 .book-cover{   text-align: center;
+        
         position: relative; 
-        width: 15cm;
-        height: 21;
+ 
        }
 
 #author{font-family: BodoniFLF-BoldItalic;
-        font-size: 66px;
+        font-size: 28px;
+        text-align: center;
        
 }
 #title{font-family: BodoniFLF-Bold;
-        font-size: 110px;
-        margin-top: -80px;      
+        font-size: 45px;
+        margin-top: -40px;  
+        text-align: center;    
 }
 
 .text-cover{position: absolute; 
         white-space: nowrap;
-        top: 1010px; 
-      margin-left: 60%;
-color:#D15353;
+        margin-top: 350px; 
+        margin-left: 39%;
+        color:#D15353;
 
 }
 
-.logo{margin-top:-45%;
-margin-left: 190%;}
+.logo{position: absolute;
+        margin-top:53%;
+           
+        margin-left:-10%; 
+        width:80px;}
+
+#cover-img{ text-align:center;
+        width:15cm;
+height: 21cm;}
+
+/*media queries per la visualizzazione della copertina del libro da altri dispositivi*/
+@media (width:1024px){.text-cover{
+        
+        margin-left: 35%;                   
+
+}
+.logo{
+        margin-top:69%;
+           
+        margin-left:-13%; 
+        }
+}
+              
+                @media (max-width: 992px){ .text-cover{
+                
+                        margin-left: 35%;                   
+                
+                }
+                .logo{
+                        margin-top:72%;
+                           
+                        margin-left:-13%; 
+                        }
+
+        }
+
+        /*media queries per la stampa della copertina del libro da altri dispositivi*/
+@media print{.text-cover{   color:#D15353;
+        margin-left: 30%;                   
+
+}
+.logo{
+        margin-top:100%;
+           
+        margin-left:-20%; 
+        }}
