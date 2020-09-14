@@ -282,7 +282,7 @@ padding-bottom: 5%;}
 
 .drawing4{float: right;
         margin-right: 15%;
-        margin-top: 4%;}
+        margin-top: 6%;}
        
 .description1-sezione3{font-family: Coustard-Regular;
         color: black;
@@ -305,7 +305,7 @@ padding-bottom: 5%;}
 
 .description4-sezione3{    font-family: Coustard-Regular;
         color: black;
-        margin-top: 35%;
+        margin-top: 40%;
         margin-left: 20%;
         font-size: 16px;}
 
@@ -382,7 +382,7 @@ padding-bottom: 5%;}
 .sub-paragraph{font-size: 30px;
         font-family: Chonburi-Regular;
         color:3AA494;
-margin-top:10%;
+margin-top:20%;
 }
 
 .sub-paragraph2{font-family: Coustard-Regular;}
@@ -524,6 +524,29 @@ margin-right:-30%;}
                                 margin-top: -15%;
                         
                         }
+
+
+
+                        .description1-sezione3{margin-top: 10%;
+                                margin-left: 5%;
+                               
+                            }
+                        
+                        .description2-sezione3{
+                                margin-top: 85%;
+                                margin-left: -30%; 
+                                white-space:nowrap;
+                                }
+                        
+                        .description3-sezione3{
+                                margin-top: 80%;
+                                margin-left: 40%;
+                        white-space:nowrap;}
+                        
+                        .description4-sezione3{    
+                                margin-top: 80%;
+                                margin-left: -55%;
+                                white-space:nowrap;}
         }
 
 
