@@ -21,7 +21,7 @@
         {font-family:Coustard-Regular;
                         src: url('font/Coustard-Regular.ttf') format('truetype');}      
   
-
+body{max-width:100%;}
 /*------------NAVBAR STYLE------------------------*/
 
       
@@ -308,6 +308,22 @@ margin-top:15%;
 margin-left:47%;
 font-size:16px;}
 
+.description1-sezione3:hover {
+        color: 5D987D;
+      }
+.description2-sezione3:hover {
+        color: 5D987D;
+      }
+
+.description3-sezione3:hover {
+        color: 5D987D;
+      }
+
+.description4-sezione3:hover {
+        color: 5D987D;
+      }
+
+
 .sub-paragraph{font-size: 30px;
         font-family: Chonburi-Regular;
         color:3AA494;
@@ -527,3 +543,4 @@ margin-right:-30%;}
                 color: black;
               }
     
+        
