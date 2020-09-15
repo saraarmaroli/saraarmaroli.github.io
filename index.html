@@ -155,8 +155,8 @@
 &lt;style id="css" type="text/css" href="stylesheet.css"&gt;&lt;/style&gt;
 &lt;link rel="icon" href="logo-libro.png"&gt;
 &lt;/head&gt;
-&lt;body&gt;
-						   
+
+&lt;body&gt;						   
 &lt;div class="book-cover"&gt;
 &lt;div class="text-cover"&gt;
 &lt;p class="author"&gt; Alessandro Manzoni&lt;/p&gt;
@@ -164,8 +164,7 @@
 &lt;/div&gt;
 &lt;img class="cover-img" src="img/promessi-sposi-cover.png" alt="cover promessi sposi"&gt;
 &lt;img class="logo" src="img/logo.png" alt="logo publishing house"&gt;
-&lt;/div&gt;&lt;/span&gt;
-				
+&lt;/div&gt;				
 &lt;/body&gt;
 &lt;/hmtl&gt;
 
@@ -187,7 +186,7 @@
 	
 	<!-- Button trigger modal -->
 	<ul class="nav">
-	<li class="description1-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1">covers for books to read on tablet
+	<li class="description1-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1">Covers for books to read on tablet (10 inch)
 	</a></li>
 </ul>
 	<!-- Modal -->
@@ -195,22 +194,83 @@
 	<div class="modal-dialog modal-dialog-centered" role="document">
 	  <div class="modal-content">
 	  <div class="modal-header">
-		<h5 class="modal-title">prova</h5>
+		<h5 class="modal-title">Covers for books to read on tablet (10 inch)</h5>
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		  <span aria-hidden="true">&times;</span>
 		</button>
 	  </div>
 		<div class="modal-body">
-		<p>The purpose of this web site is to explore various types of typographic and layout
-		style for text documents, as an end-of-course project for the "Information
-		Modeling and Web technologies" course of the Master Degree in Digital
-		Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio
-		Vitali.</P>
+			<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
+		<pre><code>
 
-		<p>
-		All copyrights and related rights on the content remain with their original owners.
-		All copyright on the typographic and layout choices are 2019@PARALLELS
-		</p>
+@font-face
+	{font-family: BodoniFLF-BoldItalic;
+	src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+	{font-family: BodoniFLF-Bold;
+	src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+.book-cover{text-align: center;
+            position: relative;
+           }
+			
+.author{font-family: BodoniFLF-BoldItalic;
+        font-size: 28px;
+        text-align: center;
+       }
+			
+.title{font-family:BodoniFLF-Bold;
+       font-size:45px;
+       margin-top:-40px;  
+       text-align:center;    
+      }
+			
+.text-cover{position:absolute; 
+            white-space:nowrap;
+            margin-top:405px; 
+            margin-left:39%;
+            color:#D15353;
+           }
+			
+.logo{position:absolute;
+      margin-top:60%;   
+      margin-left:-10%; 
+      width:80px;
+     }
+			
+.cover-img{text-align:center;
+	width:17,5cm;
+	height: 24cm;
+          }
+			
+/*media queries for viewing the book cover from devices smaller than a computer*/
+	
+@media (width:1024px){.text-cover{margin-left: 35%;                   
+                                 }
+                      .logo{margin-top:80%;
+                            margin-left:-13%; 
+                           }
+                     }
+						  
+@media (max-width: 992px){.text-cover{margin-left: 35%;                   
+                                     }
+                          .logo{margin-top:83%;   
+                                margin-left:-13%; 
+                               }
+			
+                        }
+			
+/*media queries for printing the book cover */
+
+@media print{.text-cover{color:#D15353;
+                         margin-left: 30%;                   
+                        }
+			.logo{margin-top:115%;
+                  margin-left:-20%; 
+                 }
+            }
+
+		</code></pre>
 		</div>
 		<div class="modal-footer">
 		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
@@ -260,32 +320,91 @@
 	
 <!-- Button trigger modal -->
 <ul class="nav">
-	<li class="description3-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter3">covers for books to read on tablet
+	<li class="description3-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter3">Cover for traditional book
 	</a></li></ul>
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 	  <div class="modal-content">
 	  <div class="modal-header">
-		<h5 class="modal-title">About the project</h5>
+		<h5 class="modal-title">Cover for traditonal book</h5>
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		  <span aria-hidden="true">&times;</span>
 		</button>
 	  </div>
 		<div class="modal-body">
-		<p>The purpose of this web site is to explore various types of typographic and layout
-		style for text documents, as an end-of-course project for the "Information
-		Modeling and Web technologies" course of the Master Degree in Digital
-		Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio
-		Vitali.</P>
-		<p>The documents contained in this web site have been selected for their length and
-		complexity among the best picks of 2018 of www.longreads.com. Their
-		publication here is not intended to be an alternative or replace their original
-		locations:</p>
-		<p>
-		All copyrights and related rights on the content remain with their original owners.
-		All copyright on the typographic and layout choices are 2019@PARALLELS
-		</p>
+				<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
+				
+		<pre><code>
+
+@font-face
+	{font-family: BodoniFLF-BoldItalic;
+	src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+	{font-family: BodoniFLF-Bold;
+	src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+.book-cover{text-align: center;
+            position: relative;
+           }
+			
+.author{font-family: BodoniFLF-BoldItalic;
+        font-size: 28px;
+        text-align: center;
+       }
+			
+.title{font-family:BodoniFLF-Bold;
+       font-size:45px;
+       margin-top:-40px;  
+       text-align:center;    
+      }
+			
+.text-cover{position:absolute; 
+            white-space:nowrap;
+            margin-top:350px; 
+            margin-left:39%;
+            color:#D15353;
+           }
+			
+.logo{position:absolute;
+      margin-top:53%;   
+      margin-left:-10%; 
+      width:80px;
+     }
+			
+.cover-img{text-align:center;
+          width:15cm;
+          height: 21cm;
+          }
+			
+/*media queries for viewing the book cover from devices smaller than a computer*/
+	
+@media (width:1024px){.text-cover{margin-left: 35%;                   
+                                 }
+                      .logo{margin-top:69%;
+                            margin-left:-13%; 
+                           }
+                     }
+						  
+@media (max-width: 992px){.text-cover{margin-left: 35%;                   
+                                     }
+                          .logo{margin-top:72%;   
+                                margin-left:-13%; 
+                               }
+			
+                        }
+			
+/*media queries for printing the book cover */
+
+@media print{.text-cover{color:#D15353;
+                         margin-left: 30%;                   
+                        }
+			.logo{margin-top:100%;
+                  margin-left:-20%; 
+                 }
+            }
+
+		</code></pre>
 		</div>
 		<div class="modal-footer">
 		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
