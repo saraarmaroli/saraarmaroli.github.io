@@ -38,8 +38,8 @@
         }
 
 .cover-img{ text-align:center;
-        width:17.5cm;
-        height: 24cm;}
+      width:  7.5cm;
+height:13.3cm;}
 
 /*media queries for viewing the book cover from devices smaller than a computer*/
 @media (width:1024px){.text-cover{margin-left: 35%;                   
