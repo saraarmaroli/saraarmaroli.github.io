@@ -203,6 +203,7 @@
 			<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
 		<pre><code>
 
+			
 @font-face
 	{font-family: BodoniFLF-BoldItalic;
 	src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
@@ -296,20 +297,87 @@
 		</button>
 	  </div>
 		<div class="modal-body">
-		<p>The purpose of this web site is to explore various types of typographic and layout
-		style for text documents, as an end-of-course project for the "Information
-		Modeling and Web technologies" course of the Master Degree in Digital
-		Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio
-		Vitali.</P>
-		<p>The documents contained in this web site have been selected for their length and
-		complexity among the best picks of 2018 of www.longreads.com. Their
-		publication here is not intended to be an alternative or replace their original
-		locations:</p>
-		<p>
-		All copyrights and related rights on the content remain with their original owners.
-		All copyright on the typographic and layout choices are 2019@PARALLELS
-		</p>
-		</div>
+		<pre>
+			<code>
+				<img  class="image-example2" src="img/smartphone-cover-example.png" alt="example of book cover">
+				@font-face
+{font-family: BodoniFLF-BoldItalic;
+        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+{font-family: BodoniFLF-Bold;
+        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+
+
+
+
+.book-cover{text-align: center;
+            position: relative;
+            margin-top:5%;
+           }
+
+.author{font-family: BodoniFLF-BoldItalic;
+        font-size: 22px;
+        text-align: center;      
+        }
+
+.title{font-family: BodoniFLF-Bold;
+        font-size: 34px;
+        margin-top: -35px;  
+        text-align: center;    
+        }
+
+.text-cover{position: absolute; 
+            white-space: nowrap;
+            margin-top: 16.5%; 
+            margin-left: 42%;
+            color:FBE7BF;
+           }
+
+.logo{position: absolute;
+      margin-top:32.5%;   
+      margin-left:-6%; 
+      width:60px;
+     }
+
+.cover-img{text-align:center;
+           width:7.5cm;
+           height:13.3cm;
+          }
+
+/*media queries for viewing the book cover from devices smaller than a computer*/
+@media (width:1024px){.text-cover{margin-left: 38%;
+                                  margin-top: 22%;                   
+                                  }
+
+                      .logo{margin-top:44%;
+                            margin-left:-9%; 
+                            }
+                    }
+              
+@media (max-width: 992px){ .text-cover{margin-left: 37%;
+                                margin-top:23%;                   
+                                      }
+
+                          .logo{margin-top:45%;   
+                                margin-left:-9%; 
+                                }
+
+                        }
+
+
+ /*media queries for printing the book cover */
+@media print{.text-cover{color:white;
+                         margin-left: 35%; 
+                         margin-top:32%;                  
+                        }
+                .logo{margin-top:62%;
+                      margin-left:-12%; 
+                     }
+            }
+			</code>
+		</pre>
+		</div>  
 		<div class="modal-footer">
 		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
 		</div>

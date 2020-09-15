@@ -307,8 +307,9 @@ padding-bottom: 5%;}
 .description2-sezione3{font-family: Coustard-Regular;
         color:black;
         margin-top: 40%;
-        margin-left: 30%;
-        font-size: 16px;}
+        margin-left: 3%;
+        font-size: 16px;
+white-space: nowrap;}
 
 .description3-sezione3{font-family: Coustard-Regular;
         color:black;
@@ -421,6 +422,9 @@ margin-top:20%;
 
 .image-example{width:300px;
 }
+.image-example2{text-align:center;
+        margin-left:-18%;
+        width:300px;}
 
 pre{text-align:justify;
 font-size:20px;}
@@ -483,6 +487,9 @@ margin-right:-30%;}
                 margin-top: -30%;
         
         }
+
+        .description2-sezione3{margin-top:75%;
+        margin-left:-78%;}
 }
               
                 @media (max-width: 992px){ #about{margin-left: -300%;}
@@ -549,14 +556,15 @@ margin-right:-30%;}
 
 
 
-                        .description1-sezione3{margin-top: 10%;
+                        .description1-sezione3{margin-top: 100%;
                                 margin-left: 5%;
+                                white-space:nowrap;
                                
                             }
                         
                         .description2-sezione3{
-                                margin-top: 85%;
-                                margin-left: -30%; 
+                                margin-top: 82%;
+                                margin-left: -92%; 
                                 white-space:nowrap;
                                 }
                         
