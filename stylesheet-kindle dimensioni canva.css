@@ -1,0 +1,67 @@
+@font-face
+{font-family: BodoniFLF-BoldItalic;
+        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+{font-family: BodoniFLF-Bold;
+        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+
+
+
+
+.book-cover{text-align: center;
+            position: relative;
+            margin-top:5%;
+        }
+
+.author{font-family: BodoniFLF-BoldItalic;
+        font-size: 35px;
+       
+        text-align: center;      
+        }
+
+.title{font-family: BodoniFLF-Bold;
+        font-size: 45px;
+        margin-top: -30px;  
+        text-align: center;    
+        }
+
+.text-cover{position: absolute; 
+        white-space: nowrap;
+        margin-top: 358px; 
+        margin-left: 39%;
+        color:beige;
+        }
+
+.logo{position: absolute;
+        margin-top:53%;   
+        margin-left:-9%; 
+        width:80px;
+        }
+
+.cover-img{ text-align:center;
+        width:512px; 
+        height: 800px;
+}
+
+
+/*media queries for viewing the book cover from devices smaller than a computer*/
+@media (width:1024px){.text-cover{margin-left: 35%;                   
+                                  }
+
+                      .logo{margin-top:71%;
+                            margin-left:-12%; 
+                            }
+}
+              
+@media (max-width: 992px){ .text-cover{margin-left: 35%;                   
+                                      }
+
+                          .logo{margin-top:74%;   
+                                margin-left:-12%; 
+                                }
+
+ }
+
+
+ 
