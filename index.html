@@ -3,7 +3,6 @@
         <meta charset="utf-8">
        
         <title> paper book cover </title>
-     
         <link rel="stylesheet" type="text/css" href="stylesheet.css"> 
         <style id="css" type="text/css" href="stylesheet.css"></style>
 
@@ -35,6 +34,10 @@
 		</button>
 	  </div>
 		<div class="modal-body">
+			<p>Given the importance of covers as a vehicle through which to self-advertise the content itself and the chance to read books on different devices, in addition to the classic book. I thought it would be interesting to create a css library that would allow to adapt the cover to multiple formats in an easy and fast way. In particular the library is composed of an html file that contains all the information that must be present on a cover and four css style sheets, one for each format: tablet, smartphone, traditional cover and Ereader. So it is possible to link the desired one to the reference html file. </p>
+			<p>In order to show how the library works, I decided to recreate the cover of the text of Alessandro Manzoni's: I promessi sposi (The Betrothed) trying to make it more modern and attractive while keeping it simple both to be different from the covers currently on the market and to attract the attention of a young audience that has to study it at school and for lovers of Italian literature.</p>
+
+			<p>Disclaimer: All copyrights and related rights on the content remain with their original owners. All copyright on the css library choices are 2020@SARA ARMAROLI</p>
 		
 		
 		</div>
@@ -124,27 +127,28 @@
 
 <div class="sezione3">
 	<p class="titolo1" id="cover-title">Download</p>
-			<p class="titolo2" id="sotto-titolo">Download separated files for each cover</p>
-			<img src="img/computer-line.png" class="drawing0" alt="tablet drawing" width="220px">
-			
-			<ul class="nav">
-				<li class="description0-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter0">Example of html file used as a template to create cover
-				</a></li>
-			</ul>
-			
-				<!-- Modal -->
-				<div class="modal fade"  id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-				  <div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title">Example of html file used to create the cover</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-					<div class="modal-body">
-						<div class="container-modal">
-					
+	<p class="titolo2" id="sotto-titolo">Download separated files for each cover</p>
+	<div class="parent">
+		<div class="div1"><img src="img/computer-line.png" class="drawing0" alt="tablet drawing" >
+		</div>
+		<div class="div2"><ul class="nav">
+			<li class="description0-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter0">Example of html file used as a template to create cover
+			</a></li>
+		</ul>
+		
+			<!-- Modal -->
+			<div class="modal fade"  id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Example of html file used to create the cover</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+					<div class="container-modal">
+				
 <pre >
 <code class="html-text">
 &lt;hmtl&gt;
@@ -168,366 +172,356 @@
 &lt;/body&gt;
 &lt;/hmtl&gt;
 
-		</code></pre>
+	</code></pre>
+				
+				
+				
+				</div>
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+				</div>
+			  </div>
+			</div>
+			</div>
+			</div></div>
+		<div class="div3"> <!-- Button trigger modal -->
+			<ul class="nav">
+			<li class="description1-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1">Cover for books to read on tablet (10 inches)
+			</a></li>
+		</ul>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Cover for books to read on tablet (10 inches)</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+					<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
+				<pre><code>
+		
 					
+		@font-face
+			{font-family: BodoniFLF-BoldItalic;
+			src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+		@font-face 
+			{font-family: BodoniFLF-Bold;
+			src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+		
+		.book-cover{text-align: center;
+					position: relative;
+				   }
 					
+		.author{font-family: BodoniFLF-BoldItalic;
+				font-size: 28px;
+				text-align: center;
+			   }
 					
+		.title{font-family:BodoniFLF-Bold;
+			   font-size:45px;
+			   margin-top:-40px;  
+			   text-align:center;    
+			  }
+					
+		.text-cover{position:absolute; 
+					white-space:nowrap;
+					margin-top:405px; 
+					margin-left:39%;
+					color:#D15353;
+				   }
+					
+		.logo{position:absolute;
+			  margin-top:60%;   
+			  margin-left:-10%; 
+			  width:80px;
+			 }
+					
+		.cover-img{text-align:center;
+			width:17.5cm;
+			height: 24cm;
+				  }
+					
+		/*media queries for viewing the book cover from devices smaller than a computer*/
+			
+		@media (width:1024px){.text-cover{margin-left: 35%;                   
+										 }
+							  .logo{margin-top:80%;
+									margin-left:-13%; 
+								   }
+							 }
+								  
+		@media (max-width: 992px){.text-cover{margin-left: 35%;                   
+											 }
+								  .logo{margin-top:83%;   
+										margin-left:-13%; 
+									   }
+					
+								}
+					
+		/*media queries for printing the book cover */
+		
+		@media print{.text-cover{color:#D15353;
+								 margin-left: 30%;                   
+								}
+					.logo{margin-top:115%;
+						  margin-left:-20%; 
+						 }
+					}
+		
+				</code></pre>
+				</div>
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+				</div>
+			  </div>
+			</div>
+			</div></div>
+		<div class="div4"> <img src="img/tablet-line.png" class="drawing1" alt="tablet drawing" ></div>
+		<div class="div5"> <img src="img/phone-line.png" class="drawing2" alt="phone drawing"></div>
+		<div class="div6"><!-- Button trigger modal -->
+			<ul class="nav">
+			<li class="description2-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter2">Cover for books to read on Smartphone (6 inches)
+			</a></li></ul>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Cover for books to read on Smartphone (6 inches)</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+				<pre>
+					<code>
+						<img  class="image-example2" src="img/smartphone-cover-example.png" alt="example of book cover">
+						@font-face
+		{font-family: BodoniFLF-BoldItalic;
+				src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+		@font-face 
+		{font-family: BodoniFLF-Bold;
+				src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+		
+		
+		
+		
+		
+		.book-cover{text-align: center;
+					position: relative;
+					margin-top:5%;
+				   }
+		
+		.author{font-family: BodoniFLF-BoldItalic;
+				font-size: 22px;
+				text-align: center;      
+				}
+		
+		.title{font-family: BodoniFLF-Bold;
+				font-size: 34px;
+				margin-top: -35px;  
+				text-align: center;    
+				}
+		
+		.text-cover{position: absolute; 
+					white-space: nowrap;
+					margin-top: 16.5%; 
+					margin-left: 42%;
+					color:FBE7BF;
+				   }
+		
+		.logo{position: absolute;
+			  margin-top:32.5%;   
+			  margin-left:-6%; 
+			  width:60px;
+			 }
+		
+		.cover-img{text-align:center;
+				   width:7.5cm;
+				   height:13.3cm;
+				  }
+		
+		/*media queries for viewing the book cover from devices smaller than a computer*/
+		@media (width:1024px){.text-cover{margin-left: 38%;
+										  margin-top: 22%;                   
+										  }
+		
+							  .logo{margin-top:44%;
+									margin-left:-9%; 
+									}
+							}
+					  
+		@media (max-width: 992px){ .text-cover{margin-left: 37%;
+										margin-top:23%;                   
+											  }
+		
+								  .logo{margin-top:45%;   
+										margin-left:-9%; 
+										}
+		
+								}
+		
+		
+		 /*media queries for printing the book cover */
+		@media print{.text-cover{color:white;
+								 margin-left: 35%; 
+								 margin-top:32%;                  
+								}
+						.logo{margin-top:62%;
+							  margin-left:-12%; 
+							 }
+					}
+					</code>
+				</pre>
+				</div>  
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+				</div>
+			  </div>
+			</div>
+			</div> </div>
+		<div class="div7"> <!-- Button trigger modal -->
+			<ul class="nav">
+				<li class="description3-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter3">Cover for traditional book
+				</a></li></ul>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+				  <div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title">Cover for traditonal book</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+					<div class="modal-body">
+							<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
+							
+					<pre><code>
+			
+			@font-face
+				{font-family: BodoniFLF-BoldItalic;
+				src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+			@font-face 
+				{font-family: BodoniFLF-Bold;
+				src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+			
+			.book-cover{text-align: center;
+						position: relative;
+					   }
+						
+			.author{font-family: BodoniFLF-BoldItalic;
+					font-size: 28px;
+					text-align: center;
+				   }
+						
+			.title{font-family:BodoniFLF-Bold;
+				   font-size:45px;
+				   margin-top:-40px;  
+				   text-align:center;    
+				  }
+						
+			.text-cover{position:absolute; 
+						white-space:nowrap;
+						margin-top:350px; 
+						margin-left:39%;
+						color:#D15353;
+					   }
+						
+			.logo{position:absolute;
+				  margin-top:53%;   
+				  margin-left:-10%; 
+				  width:80px;
+				 }
+						
+			.cover-img{text-align:center;
+					  width:15cm;
+					  height: 21cm;
+					  }
+						
+			/*media queries for viewing the book cover from devices smaller than a computer*/
+				
+			@media (width:1024px){.text-cover{margin-left: 35%;                   
+											 }
+								  .logo{margin-top:69%;
+										margin-left:-13%; 
+									   }
+								 }
+									  
+			@media (max-width: 992px){.text-cover{margin-left: 35%;                   
+												 }
+									  .logo{margin-top:72%;   
+											margin-left:-13%; 
+										   }
+						
+									}
+						
+			/*media queries for printing the book cover */
+			
+			@media print{.text-cover{color:#D15353;
+									 margin-left: 30%;                   
+									}
+						.logo{margin-top:100%;
+							  margin-left:-20%; 
+							 }
+						}
+			
+					</code></pre>
 					</div>
 					<div class="modal-footer">
 					  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
 					</div>
 				  </div>
 				</div>
+				</div></div>
+		<div class="div8"><img src="img/book-line.png" class="drawing3" alt="book drawing"> </div>
+		<div class="div9"> <img src="img/kindle-line.png" class="drawing4" alt="kindle drawing"></div>
+		<div class="div10"><!-- Button trigger modal -->
+			<ul class="nav">
+			<li class="description4-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter4">Cover for books to read on Ereader</a></li></ul>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Cover for books to read on Ereader</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+				<p>The purpose of this web site is to explore various types of typographic and layout
+				style for text documents, as an end-of-course project for the "Information
+				Modeling and Web technologies" course of the Master Degree in Digital
+				Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio
+				Vitali.</P>
+				<p>The documents contained in this web site have been selected for their length and
+				complexity among the best picks of 2018 of www.longreads.com. Their
+				publication here is not intended to be an alternative or replace their original
+				locations:</p>
+				<p>
+				All copyrights and related rights on the content remain with their original owners.
+				All copyright on the typographic and layout choices are 2019@PARALLELS
+				</p>
 				</div>
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
 				</div>
-			
-			
-			<img src="img/tablet-line.png" class="drawing1" alt="tablet drawing" width="220px">
-	
-	<!-- Button trigger modal -->
-	<ul class="nav">
-	<li class="description1-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1">Cover for books to read on tablet (10 inches)
-	</a></li>
-</ul>
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-	  <div class="modal-content">
-	  <div class="modal-header">
-		<h5 class="modal-title">Cover for books to read on tablet (10 inches)</h5>
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		  <span aria-hidden="true">&times;</span>
-		</button>
-	  </div>
-		<div class="modal-body">
-			<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
-		<pre><code>
-
-			
-@font-face
-	{font-family: BodoniFLF-BoldItalic;
-	src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-	{font-family: BodoniFLF-Bold;
-	src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-
-.book-cover{text-align: center;
-            position: relative;
-           }
-			
-.author{font-family: BodoniFLF-BoldItalic;
-        font-size: 28px;
-        text-align: center;
-       }
-			
-.title{font-family:BodoniFLF-Bold;
-       font-size:45px;
-       margin-top:-40px;  
-       text-align:center;    
-      }
-			
-.text-cover{position:absolute; 
-            white-space:nowrap;
-            margin-top:405px; 
-            margin-left:39%;
-            color:#D15353;
-           }
-			
-.logo{position:absolute;
-      margin-top:60%;   
-      margin-left:-10%; 
-      width:80px;
-     }
-			
-.cover-img{text-align:center;
-	width:17.5cm;
-	height: 24cm;
-          }
-			
-/*media queries for viewing the book cover from devices smaller than a computer*/
-	
-@media (width:1024px){.text-cover{margin-left: 35%;                   
-                                 }
-                      .logo{margin-top:80%;
-                            margin-left:-13%; 
-                           }
-                     }
-						  
-@media (max-width: 992px){.text-cover{margin-left: 35%;                   
-                                     }
-                          .logo{margin-top:83%;   
-                                margin-left:-13%; 
-                               }
-			
-                        }
-			
-/*media queries for printing the book cover */
-
-@media print{.text-cover{color:#D15353;
-                         margin-left: 30%;                   
-                        }
-			.logo{margin-top:115%;
-                  margin-left:-20%; 
-                 }
-            }
-
-		</code></pre>
+			  </div>
+			</div>
+			</div>
+		</ul> </div>
 		</div>
-		<div class="modal-footer">
-		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
-		</div>
-	  </div>
-	</div>
-	</div>
-	 
-
-	<img src="img/phone-line.png" class="drawing2" alt="phone drawing" width="220px">
-	<!-- Button trigger modal -->
-	<ul class="nav">
-	<li class="description2-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter2">Cover for books to read on Smartphone (6 inches)
-	</a></li></ul>
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-	  <div class="modal-content">
-	  <div class="modal-header">
-		<h5 class="modal-title">Cover for books to read on Smartphone (6 inches)</h5>
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		  <span aria-hidden="true">&times;</span>
-		</button>
-	  </div>
-		<div class="modal-body">
-		<pre>
-			<code>
-				<img  class="image-example2" src="img/smartphone-cover-example.png" alt="example of book cover">
-				@font-face
-{font-family: BodoniFLF-BoldItalic;
-        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-{font-family: BodoniFLF-Bold;
-        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-
-
-
-
-
-.book-cover{text-align: center;
-            position: relative;
-            margin-top:5%;
-           }
-
-.author{font-family: BodoniFLF-BoldItalic;
-        font-size: 22px;
-        text-align: center;      
-        }
-
-.title{font-family: BodoniFLF-Bold;
-        font-size: 34px;
-        margin-top: -35px;  
-        text-align: center;    
-        }
-
-.text-cover{position: absolute; 
-            white-space: nowrap;
-            margin-top: 16.5%; 
-            margin-left: 42%;
-            color:FBE7BF;
-           }
-
-.logo{position: absolute;
-      margin-top:32.5%;   
-      margin-left:-6%; 
-      width:60px;
-     }
-
-.cover-img{text-align:center;
-           width:7.5cm;
-           height:13.3cm;
-          }
-
-/*media queries for viewing the book cover from devices smaller than a computer*/
-@media (width:1024px){.text-cover{margin-left: 38%;
-                                  margin-top: 22%;                   
-                                  }
-
-                      .logo{margin-top:44%;
-                            margin-left:-9%; 
-                            }
-                    }
-              
-@media (max-width: 992px){ .text-cover{margin-left: 37%;
-                                margin-top:23%;                   
-                                      }
-
-                          .logo{margin-top:45%;   
-                                margin-left:-9%; 
-                                }
-
-                        }
-
-
- /*media queries for printing the book cover */
-@media print{.text-cover{color:white;
-                         margin-left: 35%; 
-                         margin-top:32%;                  
-                        }
-                .logo{margin-top:62%;
-                      margin-left:-12%; 
-                     }
-            }
-			</code>
-		</pre>
-		</div>  
-		<div class="modal-footer">
-		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
-		</div>
-	  </div>
-	</div>
-	</div>
-<img src="img/book-line.png" class="drawing3" alt="book drawing" width="240px">
-	
-<!-- Button trigger modal -->
-<ul class="nav">
-	<li class="description3-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter3">Cover for traditional book
-	</a></li></ul>
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-	  <div class="modal-content">
-	  <div class="modal-header">
-		<h5 class="modal-title">Cover for traditonal book</h5>
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		  <span aria-hidden="true">&times;</span>
-		</button>
-	  </div>
-		<div class="modal-body">
-				<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
-				
-		<pre><code>
-
-@font-face
-	{font-family: BodoniFLF-BoldItalic;
-	src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-	{font-family: BodoniFLF-Bold;
-	src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-
-.book-cover{text-align: center;
-            position: relative;
-           }
-			
-.author{font-family: BodoniFLF-BoldItalic;
-        font-size: 28px;
-        text-align: center;
-       }
-			
-.title{font-family:BodoniFLF-Bold;
-       font-size:45px;
-       margin-top:-40px;  
-       text-align:center;    
-      }
-			
-.text-cover{position:absolute; 
-            white-space:nowrap;
-            margin-top:350px; 
-            margin-left:39%;
-            color:#D15353;
-           }
-			
-.logo{position:absolute;
-      margin-top:53%;   
-      margin-left:-10%; 
-      width:80px;
-     }
-			
-.cover-img{text-align:center;
-          width:15cm;
-          height: 21cm;
-          }
-			
-/*media queries for viewing the book cover from devices smaller than a computer*/
-	
-@media (width:1024px){.text-cover{margin-left: 35%;                   
-                                 }
-                      .logo{margin-top:69%;
-                            margin-left:-13%; 
-                           }
-                     }
-						  
-@media (max-width: 992px){.text-cover{margin-left: 35%;                   
-                                     }
-                          .logo{margin-top:72%;   
-                                margin-left:-13%; 
-                               }
-			
-                        }
-			
-/*media queries for printing the book cover */
-
-@media print{.text-cover{color:#D15353;
-                         margin-left: 30%;                   
-                        }
-			.logo{margin-top:100%;
-                  margin-left:-20%; 
-                 }
-            }
-
-		</code></pre>
-		</div>
-		<div class="modal-footer">
-		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
-		</div>
-	  </div>
-	</div>
-	</div>
-
-<img src="img/kindle-line.png" class="drawing4" alt="kindle drawing" width="220px">
-	<!-- Button trigger modal -->
-	<ul class="nav">
-	<li class="description4-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter4">Cover for books to read on Ereader</a></li></ul>
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-	  <div class="modal-content">
-	  <div class="modal-header">
-		<h5 class="modal-title">Cover for books to read on Ereader</h5>
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		  <span aria-hidden="true">&times;</span>
-		</button>
-	  </div>
-		<div class="modal-body">
-		<p>The purpose of this web site is to explore various types of typographic and layout
-		style for text documents, as an end-of-course project for the "Information
-		Modeling and Web technologies" course of the Master Degree in Digital
-		Humanities and Digital Knowledge of the University of Bologna, under prof. Fabio
-		Vitali.</P>
-		<p>The documents contained in this web site have been selected for their length and
-		complexity among the best picks of 2018 of www.longreads.com. Their
-		publication here is not intended to be an alternative or replace their original
-		locations:</p>
-		<p>
-		All copyrights and related rights on the content remain with their original owners.
-		All copyright on the typographic and layout choices are 2019@PARALLELS
-		</p>
-		</div>
-		<div class="modal-footer">
-		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
-		</div>
-	  </div>
-	</div>
-	</div>
-</ul>
 <p class="sub-paragraph">How to use it</p>
 <p class="sub-paragraph2">Connect the css file to the html file and make changes to the files if necessary in order to create the cover page.</p>
-
-
-
 
 <pre class="pre-scrollable"><code>
 	<span class="punctuaction">< </span><span class="linky">link</span><span class="rel"> rel</span><span class="punctuaction">="</span><span class="word">stylesheet</span><span class="punctuaction">"</span><span class="rel"> type</span><span class="punctuaction">="</span><span class="word">text/css</span><span class="punctuaction">"</span><span class="rel"> href</span><span class="punctuaction">="</span><span class="word">csshake.min.css DA CAMBIARE CON ORIGINALE</span><span class="punctuaction">"></span>
 	 </code></pre>
 	 <img src="img/freccia.png" alt="freccia in giù" class="freccia">
-
 
 </div>
 <div class="sezione4">
