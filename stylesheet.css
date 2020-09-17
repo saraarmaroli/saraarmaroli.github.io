@@ -576,104 +576,111 @@ margin-right:-30%;}
         margin-left:-78%;}
 }
               
-                @media (max-width: 992px){
-                            
-                #about{margin-left: -214%;
-                color:pink;}
-                #final-dissertation{ margin-top:-2%;
-                margin-left:30%;}
-                .griglia{ margin-bottom:100%;}
-                .kindle {width: 400px; }
-                .smartphone {width: 500px;} 
-                .tablet  {width: 400px;}
-                 .libro{width: 400px;}
-                .sinistro{float:none;
-                        margin-top:5%;
-                margin-left: -1%;}
-                .destro{float:none;
-                        margin-left: 10%;
-                margin-top:250px;}
-                .sinistro2{float:none;
-                        margin-left: 25%;
-                margin-top:650px;}
-
-                .destro2{float:none;
-                         margin-left: 25%;
-                        margin-top:250px;
-                }
-                        
-                .container-2{ width:400px;
-                        height:400px;
-                        line-height:100px;
-                        margin-top:40%;
-                        margin-left: -10%;}
-
-                .caption1{
-                        margin-left:80%;
-                        margin-top: -50%;
-                        font-size:20px;
-                        }
-
-                .caption2{
-                        margin-left:80%;
-                        margin-top: -70%; 
-                        font-size:20px;
-                        }
-        
-                .caption3{font-size:20px;
-                        margin-left:30%;
-                        margin-top:-30%;
-                        }
-        
-                .caption4{font-size:20px;
-                        margin-left:50%;
-                        margin-top: -15%;                        
-                        }
-
-                .interruzione-freccia{margin:auto;
-                        margin-top:-50%;}
-                
                
-                        .drawing0{margin-right:0%;}
-                 .description0-sezione3{
-                        margin-top:50%;
-                        margin-left:-72%;
-                         }
-                         
-                .drawing1{margin-left:-53%;
-                margin-top:-26%;}
 
-                .description1-sezione3{margin-top: 30%;
-                                        margin-left:19%;
-                                        white-space:nowrap;
-                            }
-                        
-                .drawing2{  margin-top:-40%;}
-                        .description2-sezione3{
-                                margin-top: 90%;
-                                margin-left: -60%; 
-                                
-                                }
-                .drawing3{margin-left: -60%; }
-                        
-                        .description3-sezione3{
-                                margin-top: 80%;
-                                margin-left: 40%;
-                        white-space:nowrap;}
-                        
-                        .description4-sezione3{    
-                                margin-top: 80%;
-                                margin-left: -55%;
-                                white-space:nowrap;}
-                        .sub-paragraph{margin-top:30%;}
+@media (max-width: 992px){
+#about{margin-left: -150%;
+        color:purple;}
+
+#final-dissertation{ margin-top:-7%;
+     margin-left:65%; }
+
+        .griglia{ margin-bottom:100%;}
+        .kindle {width: 400px; }
+        .smartphone {width: 500px;} 
+        .tablet  {width: 400px;}
+         .libro{width: 400px;}
+        .sinistro{float:none;
+                margin-top:5%;
+        margin-left: -1%;}
+        .destro{float:none;
+                margin-left: 10%;
+        margin-top:250px;}
+        .sinistro2{float:none;
+                margin-left: 25%;
+        margin-top:650px;}
+    
+        .destro2{float:none;
+                 margin-left: 25%;
+                margin-top:250px;
         }
-
-       
-        
-        @media (max-width: 850px){body{overflow-x: hidden}
-                #about{margin-left: -100%;
+                
+        .container-2{ width:400px;
+                height:400px;
+                line-height:100px;
+                margin-top:40%;
+                margin-left: -10%;}
+    
+        .caption1{
+                margin-left:80%;
+                margin-top: -50%;
+                font-size:20px;
                 }
-        #final-dissertation{ margin-top:-1%;
+    
+        .caption2{
+                margin-left:80%;
+                margin-top: -70%; 
+                font-size:20px;
+                }
+    
+        .caption3{font-size:20px;
+                margin-left:30%;
+                margin-top:-30%;
+                }
+    
+        .caption4{font-size:20px;
+                margin-left:50%;
+                margin-top: -15%;                        
+                }
+    
+        .interruzione-freccia{margin:auto;
+                margin-top:-30%;
+                padding-bottom:10%;
+                }
+        
+       
+        .drawing0{margin-right:20%;}
+         .description0-sezione3{
+                margin-top:50%;
+                margin-left:-90%;
+                 }
+                 
+        .drawing1{margin-left:-60%;
+        margin-top:5%;}
+    
+        .description1-sezione3{margin-top: 70%;
+                                margin-left:5%;
+                                white-space:nowrap;
+                    }
+                
+        .drawing2{  margin-top:5%;}
+                .description2-sezione3{
+                        margin-top: 50%;
+                        margin-left: -80%; 
+                        
+                        }
+        .drawing3{margin-left: -70%;
+        margin-top:-10%; }
+                
+                .description3-sezione3{
+                        margin-top: 40%;
+                        margin-left: 20%;
+                white-space:nowrap;}
+        .drawing4{margin-top: -20%;}       
+                .description4-sezione3{    
+                        margin-top: 40%;
+                        margin-left: -75%;
+                        white-space:nowrap;}
+          .sub-paragraph{margin-top:-5%;}
+        .sub-paragraph2{padding-left:5%;
+                                padding-right:5%;}
+    }
+    
+        
+        @media (max-width: 700px){body{overflow-x: hidden}
+                #about{margin-left: -10%;
+                        color:red;                }
+        #final-dissertation{ margin-top:10px;
         margin-left:10%;
         }
                 .griglia{ margin-bottom:100%;}
@@ -728,30 +735,44 @@ margin-right:-30%;}
 
         .interruzione-freccia{margin:auto;
                 margin-top:-10%;}
-        .description1-sezione3{margin-top: 100%;
-                        margin-left: 5%;
+
+        .drawing0{margin-right:20%;}
+        .description0-sezione3{margin-top:45%;
+                margin-left: -90%;  
+            }
+        .drawing1{margin-left:-60%;}
+        .description1-sezione3{margin-top: 60%;
+                        margin-left: 2%;
                         white-space:nowrap;
                        
                     }
+        .drawing2{}
                 
         .description2-sezione3{
-                        margin-top: 82%;
-                        margin-left: -92%; 
-                        white-space:nowrap;
+                        margin-top: 50%;
+                        margin-left: -80%; 
+                       
                         }
+
+        .drawing3{margin-top:-10%;
+        margin-left:-80%;}
         .description3-sezione3{
-                        margin-top: 80%;
-                        margin-left: 40%;
+                        margin-top: 40%;
+                        margin-left: 10%;
                 white-space:nowrap;}
-                
-                .description4-sezione3{    
-                        margin-top: 80%;
-                        margin-left: -55%;
-                        white-space:nowrap;}
-                .sub-paragraph{margin-top:30%;}
+
+        .drawing4{margin-top:-10%;}
+
+
+        .description4-sezione3{  
+                        margin-left: -80%;
+                        margin-top:50%;
+                        }
+        .sub-paragraph{margin-top:30%;}
 }
 
 @media (max-width: 650px){body{overflow-x: hidden}
+        .titolo1{font-size:40px;}
          #about{margin-left: -80%;
                 color:blue;
                 }
@@ -762,30 +783,32 @@ margin-right:-30%;}
         .description0-sezione3{font-size:16px;
                                 margin-left:-90%;}
                
-        .drawing1{margin-top: -5%;}
+        .drawing1{margin-top: -5%;
+                margin-left:-70%;}
         .description1-sezione3{font-size:16px;
-                                margin-left:5%;
+                                margin-left:2%;
                                 margin-top:60%;}   
 
-        .drawing2{margin-top:-5%;}
+        .drawing2{margin-top:-5%;
+        margin-left:-50%;}
 
         .description2-sezione3{font-size:16px;
-                                margin-left:-80%;
+                                margin-left:-85%;
                                 margin-top:55%;} 
 
         .drawing3{margin-top:-10%;
-                margin-left:-70%;}
+                margin-left:-80%;}
 
         .description3-sezione3{font-size:16px;
-                                 margin-left:25%;
-                                margin-top:50%;} 
+                                 margin-left:15%;
+                                margin-top:55%;} 
 
 
         .drawing4{margin-top:-15%;
                    margin-left:-70%;}
         
         .description4-sezione3{font-size:16px;
-                                 margin-left:-70%;
+                                 margin-left:-80%;
                                  margin-top:60%;} 
                
         .sub-paragraph2{padding-left:5%;
@@ -793,21 +816,15 @@ margin-right:-30%;}
         }
 
 
-@media (max-width: 500px){
+@media (max-width: 550px){
         #about{margin-left: -10%;
         color:yellow;}
 #final-dissertation{ margin-top:-2%;
-margin-left:2%;}
-      
-        
-        
-        
-        .griglia{ margin-bottom:100%;}
-        
-        
-        
-        .kindle {width: 400px;
-       
+margin-left:3%;}    
+.titolo2{font-size:16px;
+}    
+.griglia{ margin-bottom:130%;}        
+.kindle {width: 400px;
      
 }
 .smartphone {width: 500px;} 
@@ -821,10 +838,10 @@ margin-left: -1%;}
 margin-top:250px;}
 .sinistro2{float:none;
         margin-left: 25%;
-margin-top:650px;}
+margin-top:600px;}
 
 .destro2{float:none;
-         margin-left: 25%;
+         margin-left: 20%;
         margin-top:250px;
 }
         
@@ -840,48 +857,58 @@ margin-top:650px;}
         font-size:20px;
         }
 
-        .caption2{
-                margin-left:80%;
-                margin-top: -70%;
-                font-size:20px;
+.caption2{
+        margin-left:80%;
+        margin-top: -70%;
+        font-size:20px;
         }
 
-        .caption3{font-size:20px;
+.caption3{font-size:20px;
                 margin-left:30%;
                 margin-top:-30% ;
         }
-
-        .caption4{font-size:20px;
+ .caption4{font-size:20px;
                 margin-left:50%;
                 margin-top: -15%;
         
         }
 
-        .interruzione-freccia{margin:auto;
+  .interruzione-freccia{margin:auto;
         margin-top:-50%;}
+.drawing0{margin-right:15%;}
+ .description0-sezione3{font-size:16px;
+                margin-left:-95%;
+                
+        }
 
-        .description1-sezione3{margin-top: 100%;
-                margin-left: 5%;
-                white-space:nowrap;
-               
-            }
-        
-        .description2-sezione3{
-                margin-top: 82%;
-                margin-left: -92%; 
-                white-space:nowrap;
-                }
-        
-        .description3-sezione3{
-                margin-top: 80%;
-                margin-left: 40%;
-        white-space:nowrap;}
-        
-        .description4-sezione3{    
-                margin-top: 80%;
-                margin-left: -55%;
-                white-space:nowrap;}
-        .sub-paragraph{margin-top:30%;}
+
+.drawing1{margin-top: -5%;
+margin-left:-75%;}
+.description1-sezione3{font-size:16px;
+                margin-left:-5%;
+                margin-top:60%;}   
+
+.drawing2{margin-top:-5%;}
+
+.description2-sezione3{font-size:16px;
+                margin-left:-90%;
+                margin-top:55%;} 
+
+.drawing3{margin-top:-10%;
+margin-left:-85%;}
+
+.description3-sezione3{font-size:16px;
+                 margin-left:10%;
+                margin-top:50%;} 
+
+
+.drawing4{margin-top:-15%;
+   margin-left:-80%;}
+
+.description4-sezione3{font-size:16px;
+                 margin-left:-80%;
+                 margin-top:60%;} 
+
 }
 
 
