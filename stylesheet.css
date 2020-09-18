@@ -555,7 +555,7 @@ pre{text-align:justify;
               
                
 
-@media (max-width: 992px){
+@media (max-width: 992px){ body{ overflow-x: hidden;}
 
                         #about{margin-left: -190%;
                               color:purple;}
@@ -655,7 +655,7 @@ pre{text-align:justify;
                          }
     
         
-@media (max-width: 700px){body{overflow-x: hidden}
+@media (max-width: 700px){body{overflow-x: hidden;}
                         #about{margin-left: -10%;
                                 color:red;               
                                  }
@@ -785,7 +785,7 @@ pre{text-align:justify;
                         }
 
 
-@media (max-width: 550px){
+@media (max-width: 550px){body{ overflow-x: hidden;}
                         #about{margin-left: -10%;
                                 color:yellow;}
                         #final-dissertation{margin-top:-2%;
