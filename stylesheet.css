@@ -198,7 +198,7 @@ margin-top:-5%;}
         margin-right:10%;}
 
 .destro2{float:right;
-         margin-right:8%;}
+         margin-right:-6%;}
         
 
 .caption1{font-size: 20px;
@@ -228,8 +228,8 @@ margin-top:-5%;}
 .caption4{font-size: 20px;
           font-family: Coustard-Regular;
           color:1D7268;
-          margin-left:250%;
-          margin-top: -150%;             
+          margin-left:200%;
+          margin-top: -40%;             
         }
 
 
@@ -567,24 +567,26 @@ pre{text-align:justify;
                         #final-dissertation{ margin-top:-5%;
                                              margin-left:65%; }
 
-                        .griglia{ margin-bottom:100%;}
-                        .kindle {width: 400px; }
-                        .smartphone {width: 500px;} 
-                        .tablet {width: 400px;}
+                        .griglia{ margin-bottom:80%;}
+                        .kindle {width: 360px; }
+                        .smartphone {width: 500px;
+                                     margin-left:-485%;} 
+                        .tablet {width: 500px;
+                                margin-left:-450%;}
                         .libro{width: 400px;}
                         .sinistro{float:none;
                                   margin-top:5%;
                                   margin-left: -1%;}
                         .destro{float:none;
                                 margin-left: 10%;
-                                margin-top:250px;}
+                                margin-top:270px;}
                         .sinistro2{float:none;
                                    margin-left: 25%;
-                                   margin-top:650px;}
+                                   margin-top:690px;}
     
                         .destro2{float:none;
                                 margin-left: 25%;
-                                margin-top:250px;
+                                margin-top:270px;
                                 }
                 
                         .container-2{width:400px;
@@ -600,60 +602,78 @@ pre{text-align:justify;
                                   }
     
                         .caption2{
-                                   margin-left:80%;
-                                   margin-top: -70%; 
+                                   margin-left:47%;
+                                   margin-top: -62%; 
                                    font-size:20px;
                                 }
     
                         .caption3{font-size:20px;
-                                  margin-left:30%;
-                                  margin-top:-30%;
+                                  margin-left:2%;
+                                  margin-top:-17%;
                                 }
     
                         .caption4{font-size:20px;
-                                  margin-left:50%;
-                                  margin-top: -15%;                        
+                                  margin-left:13%;
+                                  margin-top: -9%;                        
                                   }
     
                        .interruzione-freccia{margin:auto;
                                              margin-top:-30%;
                                              padding-bottom:10%;
                                              }
-        
+                        .parent{display:contents;
+                                
+                        }
+
+                        .div1{grid-area:none!important;}
+                        .div2{grid-area:none !important;}
+                        .div3{grid-area:none !important;}
+                        .div4{grid-area:none !important;}
+                        .div5{grid-area:none !important;}
+                        .div6{grid-area:none !important;}
+                        .div7{grid-area:none !important;}
+                        .div8{grid-area:none !important;}
+                        .div9{grid-area:none !important;}
+                        .div10{grid-area:none !important;}
+                      
        
-                        .drawing0{margin-right:20%;}
+                        .drawing0{margin-right:55%;}
                         .description0-sezione3{
-                                                margin-top:50%;
-                                                margin-left:-90%;
+                                                margin-top:44%;
+                                                margin-left:-29%;
+                                                white-space:nowrap;
                                                 }
                  
-                        .drawing1{margin-left:-60%;
-                                margin-top:5%;}
+                        .drawing1{margin-left:-8%;
+                                margin-top:42%;}
     
-                        .description1-sezione3{margin-top: 70%;
-                                                margin-left:5%;
+                        .description1-sezione3{margin-top: 80%;
+                                                margin-left:-8%;
                                                 white-space:nowrap;
                                                }
                 
-                        .drawing2{margin-top:5%;}
+                        .drawing2{margin-top:89%;
+                        margin-right:67%;}
                         .description2-sezione3{
-                                                margin-top: 50%;
-                                                margin-left: -80%; 
+                                                margin-top: 134%;
+                                                margin-left: -22%; 
                         
                                                 }
-                        .drawing3{margin-left: -70%;
-                                  margin-top:-10%; }
+                        .drawing3{margin-left: -14%;
+                                  margin-top:140%; }
                 
                         .description3-sezione3{
-                                                margin-top: 40%;
-                                                margin-left: 20%;
-                                                white-space:nowrap;}
-                        .drawing4{margin-top: -20%;}       
+                                                margin-top: 189%;
+                                                margin-left: -16%;
+                                                }
+                        .drawing4{margin-top: 201%;
+                                
+                                margin-right:63%;}       
                         .description4-sezione3{    
-                                                margin-top: 40%;
-                                                margin-left: -75%;
+                                                margin-top: 257%;
+                                                margin-left: -12%;
                                                 white-space:nowrap;}
-                        .sub-paragraph{margin-top:-5%;}
+                        .sub-paragraph{margin-top:12%;}
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}
                          }
@@ -668,7 +688,7 @@ pre{text-align:justify;
                                             }
                         .griglia{ margin-bottom:100%;}
                        
-                        .kindle {width: 400px;}
+                        .kindle {width: 300px;}
                         .smartphone {width: 500px;} 
                         .tablet  {width: 400px;}
                         .libro{width: 400px;}
@@ -695,27 +715,27 @@ pre{text-align:justify;
 
                         .caption1{
                                 margin-left:80%;
-                                margin-top: -50%;
+                                margin-top: -60%;
                                 font-size:20px;
                                 }
 
                         .caption2{
-                                 margin-left:80%;
-                                 margin-top: -70%;
+                                 margin-left:50%;
+                                 margin-top: -60%;
                                  font-size:20px;
                                 }
 
                         .caption3{font-size:20px;
-                                margin-left:30%;
-                                margin-top:-30% ;
+                                margin-left:-10%;
+                                margin-top:-10% ;
                                 }
                         .caption4{font-size:20px;
-                                margin-left:50%;
-                                margin-top: -15%;
+                                margin-left:-15%;
+                                margin-top: 2%;
                                 }
 
                         .interruzione-freccia{margin:auto;
-                                              margin-top:-10%;}
+                                              margin-top:-30%;}
 
                         .drawing0{margin-right:20%;}
                         .description0-sezione3{margin-top:45%;
@@ -797,8 +817,8 @@ pre{text-align:justify;
                         .titolo2{font-size:16px;
                                 }    
                         .griglia{ margin-bottom:130%;}        
-                        .kindle {width: 400px;}
-                        .smartphone {width: 500px;} 
+                        .kindle {width: 300px;}
+                        .smartphone {width: 400px;} 
                         .tablet  {width: 400px;}
                         .libro{width: 400px;}
                         .sinistro{float:none;
@@ -813,7 +833,7 @@ pre{text-align:justify;
 
                         .destro2{float:none;
                                 margin-left: 20%;
-                                margin-top:250px;
+                                margin-top:280px;
                                 }
                         .container-2{width:400px;
                                      height:400px;
@@ -828,18 +848,18 @@ pre{text-align:justify;
                                 }
 
                         .caption2{      
-                                margin-left:80%;
-                                margin-top: -70%;
+                                margin-left:40%;
+                                margin-top: -50%;
                                 font-size:20px;
                                 }
 
                         .caption3{font-size:20px;
-                                margin-left:30%;
-                                margin-top:-30% ;
+                                margin-left:-20%;
+                                margin-top:-10% ;
                                  }
                         .caption4{font-size:20px;
-                                margin-left:50%;
-                                margin-top: -15%;
+                                margin-left:-10%;
+                                margin-top: -10%;
                         
                                 }
 
