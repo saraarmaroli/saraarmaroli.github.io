@@ -736,6 +736,7 @@ pre{text-align:justify;
 
                         .interruzione-freccia{margin:auto;
                                               margin-top:-30%;}
+                        
 
                         .drawing0{margin-right:20%;}
                         .description0-sezione3{margin-top:45%;
@@ -769,6 +770,8 @@ pre{text-align:justify;
                         }
 
 @media (max-width: 650px){body{overflow-x: hidden;}
+
+
                         .titolo1{font-size:40px;}
                          #about{margin-left: -80%;
                                 color:blue;
@@ -812,6 +815,7 @@ pre{text-align:justify;
 @media (max-width: 550px){body{ overflow-x: hidden;}
                         #about{margin-left: -10%;
                                 color:yellow;}
+                
                         #final-dissertation{margin-top:-2%;
                                             margin-left:3%;}    
                         .titolo2{font-size:16px;
