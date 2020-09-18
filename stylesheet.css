@@ -443,7 +443,18 @@ font-size:20px;}
         padding-top:8%;
         text-align: center;
         padding-bottom: 10%;}
-        
+
+.conclusion{font-family:  FrankRuhlLibre-Light;
+padding-left: 10%;
+padding-right: 10%;}
+
+.contatti{padding-bottom:5%;
+box-align:center;}
+.img-contatti{width:50px;
+
+}
+.contatti2{font-family: Chonburi-Regular;
+        color:black;}
 
 
 
@@ -746,7 +757,7 @@ margin-right:-30%;}
                         white-space:nowrap;
                        
                     }
-        .drawing2{}
+     
                 
         .description2-sezione3{
                         margin-top: 50%;
