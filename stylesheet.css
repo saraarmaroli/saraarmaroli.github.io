@@ -431,7 +431,7 @@ margin-top:15%;
 .image-example{width:300px;
 }
 .image-example2{text-align:center;
-        margin-left:-18%;
+       margin-left:-34%;
         width:300px;}
 
 pre{text-align:justify;
@@ -442,18 +442,19 @@ font-size:20px;}
 .sezione4{ background-color: FDFFD6;
         padding-top:8%;
         text-align: center;
-        padding-bottom: 10%;}
+      }
 
 .conclusion{font-family:  FrankRuhlLibre-Light;
 padding-left: 10%;
-padding-right: 10%;}
+padding-right: 10%;
+font-size:18px;}
 
 .contatti{padding-bottom:5%;
 box-align:center;}
 .img-contatti{width:50px;
 
 }
-.contatti2{font-family: Chonburi-Regular;
+.contatti2{font-family: Coustard-Regular;
         color:black;}
 
 
