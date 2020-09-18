@@ -186,7 +186,8 @@ body{margin:0;}
                   }
 
 .sinistro{float:left;
-        margin-left:-18%;}
+        margin-left:-18%;
+margin-top:-5%;}
 
 .sinistro2{float:left;
         margin-left:5%;
@@ -204,21 +205,24 @@ body{margin:0;}
           font-family: Coustard-Regular;
           color:1D7268;
           margin-left:100%;
-          margin-top: -40%;
+          margin-top: -60%;
+          text-align:center;
          }
 
 .caption2{font-size: 20px;
           font-family: Coustard-Regular;
           color:1D7268;
           margin-left:100%;
-          margin-top: -70%;
+          margin-top: -30%;
+          text-align:center;
          }
 
 .caption3{font-size: 20px;
           font-family: Coustard-Regular;
           color:1D7268;
-          margin-left:140%;
+          margin-left:260%;
           margin-top: -100%;
+          
          }
 
 .caption4{font-size: 20px;
