@@ -738,33 +738,39 @@ pre{text-align:justify;
                                               margin-top:-30%;}
                         
 
-                        .drawing0{margin-right:20%;}
+                        .drawing0{margin-right:40%;}
                         .description0-sezione3{margin-top:45%;
-                                                margin-left: -90%;  
+                                                margin-left: -10%; 
+                                                white-space:wrap; 
+                                                font-size:18px;
                                               }
-                        .drawing1{margin-left:-60%;}
-                        .description1-sezione3{margin-top: 60%;
-                                                margin-left: 2%;
+                        .drawing1{margin-left:10%;
+                        margin-top:50%;}
+                        .description1-sezione3{margin-top: 95%;
+                                                margin-left: 10%;
                                                 white-space:nowrap;  
                                                 }
-      
+                        .drawing2{margin-top:110%;
+                        margin-right:40%;}
                         .description2-sezione3{
-                                                margin-top: 50%;
-                                                margin-left: -80%;
+                                                margin-top: 160%;
+                                                margin-left: -4%;
                                                 }
 
-                        .drawing3{margin-top:-10%;
-                                margin-left:-80%;}
+                        .drawing3{margin-top:180%;
+                                margin-left:8%;}
                         .description3-sezione3{
-                                                margin-top: 40%;
-                                                margin-left: 10%;
+                                                margin-top: 230%;
+                                                margin-left: 2%;
                                                 white-space:nowrap;}
 
-                        .drawing4{margin-top:-10%;}
+                        .drawing4{margin-top:250%;
+                                margin-right:40%;
+                        }
 
                         .description4-sezione3{  
-                                                margin-left: -80%;
-                                                margin-top:50%;
+                                                margin-left: 5%;
+                                                margin-top:310%;
                                                 }
                         .sub-paragraph{margin-top:30%;}
                         }
@@ -772,40 +778,44 @@ pre{text-align:justify;
 @media (max-width: 650px){body{overflow-x: hidden;}
 
 
-                        .titolo1{font-size:40px;}
+                        .titolo1{font-size:35px;}
                          #about{margin-left: -80%;
                                 color:blue;
                                  }
                         #final-dissertation{margin-top:-1%;
                                             margin-left:10%;
                                            }
-        
+                        .drawing0{
+                                  margin-right:40%;}
                         .description0-sezione3{font-size:16px;
-                                                margin-left:-90%;}
+                                                 margin-left:-15%;
+                                                 
+                                                }
                
-                        .drawing1{margin-top: -5%;
-                                 margin-left:-70%;}
-                        .description1-sezione3{font-size:16px;
-                                                margin-left:2%;
-                                                 margin-top:60%;}   
+                        .drawing1{margin-top: 50%;
+                                 margin-left:5%;}
+                        .description1-sezione3{font-size:18px;
+                                                margin-left:5%;
+                                                 margin-top:95%;}   
 
-                        .drawing2{margin-top:-5%;
+                        .drawing2{margin-top:110%;
                                 margin-left:-50%;}
-                        .description2-sezione3{font-size:16px;
-                                                margin-left:-85%;
-                                                margin-top:55%;} 
+                        .description2-sezione3{font-size:18px;
+                                                margin-left:-8%;
+                                                margin-top:160%;} 
 
-                        .drawing3{margin-top:-10%;
-                                  margin-left:-80%;}
-                        .description3-sezione3{font-size:16px;
-                                                margin-left:15%;
-                                                margin-top:55%;} 
+                        .drawing3{margin-top:170%;
+                                  margin-left:2%;}
+                        .description3-sezione3{font-size:18px;
+                                                margin-left:-3%;
+                                                margin-top:220%;} 
 
-                        .drawing4{margin-top:-15%;
-                                margin-left:-70%;}
-                        .description4-sezione3{font-size:16px;
-                                                margin-left:-80%;
-                                                margin-top:60%;} 
+                        .drawing4{margin-top:240%;
+                                margin-left:7%;}
+                        .description4-sezione3{font-size:18px;
+                                                
+                                                margin-top:300%;
+                                        text-align:center;} 
                
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}                         
@@ -869,35 +879,35 @@ pre{text-align:justify;
 
                         .interruzione-freccia{margin:auto;
                                               margin-top:-50%;}
-                        .drawing0{margin-right:15%;}
+                        .drawing0{margin-right:40%;}
                         .description0-sezione3{font-size:16px;
-                                                margin-left:-95%;
+                                                margin-left:-18%;
                                                 }
 
 
-                        .drawing1{margin-top: -5%;
-                                margin-left:-75%;}
+                        .drawing1{margin-top: 40%;
+                                margin-left:6%;}
                         .description1-sezione3{font-size:16px;
-                                                margin-left:-5%;
-                                                margin-top:60%;}   
-
-                        .drawing2{margin-top:-5%;}
-                        .description2-sezione3{font-size:16px;
-                                                margin-left:-90%;
-                                                margin-top:55%;} 
-
-                        .drawing3{margin-top:-10%;
-                                margin-left:-85%;}
-                        .description3-sezione3{font-size:16px;
                                                 margin-left:10%;
-                                                margin-top:50%;} 
+                                                margin-top:85%;}   
+
+                        .drawing2{margin-top:100%;}
+                        .description2-sezione3{font-size:16px;
+                                                margin-left:-5%;
+                                                margin-top:160%;} 
+
+                        .drawing3{margin-top:170%;
+                                margin-left:4%;}
+                        .description3-sezione3{font-size:16px;
+                                                margin-left:1%;
+                                                margin-top:230%;} 
 
 
-                        .drawing4{margin-top:-15%;
+                        .drawing4{margin-top:250%;
                                 margin-left:-80%;}
                         .description4-sezione3{font-size:16px;
-                                                margin-left:-80%;
-                                                margin-top:60%;} 
+                                                margin-left:8%;
+                                                margin-top:320%;} 
 
                         }
 
