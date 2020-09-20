@@ -1,0 +1,29 @@
+/*media queries for viewing the book cover from devices smaller than a computer*/
+@media (width:1024px){.text-cover{margin-left: 38%;
+    margin-top: 22%;                   
+    }
+
+.logo{margin-top:44%;
+margin-left:-9%; 
+}
+}
+
+@media (max-width: 992px){ .text-cover{margin-left: 37%;
+  margin-top:23%;                   
+        }
+
+.logo{margin-top:45%;   
+  margin-left:-9%; 
+  }
+
+}
+
+ /*media queries for printing the book cover */
+ @media print{.text-cover{color:white;
+    margin-left: 35%; 
+    margin-top:32%;                  
+   }
+.logo{margin-top:62%;
+ margin-left:-12%; 
+}
+}

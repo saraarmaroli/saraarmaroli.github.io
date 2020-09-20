@@ -1,0 +1,19 @@
+/*oppure grandezze su canva:512-800px/
+/*media queries for viewing the book cover from devices smaller than a computer*/
+@media (width:1024px){.text-cover{margin-left: 39%;                   
+}
+
+.logo{margin-top:41%;
+margin-left:-8%; 
+}
+}
+
+@media (max-width: 992px){ .text-cover{margin-left: 38%;                   
+    }
+
+.logo{margin-top:43%;   
+margin-left:-9%; 
+}
+
+}
+

@@ -1,0 +1,45 @@
+/*media queries for viewing the book cover from devices smaller than a computer*/
+@media (width:1024px){.text-cover{margin-left: 35%;  
+    color:blue;                 
+                              }
+
+                  .logo{margin-top:69%;
+                        margin-left:-13%; 
+                        }
+}
+
+@media (max-width: 992px){ .text-cover{margin-left: 35%;  
+    color:yellow;                 
+                                  }
+
+                      .logo{margin-top:72%;   
+                            margin-left:-13%; 
+                            }
+
+}
+
+@media (max-width: 800px){.text-cover{margin-left: 28%;
+    color:peru;}
+                            .logo{margin-top:100%;   
+                                    margin-left:-20%; }
+                            
+    }
+
+@media (max-width: 700px){.text-cover{margin-left: 28%;
+color:black;}
+                    .logo{margin-top:110%;   
+                            margin-left:-20%; }
+                    
+}
+
+@media (max-width: 650px){.text-cover{margin-left: 30%;
+    color:green;}
+                    .logo{margin-top:-18%;   
+                            margin-left:30%; }
+                    }
+
+@media (max-width: 550px){.text-cover{margin-left: 30%;
+color:pink;}
+                    .logo{margin-top:-20%;   
+                    margin-left:38%; }
+                    }

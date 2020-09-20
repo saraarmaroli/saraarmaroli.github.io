@@ -10,8 +10,13 @@
 
 
 .book-cover{text-align: center;
-            position: relative;
             margin-top:5%;
+            width: 750px;
+            position: absolute;
+            margin-left: 20%;
+	    margin-right: auto;
+	    padding: 0px;
+	/*useful properties to maintain fixed dimensions */
         }
 
 .author{font-family: BodoniFLF-BoldItalic;
@@ -29,13 +34,13 @@
 .text-cover{position: absolute; 
         white-space: nowrap;
         margin-top: 358px; 
-        margin-left: 39%;
+        margin-left: 31%;
         color:beige;
         }
 
 .logo{position: absolute;
-        margin-top:53%;   
-        margin-left:-9%; 
+        margin-top:94%;   
+        margin-left:-16%; 
         width:80px;
         }
 
@@ -45,23 +50,3 @@
 }
 
 
-/*media queries for viewing the book cover from devices smaller than a computer*/
-@media (width:1024px){.text-cover{margin-left: 35%;                   
-                                  }
-
-                      .logo{margin-top:71%;
-                            margin-left:-12%; 
-                            }
-}
-              
-@media (max-width: 992px){ .text-cover{margin-left: 35%;                   
-                                      }
-
-                          .logo{margin-top:74%;   
-                                margin-left:-12%; 
-                                }
-
- }
-
-
- 
