@@ -45,7 +45,7 @@ body{max-width:100%;
 #final-dissertation{color:1D7268 !important; 
                     margin-top:5px;
                     text-align: right;
-                    margin-left:50%;
+                    margin-left:73%;
                     white-space: nowrap; }
 
 
@@ -577,7 +577,7 @@ pre{text-align:justify;
 @media (max-width: 992px){ body{ overflow-x: hidden;}
 
                         #about{margin-left: -190%;
-                              color:purple;}
+                             }
 
                         #final-dissertation{ margin-top:-5%;
                                              margin-left:65%; }
@@ -696,7 +696,7 @@ pre{text-align:justify;
         
 @media (max-width: 700px){body{overflow-x: hidden;}
                         #about{margin-left: -10%;
-                                color:red;               
+                               
                                  }
                         #final-dissertation{margin-top:10px;
                                              margin-left:10%;
@@ -795,7 +795,7 @@ pre{text-align:justify;
 
                         .titolo1{font-size:35px;}
                          #about{margin-left: -80%;
-                                color:blue;
+                                
                                  }
                         #final-dissertation{margin-top:-1%;
                                             margin-left:10%;
@@ -839,7 +839,7 @@ pre{text-align:justify;
 
 @media (max-width: 550px){body{ overflow-x: hidden;}
                         #about{margin-left: -10%;
-                                color:yellow;}
+                                }
                 
                         #final-dissertation{margin-top:-2%;
                                             margin-left:3%;}    
