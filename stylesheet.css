@@ -234,14 +234,14 @@ margin-top:-5%;}
 
 
 .interruzione-freccia {text-align: center;
-                        background-color: FDFFD6;
+                        background-color: FFF4C6;
                         margin-top:-20%;
                         margin-bottom: 4%;}
 
 
 /*sezione 3*/
 
-.sezione3{ background-color: FFE6B0;;
+.sezione3{ background-color: FDD692;
            padding-top:8%;
            text-align: center;
            padding-bottom: 5%;}
@@ -405,7 +405,7 @@ pre{text-align:justify;
 
 /*sezione 4*/
 
-.sezione4{ background-color: FDFFD6;
+.sezione4{ background-color: FFF4C6;
             padding-top:8%;
            text-align: center;}
 
@@ -433,7 +433,7 @@ pre{text-align:justify;
         left: 0;
         bottom:0;
         width: 100%;
-        background-color:FFE6B0; 
+        background-color:FDD692; 
         color: white;
         text-align: center;
         font-family: Helvetica, Arial, sans-serif;
@@ -469,7 +469,7 @@ pre{text-align:justify;
       }
     
 .copyright {
-            background-color: FFE6B0;  
+            background-color: FDD692;  
             font-family: Helvetica, Arial, sans-serif; 
             letter-spacing: 2.5px; 
             font-size: 12px; 
