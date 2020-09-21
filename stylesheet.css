@@ -45,7 +45,7 @@ body{max-width:100%;
 #final-dissertation{color:1D7268 !important; 
                     margin-top:5px;
                     text-align: right;
-                    margin-left:73%;
+                    margin-left:50%;
                     white-space: nowrap; }
 
 
@@ -580,7 +580,7 @@ pre{text-align:justify;
                              }
 
                         #final-dissertation{ margin-top:-5%;
-                                             margin-left:65%; }
+                                             margin-left:74%; }
 
                         .griglia{ margin-bottom:80%;}
                         .kindle {width: 360px; }
