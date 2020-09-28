@@ -47,7 +47,8 @@
         
         }
 
-.cover-img{ text-align:center;
+.cover-img{ background-image: url(/img/feltrinelli.png);
+         text-align:center;
         width:15cm;
         height: 21cm;}
 

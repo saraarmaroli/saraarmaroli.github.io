@@ -1,0 +1,73 @@
+@font-face
+{font-family: BodoniFLF-BoldItalic;
+        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+{font-family: BodoniFLF-Bold;
+        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+@font-face 
+{font-family: OpenSans-Regular;
+                src: url('font/OpenSans-Regular.ttf') format('truetype');}
+
+ @font-face 
+ {font-family: OpenSans-SemiBold;
+                src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
+
+
+
+.book-cover{
+        width: auto;
+        width: 750px;
+        position: absolute;
+        margin-left: 28%;
+        margin-right: auto;
+        padding: 0px;
+        /*useful properties to maintain fixed dimensions */
+        }
+
+.decoration{position: absolute; 
+        content: url(img/feltrinelli-decoration.png);
+        width: auto;
+  height: 11.42vh;
+margin-top:-1.5vw;
+
+}        
+
+.author{font-family: OpenSans-Regular;
+        font-size: 38px;
+        text-transform: uppercase;
+        
+           
+        }
+
+.title{font-family: OpenSans-SemiBold;
+        font-size: 35px;
+        margin-top: -3vw;
+        }
+.curator{display: none;}
+
+.text-cover{position: absolute; 
+        white-space: nowrap;
+        margin-top:3vw;
+        margin-left:10vh;
+        color:white;
+        }
+
+.logo{content: url(img/logo-feltrinelli.png);
+        position: absolute;
+        background-size: 60% 60%;
+        margin-top:-45vw;
+        margin-left:6vh;
+    
+        }
+
+.cover-img{background-image: url(img/feltrinelli2.png);
+        background-size: 70% 70%;
+        background-repeat: no-repeat;
+        background-color:c31f20;
+        background-position: center 100%;
+        
+        width:15cm;
+        height: 21cm;}
+
+

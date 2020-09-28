@@ -1,0 +1,87 @@
+@font-face
+{font-family: BodoniFLF-BoldItalic;
+        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+{font-family: BodoniFLF-Bold;
+        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+@font-face 
+{font-family: OpenSans-Regular;
+                src: url('font/OpenSans-Regular.ttf') format('truetype');}
+
+ @font-face 
+ {font-family: OpenSans-SemiBold;
+                src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
+
+@font-face 
+ {font-family:  EBGaramond-Bold;
+                src: url('font/EBGaramond-Bold.ttf') format('truetype');}
+
+               
+
+.book-cover{ 
+        width: auto;
+        width: 750px;
+        position: absolute;
+        margin-left: 25%;
+        margin-right: auto;
+        padding: 0px;
+        margin-bottom: 4vw;
+        margin-top:3vw;
+        /*useful properties to maintain fixed dimensions */
+
+        }
+
+     
+
+.author{
+        font-size: 28px;
+        margin-left:35%;
+        
+           
+        }
+
+.title{
+        font-size: 40px;
+        margin-top: -3vw;
+        margin-left:35%;
+       
+        
+        
+        }
+.curator{ margin-left:35%;
+color:black;
+margin-top: -2vw;}
+
+
+.text-cover{font-family:  EBGaramond-Bold;
+        position: absolute; 
+       
+        white-space: nowrap;
+        padding-top:5vw;
+        padding-bottom: 12.8%;
+        padding-right:19.1%;
+       color:white;
+        background-color: #748a97;
+        
+        }
+
+.logo{position: absolute; 
+        content: url(img/zanichelli-logo.png);
+        width: auto;
+        height: 25vh;
+        margin-top:45vw;
+        margin-left:21.5vw;
+
+        
+        }   
+
+.cover-img{background-image: url(img/zanichelli.jpg);
+        background-size:60% 40%;
+        background-repeat: no-repeat;
+        margin-left:30vw;
+       
+        width:15cm;
+        height: 21cm;}
+
+
