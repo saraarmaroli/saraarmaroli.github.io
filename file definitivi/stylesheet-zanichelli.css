@@ -33,26 +33,23 @@
         }
 
      
-
 .author{
         font-size: 28px;
         margin-left:35%;
-        
-           
+      
         }
 
 .title{
         font-size: 40px;
         margin-top: -3vw;
-        margin-left:35%;
-       
-        
-        
+        margin-left:35%;        
         }
+
 .curator{ margin-left:35%;
 color:black;
 margin-top: -2vw;}
 
+.introduction{display:none;}
 
 .text-cover{font-family:  EBGaramond-Bold;
         position: absolute; 

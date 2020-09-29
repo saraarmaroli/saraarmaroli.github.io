@@ -15,49 +15,39 @@
 
 
 
-.book-cover{
-        width: auto;
-        width: 750px;
-        position: absolute;
-        margin-left: 28%;
-        margin-right: auto;
-        padding: 0px;
-        /*useful properties to maintain fixed dimensions */
-        }
-
 .decoration{position: absolute; 
         content: url(img/feltrinelli-decoration.png);
         width: auto;
-  height: 11.42vh;
-margin-top:-1.5vw;
+        height: 9.3%;
+        margin-top:-3.2%;
 
 }        
 
 .author{font-family: OpenSans-Regular;
         font-size: 38px;
         text-transform: uppercase;
-        
-           
         }
 
 .title{font-family: OpenSans-SemiBold;
         font-size: 35px;
-        margin-top: -3vw;
+        margin-top: -10%;
         }
+
 .curator{display: none;}
+.introduction{display: none;}
 
 .text-cover{position: absolute; 
         white-space: nowrap;
-        margin-top:3vw;
-        margin-left:10vh;
+        margin-top:6%;
+        margin-left:10%;
         color:white;
         }
 
 .logo{content: url(img/logo-feltrinelli.png);
         position: absolute;
         background-size: 60% 60%;
-        margin-top:-45vw;
-        margin-left:6vh;
+        margin-top:-100%;
+        margin-left:6%;
     
         }
 
@@ -67,7 +57,24 @@ margin-top:-1.5vw;
         background-color:c31f20;
         background-position: center 100%;
         
-        width:15cm;
-        height: 21cm;}
+        }
 
 
+/* Media Query for Tablets portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
+                                                         width:28%;              
+                                                         }
+                                                   .decoration{height:9.29%;
+                                                                margin-top:-3.4%;}
+     
+                                                 } 
+
+@media(min-width: 280px) and (max-width: 600px){.decoration{height:9.87%;}
+                                                .logo{width:30%;}
+                                                }
+
+
+ @media (min-width: 800px)  and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:9.31%;
+margin-top:-4%;}
+.logo{width:25%;}
+}

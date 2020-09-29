@@ -1,17 +1,39 @@
 /* 
- per il libro non importa la grandezza dello schermo ma ho bisogno che immagine sia grande 17,78 x 25.4
- quindi, imposto questa come grandezza immagine di default, su questo file, poi per ogni media query cambio dimensione immmagine in base a come lo voglio rendere
+ non in cm le misure delle cover
 */
 
+.book-cover{
+  width: auto;
+  width: 750px;
+  position: absolute;
+  margin-right: auto;
+  padding: 0px;
+  margin-top:3%;
+  margin-bottom: 3%;
+margin-left: 26%;
+margin-right: 20%;}      
+  /*useful properties to maintain fixed dimensions */
+  
 
 
-/* ----------- Kindle Fire HD 7" ----------- */
+.cover-img{width:17.78cm;
+  height: 25.4cm;}
+
+/* ----------- Kindle Fire HD 7" risolvere perchè  ci sono quelli da 6 pollici, da 7 da 8, 8.9 e da 10.3 capire come fare media query, o una per ognuno più specifiche oppure due per quelli grandi e per quelli piccoli  ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 800px) 
-  and (max-device-width: 1280px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 800px) and (max-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: violet;
+                                                        text-align:center;
+                                                        width:98%;
+                                                         }
+                                                         
+                                             .book-cover{
+                                                          margin-top:8%;
+                                                          margin-left: 18%;
+                                                       
+        
+                                                          }
 
 }
 
@@ -20,25 +42,46 @@
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
+  and (min-width: 1290px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: salmon;
+                                                        text-align:center;
+                                                        width:100%;
+                                                         }
 
 }
 
 /* Media Query for Tablets portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px){ 
-    
-} 
+@media  (min-width: 768px) and (max-width: 1024px){ .cover-img{background-color: blue;
+                                                                          text-align:center;
+                                                                          width:90%;
+                                                                         }
+                                                    
+                                                    .book-cover{
+                                                                margin-top:8%;
+                                                                margin-left: 7%;
+                                                              }
+                                                    
+                                                             
+              
+                                                            } 
+        
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
 */
-
-@media (min-device-width: 320px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-  
-
+  @media(min-width: 280px) and (max-width: 600px){ .cover-img {background-color: cadetblue;
+                                                               width:96%;
     
-  }
+                                                              }
+                                                  .book-cover{
+                                                  margin-top:30%;
+                                                  margin-left: 5%;
+                                                  margin-right: 5%;
+
+                                                              }
+  
+                                                  }
+    
 
 
