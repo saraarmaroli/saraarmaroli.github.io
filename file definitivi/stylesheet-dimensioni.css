@@ -19,69 +19,88 @@ margin-right: 20%;}
 .cover-img{width:17.78cm;
   height: 25.4cm;}
 
-/* ----------- Kindle Fire HD 7" risolvere perchè  ci sono quelli da 6 pollici, da 7 da 8, 8.9 e da 10.3 capire come fare media query, o una per ognuno più specifiche oppure due per quelli grandi e per quelli piccoli  ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-width: 800px) and (max-width: 1280px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: violet;
-                                                        text-align:center;
-                                                        width:98%;
-                                                         }
-                                                         
-                                             .book-cover{
-                                                          margin-top:8%;
-                                                          margin-left: 18%;
-                                                       
-        
-                                                          }
-
-}
+/* ----------- Kindle Fire HD 7" risolvere perchè  ci sono quelli  da  e da 10.3  e da 13capire come fare media query, o una per ognuno più specifiche oppure due per quelli grandi e per quelli piccoli e farlo con sfondo grigino ----------- */
 
 
-/* ----------- Kindle Fire HD 8.9" ----------- */
+
+
+/* ----------- Kindle Fire HD da 8'' 8.9" 10', 13''----------- */
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-width: 1290px) 
+  and (min-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: salmon;
                                                         text-align:center;
                                                         width:100%;
                                                          }
+                                             .book-cover{
+                                                          margin-top:8%;
+                                                          margin-left: 18%;
+                                                          }
+
 
 }
 
-/* Media Query for Tablets portrait mode */ 
-@media  (min-width: 768px) and (max-width: 1024px){ .cover-img{background-color: blue;
-                                                                          text-align:center;
-                                                                          width:90%;
-                                                                         }
-                                                    
-                                                    .book-cover{
-                                                                margin-top:8%;
-                                                                margin-left: 7%;
-                                                              }
-                                                    
-                                                             
-              
-                                                            } 
-        
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-*/
-  @media(min-width: 280px) and (max-width: 600px){ .cover-img {background-color: cadetblue;
-                                                               width:96%;
-    
-                                                              }
-                                                  .book-cover{
-                                                  margin-top:30%;
-                                                  margin-left: 5%;
-                                                  margin-right: 5%;
 
-                                                              }
-  
-                                                  }
-    
+/* ----------- tablet 12.9" ----------- */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) { .cover-img {background-color: green;
+    width:90%;
+
+    }
+.book-cover{
+    margin-top:5%;
+    margin-left: 16%;
+    margin-right: 5%;
+
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
+@media only screen and (max-width: 600px) { .cover-img {background-color: cadetblue;
+                                                        width:96%;
+
+                                                        }
+                                            .book-cover{
+                                                        margin-top:30%;
+                                                        margin-left: 5%;
+                                                        margin-right: 5%;
+
+                                                        }
+                                                      }
+
+                                          
+
+
+/* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
+@media only screen and (max-width: 768px) {.cover-img{background-color: blue;
+                                                      text-align:center;
+                                                      width:88%;
+                                                    }
+
+                                          .book-cover{
+                                                    margin-top:8%;
+                                                    margin-left: 7%;
+                                          }
+                                        }
+
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  /* A tablet version in portrait mode */
+}
+@media (max-width: 1194px) {
+  /* 1194px screen and all screens smaller */
+}
+
+@media (min-width:1025px) { /* big landscape tablets: 12.9", laptops, and desktops */ }
+
 
 
