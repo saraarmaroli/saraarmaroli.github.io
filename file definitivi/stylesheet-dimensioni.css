@@ -24,11 +24,10 @@ margin-right: 20%;}
 @media only screen 
   and (min-width: 1200px) 
   and (max-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: salmon;
-                                                        text-align:center;
+  and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{
                                                         width:110%;
                                                          }
-                                             .book-cover{
+                                             .book-cover{background-color: salmon;
                                                           margin-top:8%;
                                                           margin-left: 22%;
                                                           }
@@ -42,10 +41,10 @@ margin-right: 20%;}
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) { .cover-img {background-color: green;
+  and (-webkit-min-device-pixel-ratio: 2) { .cover-img {
                                                         width:90%;
                                                         }
-                                            .book-cover{
+                                            .book-cover{background-color: green;
                                                 margin-top:5%;
                                                 margin-left: 16%;
                                                 margin-right: 5%;
@@ -56,11 +55,11 @@ margin-right: 20%;}
 
 
 /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
-@media only screen and (max-width: 600px) { .cover-img {background-color: cadetblue;
+@media only screen and (max-width: 600px) { .cover-img {
                                                         width:96%;
 
                                                         }
-                                            .book-cover{
+                                            .book-cover{background-color: cadetblue;
                                                         margin-top:30%;
                                                         margin-left: 5%;
                                                         margin-right: 5%;
@@ -72,12 +71,12 @@ margin-right: 20%;}
 
 
 /* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
-@media only screen and (max-width: 768px) {.cover-img{background-color: blue;
+@media only screen and (max-width: 768px) {.cover-img{
                                                       text-align:center;
                                                       width:88%;
                                                     }
 
-                                          .book-cover{
+                                          .book-cover{background-color: blue;
                                                     margin-top:15%;
                                                     margin-left: 16%;
                                           }
