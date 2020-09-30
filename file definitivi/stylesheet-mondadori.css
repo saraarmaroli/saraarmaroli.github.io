@@ -14,49 +14,63 @@
                 src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
 
 
+@font-face  {font-family:  EBGaramond;
+                   src: url('font/EBGaramond.ttf') format('truetype');}
+               
+                              
+               
 
 .decoration{position: absolute; 
-        content: url(img/feltrinelli-decoration.png);
+        content: url(img/mondadori.png);
         width: auto;
         height: 9.3%;
         margin-top:-3.2%;
 
 }        
 
-.author{font-family: OpenSans-Regular;
-        font-size: 38px;
-        text-transform: uppercase;
+.author{
+        font-size: 43px;
+        
         }
 
-.title{font-family: OpenSans-SemiBold;
-        font-size: 35px;
-        margin-top: -10%;
+.title{
+        font-size: 40px;
+        margin-top: -12%;
         }
 
 .curator{display: none;}
 .introduction{display: none;}
-.specification{display: none;}
+.specification{text-transform: uppercase;
+font-size: 13px;
+font-weight:bold;
+color:FFE6B0;
+background-color:#463346 ;
+padding-left:0.5%;
+padding-right:0.5%;
+padding:0.5%;}
 
-.text-cover{position: absolute; 
+.text-cover{font-family:  EBGaramond;
+    position: absolute; 
         white-space: nowrap;
-        margin-top:6%;
-        margin-left:10%;
-        color:white;
+       margin-top:45%;
+        margin-left:8%;
+        color:#463346;
         }
 
-.logo{content: url(img/logo-feltrinelli.png);
+.logo{content: url(img/logo-mondadori.png);
         position: absolute;
-        background-size: 60% 60%;
-        margin-top:-100%;
-        margin-left:6%;
+        width: 20%;
+        margin-top:-10%;
+        justify-content: left;
     
         }
 
-.cover-img{background-image: url(img/feltrinelli2.png);
-        background-size: 70% 70%;
+.cover-img{background-image: url(img/img-mondadori.png);
+        background-size: 30% 30%;
         background-repeat: no-repeat;
-        background-color:c31f20;
-        background-position: center 100%;
+        background-color:#E5B012;
+        background-position: right top;
+        
         
         }
 
