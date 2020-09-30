@@ -19,48 +19,40 @@ margin-right: 20%;}
 .cover-img{width:17.78cm;
   height: 25.4cm;}
 
-/* ----------- Kindle Fire HD 7" risolvere perchè  ci sono quelli  da  e da 10.3  e da 13capire come fare media query, o una per ognuno più specifiche oppure due per quelli grandi e per quelli piccoli e farlo con sfondo grigino ----------- */
-
-
-
 
 /* ----------- Kindle Fire HD da 8'' 8.9" 10', 13''----------- */
-
-/* Portrait and Landscape */
 @media only screen 
   and (min-width: 1200px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: salmon;
                                                         text-align:center;
-                                                        width:100%;
+                                                        width:110%;
                                                          }
                                              .book-cover{
                                                           margin-top:8%;
-                                                          margin-left: 18%;
+                                                          margin-left: 22%;
                                                           }
 
 
 }
 
 
-
-/* ----------- tablet 12.9" ----------- */
+/* -----------  big landscape tablets: 12.9", laptops, and desktops  ----------- */
 
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) { .cover-img {background-color: green;
-    width:90%;
+                                                        width:90%;
+                                                        }
+                                            .book-cover{
+                                                margin-top:5%;
+                                                margin-left: 16%;
+                                                margin-right: 5%;
 
-    }
-.book-cover{
-    margin-top:5%;
-    margin-left: 16%;
-    margin-right: 5%;
+                                                }
 
-    }
-
-}
+                                          }
 
 
 /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
@@ -86,21 +78,13 @@ margin-right: 20%;}
                                                     }
 
                                           .book-cover{
-                                                    margin-top:8%;
-                                                    margin-left: 7%;
+                                                    margin-top:15%;
+                                                    margin-left: 16%;
                                           }
                                         }
 
-@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 
-@media (max-width: 1024px) and (orientation: portrait) {
-  /* A tablet version in portrait mode */
-}
-@media (max-width: 1194px) {
-  /* 1194px screen and all screens smaller */
-}
 
-@media (min-width:1025px) { /* big landscape tablets: 12.9", laptops, and desktops */ }
 
 
 
