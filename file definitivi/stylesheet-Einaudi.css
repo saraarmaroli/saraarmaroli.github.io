@@ -23,12 +23,12 @@
 
 .decoration{position: absolute; 
         content: url(img/deco-Einaudi.jpg);
-        width: 30vmax;
-        height: 20vmax;
+        width: 40%;
+        height: 30%;
         margin-top:10%;
-        margin-left:10.5vmax;
+        margin-left:27%;
         border:solid;
-        border-color: red;
+        border-color: E23C12;
 
 }        
 
@@ -60,13 +60,13 @@
         position: absolute;
         width: 30%;
         margin-top:-25%;
-        padding-left:225px;
+        padding-left:226px;
         padding-right:228px;
-        border-bottom: 2px solid black;
-        border-top: 2px solid black ;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
         padding-top: 0.5vmax;
         padding-bottom: 0.5vmax;
-       
+       border-color:BD320F;
         }
 
 .cover-img{
@@ -80,29 +80,41 @@
 
 
 /* Media Query for Tablets portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-13%;
-                                                         width:28%;              
+@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-19%;
+                                                         width:28%;
+                                                         padding-right:229px;  
+                                                                   
                                                          }
-                                                   .decoration{}
-     
+                                                   
                                                  } 
 
 @media (max-width: 600px){.decoration{height:9.1%;}
                                                 .logo{width:30%;
-                                                margin-top:-13%;}
+                                                margin-top:-13%;
+                                                padding-right:215px;
                                                 }
+                                               
+                                                .decoration{margin-left:27.5%;
+                                                    width: 35%;
+                                                    height: 25%;}
+                                            }
 
                                         
  @media only screen and (min-width: 1200px) and (max-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{}
-                                           .author{font-size: 42px;
+and (-webkit-min-device-pixel-ratio: 1.5) {
+                                           .author{font-size: 40px;
                                                 }
                                                         
-                                            .title{font-size: 40px;}                                                        
-         
+                                            .title{font-size: 40px;}  
+                                            .text-cover{margin-left: 26%;}
+                                            .decoration{margin-left:36%;}                                                      
+                                            .logo{padding-right: 309px;
+                                                padding-left: 294px;}
                                                 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){.decoration{}
+and (-webkit-min-device-pixel-ratio: 2){.logo{padding-right: 236px;
+    padding-left: 237px;}
+    }}
 
 
  
