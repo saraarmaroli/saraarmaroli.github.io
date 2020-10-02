@@ -23,36 +23,37 @@
 
 .decoration{position: absolute; 
         content: url(img/deco-Einaudi.jpg);
-        width: 40%;
-        height: 30%;
+        width: 30vmax;
+        height: 20vmax;
         margin-top:10%;
-        margin-left:12vmax;
+        margin-left:10.5vmax;
         border:solid;
         border-color: red;
 
 }        
 
 .author{
-        font-size: 43px;
+        font-size: 35px;
         
         }
 
 .title{
-        font-size: 40px;
-        margin-top: -15%;
+        font-size: 35px;
+        margin-top: -2vmax;
         }
 
 .curator{display: none;}
 .introduction{display: none;}
 .specification{display: none;}
 
-.text-cover{font-family:  EBGaramond;
+.text-cover{font-family:OpenSans-Regular;
     position: absolute; 
         white-space: nowrap;
        margin-top:45%;
         text-align: center;
         color:black;
-        margin-left:18.5%;
+        margin-left:21%;
+        text-transform: uppercase;
         }
 
 .logo{content: url(img/logo-mondadori.png);
