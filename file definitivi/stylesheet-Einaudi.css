@@ -1,3 +1,4 @@
+/* copertina Einaudo seguendo lo stile dei Milleni con lo stile del 1984 */ 
 @font-face
 {font-family: BodoniFLF-BoldItalic;
         src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
@@ -21,10 +22,13 @@
                
 
 .decoration{position: absolute; 
-        content: url(img/mondadori.png);
-        width: auto;
-        height: 9.3%;
-        margin-top:2%;
+        content: url(img/deco-Einaudi.jpg);
+        width: 40%;
+        height: 30%;
+        margin-top:10%;
+        margin-left:12vmax;
+        border:solid;
+        border-color: red;
 
 }        
 
@@ -40,21 +44,15 @@
 
 .curator{display: none;}
 .introduction{display: none;}
-.specification{text-transform: uppercase;
-font-size: 13px;
-font-weight:bold;
-color:FFE6B0;
-background-color:#463346 ;
-padding-left:1.5%;
-padding-right:1.5%;
-padding:0.5%;}
+.specification{display: none;}
 
 .text-cover{font-family:  EBGaramond;
     position: absolute; 
         white-space: nowrap;
        margin-top:45%;
-        margin-left:8%;
-        color:#463346;
+        text-align: center;
+        color:black;
+        margin-left:18.5%;
         }
 
 .logo{content: url(img/logo-mondadori.png);
@@ -65,11 +63,11 @@ padding:0.5%;}
     
         }
 
-.cover-img{background-image: url(img/img-mondadori.png);
-        background-size: 30% 30%;
-        background-repeat: no-repeat;
-        background-color:#E5B012;
-        background-position: right top;
+.cover-img{
+       
+     
+        background-color:white;
+       border: solid black;
         
         
         }
