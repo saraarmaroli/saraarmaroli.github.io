@@ -56,12 +56,17 @@
         text-transform: uppercase;
         }
 
-.logo{content: url(img/logo-mondadori.png);
+.logo{content: url(img/logo-einaudi.png);
         position: absolute;
-        width: 20%;
-        margin-top:-10%;
-        justify-content: left;
-    
+        width: 30%;
+        margin-top:-25%;
+        padding-left:225px;
+        padding-right:228px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black ;
+        padding-top: 0.5vmax;
+        padding-bottom: 0.5vmax;
+       
         }
 
 .cover-img{
@@ -78,8 +83,7 @@
 @media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-13%;
                                                          width:28%;              
                                                          }
-                                                   .decoration{height:9.1%;
-                                                                margin-top:-1.4%;}
+                                                   .decoration{}
      
                                                  } 
 
@@ -90,8 +94,7 @@
 
                                         
  @media only screen and (min-width: 1200px) and (max-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:11.4%;
-                                                        margin-top:-1.4%;}
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{}
                                            .author{font-size: 42px;
                                                 }
                                                         
@@ -99,8 +102,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:11.4%;
          
                                                 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){.decoration{height:9.3%;
-        margin-top:1%;}}
+and (-webkit-min-device-pixel-ratio: 2){.decoration{}
 
 
  
