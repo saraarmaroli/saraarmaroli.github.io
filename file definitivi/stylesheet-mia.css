@@ -32,11 +32,12 @@
 
 .curator{display: none;}
 .introduction{display: none;}
+.specification{display: none;}
 
 .text-cover{position: absolute; 
     white-space: nowrap;
     margin-top: 57%; 
-    margin-left: 24%;
+    margin-left: 23%;
     color:#D15353;
         }
 
@@ -58,12 +59,12 @@
 
 
 /* Media Query for Tablets portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px){ 
+@media (min-width: 768px) and (max-width: 1024px){ .author{font-size:35px ;}
      
                                                  } 
 
 @media (max-width: 600px){.decoration{height:9.1%;}
-                                                
+.author{font-size:35px ;}                      
                                                 }
 
                                         
