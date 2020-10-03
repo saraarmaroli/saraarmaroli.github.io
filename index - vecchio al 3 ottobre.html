@@ -9,7 +9,7 @@
 		<link rel="icon" href="img/book-line.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
@@ -51,6 +51,7 @@
 	
   </nav>
 <!--FINE NAVBAR-->
+
  
 	
 	<div class="copertina">
@@ -131,90 +132,73 @@
 
 <div class="sezione3">
 	<p class="titolo1" id="cover-title">Download</p>
-	<p class="titolo2" id="sotto-titolo">1. Download the three files necessary for the realization of the covers</p>
-	<div class="sezione-card">
-		<div class="carre_couleur base_hov" style="background-color:FDD692">
-		  <div class="retract" style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter0"><img src="img/html-logo.png"></a></div>
-		  <div class="acced">
-			<div class="middle_acced">Example of html file used to create the cover</div>
-		  </div>
+	<p class="titolo2" id="sotto-titolo">Download separated files for each cover</p>
+	<div class="parent">
+		<div class="div1"><img src="img/computer-line.png" class="drawing0" alt="tablet drawing" >
 		</div>
-		<div class="carre_couleur base_hov" style="background-color:FDD692;">
-		  <div class="retract" style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1"><img src="img/logo-css.png"></a></div>
-		  <div class="acced">
-			
-			<div class="middle_acced">CSS file with fixed property
-			</div>
-		  </div>
-		</div>
-		<div class="carre_couleur base_hov" style="background-color:FDD692;">
-		  <div class="retract" style="background-color:FDD692;"> <a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter2"><img src="img/logo-css2.png"></a></div>
-		  <div class="acced">
-			
-			<div class="middle_acced">CSS file editable by the designer according to the style required</div>
-		  </div>
-		</div>
-	
-			
-			<!-- Modal html -->
+		<div class="div2"><ul class="nav">
+			<li class="description0-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter0">Example of html file used as a template to create the cover
+			</a></li>
+		</ul>
+		
+			<!-- Modal -->
 			<div class="modal fade"  id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-				  <div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title">Example of html file used to create the cover</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-					<div class="modal-body">
-						<div class="container-modal">
-					
-	<pre >
-	<code class="html-text">
-	&lt;hmtl&gt;
-	&lt;head&gt; 
-	&lt;meta charset="utf-8"&gt;
-	&lt;title&gt; paper book cover &lt;/title&gt;		
-	&lt;link rel="stylesheet" type="text/css" href="stylesheet-book.css"&gt; 
-	&lt;style id="css" type="text/css" href="stylesheet.css"&gt;&lt;/style&gt;
-	&lt;link rel="icon" href="logo-libro.png"&gt;
-	&lt;/head&gt;
-	
-	&lt;body&gt;						   
-	&lt;div class="book-cover"&gt;
-	&lt;div class="text-cover"&gt;
-	&lt;p class="author"&gt; Alessandro Manzoni&lt;/p&gt;
-	&lt;p class="title"&gt;I promessi sposi&lt;/p&gt;
-	&lt;/div&gt;
-	&lt;img class="cover-img" src="img/promessi-sposi-cover.png" alt="cover promessi sposi"&gt;
-	&lt;img class="logo" src="img/logo.png" alt="logo publishing house"&gt;
-	&lt;/div&gt;				
-	&lt;/body&gt;
-	&lt;/hmtl&gt;
-	
-		</code></pre>
-					
-					
-					
-					</div>
-					<div class="modal-footer">
-					  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
-					</div>
-				  </div>
-				</div>
-				</div>
-				</div>
-		</div>
-	
-		<div class="div2"> <!-- Button trigger modal -->
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Example of html file used to create the cover</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+					<div class="container-modal">
+				
+<pre >
+<code class="html-text">
+&lt;hmtl&gt;
+&lt;head&gt; 
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt; paper book cover &lt;/title&gt;		
+&lt;link rel="stylesheet" type="text/css" href="stylesheet-book.css"&gt; 
+&lt;style id="css" type="text/css" href="stylesheet.css"&gt;&lt;/style&gt;
+&lt;link rel="icon" href="logo-libro.png"&gt;
+&lt;/head&gt;
 
-	
-			<!-- Modal css 1 -->
+&lt;body&gt;						   
+&lt;div class="book-cover"&gt;
+&lt;div class="text-cover"&gt;
+&lt;p class="author"&gt; Alessandro Manzoni&lt;/p&gt;
+&lt;p class="title"&gt;I promessi sposi&lt;/p&gt;
+&lt;/div&gt;
+&lt;img class="cover-img" src="img/promessi-sposi-cover.png" alt="cover promessi sposi"&gt;
+&lt;img class="logo" src="img/logo.png" alt="logo publishing house"&gt;
+&lt;/div&gt;				
+&lt;/body&gt;
+&lt;/hmtl&gt;
+
+	</code></pre>
+				
+				
+				
+				</div>
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+				</div>
+			  </div>
+			</div>
+			</div>
+			</div></div>
+		<div class="div3"> <!-- Button trigger modal -->
+			<ul class="nav">
+			<li class="description1-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1">Cover for traditional book (15x21 cm)
+			</a></li></ul>
+			<!-- Modal -->
 			<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 			  <div class="modal-content">
 			  <div class="modal-header">
-				<h5 class="modal-title">CSS file with fixed property</h5>
+				<h5 class="modal-title">Cover for traditonal book (15x21 cm)</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				  <span aria-hidden="true">&times;</span>
 				</button>
@@ -282,16 +266,18 @@
 			  </div>
 			</div>
 			</div></div>
-	
-		
+	<div class="div4"><img src="img/book-line.png" class="drawing1" alt="book drawing"> </div>
+		<div class="div5"> <img src="img/phone-line.png" class="drawing2" alt="phone drawing"></div>
 		<div class="div6"><!-- Button trigger modal -->
-			
-			<!-- Modal css2 -->
+			<ul class="nav">
+			<li class="description2-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter2">Cover size adapted to smartphone (6 inches)
+			</a></li></ul>
+			<!-- Modal -->
 			<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 			  <div class="modal-content">
 			  <div class="modal-header">
-				<h5 class="modal-title">CSS file editable by the designer according to the style required</h5>
+				<h5 class="modal-title">Cover size adapted to smartphone (6 inches)</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				  <span aria-hidden="true">&times;</span>
 				</button>
@@ -357,13 +343,164 @@
 			  </div>
 			</div>
 			</div> </div>
-		
+		<div class="div7"> <!-- Button trigger modal -->
+			<ul class="nav">
+				<li class="description3-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter3">Cover size adapted to tablet (10 inches)
+				</a></li>
+			</ul>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+				  <div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title">Cover size adapted to tablet (10 inches)</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+					<div class="modal-body">
+						<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
+					<pre><code>
 			
-				
-			  
-<p class="step2">2. Create the cover according to the desired style</p>
-<p class="sub-paragraph2">Below some examples of covers I designed using the three uploaded files</p>
+	
+	@font-face
+			{font-family: BodoniFLF-BoldItalic;
+			src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+	@font-face 
+			{font-family: BodoniFLF-Bold;
+			src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+			
 
+	.book-cover{text-align: center;
+				width: 750px;
+				position: absolute;
+				margin-left: 20%;
+				margin-right: auto;
+				padding: 0px;
+		/*useful properties to maintain fixed dimensions */
+			}
+	
+	.author{font-family: BodoniFLF-BoldItalic;
+			font-size: 31px;
+			text-align: center;      
+			}
+	
+	.title{font-family: BodoniFLF-Bold;
+			font-size: 48px;
+			margin-top: -39px;  
+			text-align: center;    
+			}
+	
+	.text-cover{position: absolute; 
+			white-space: nowrap;
+			margin-top: 404px; 
+			margin-left: 30%;
+			color:#D15353;
+			}
+	
+	.logo{position: absolute;
+			margin-top:107%;   
+			margin-left:-19%; 
+			width:80px;
+			}
+	
+	.cover-img{ text-align:center;
+			width:17.5cm;
+			height: 24cm;}
+	
+				
+					</code></pre>
+					</div>
+					<div class="modal-footer">
+					  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+					</div>
+				  </div>
+				</div>
+				</div></div>
+			<div class="div8"> <img src="img/tablet-line.png" class="drawing3" alt="tablet drawing" ></div>
+		<div class="div9"> <img src="img/kindle-line.png" class="drawing4" alt="kindle drawing"></div>
+		<div class="div10"><!-- Button trigger modal -->
+			<ul class="nav">
+			<li class="description4-sezione3"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter4">Cover size adapted to Ereader</a></li></ul>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title">Cover size adapted to Ereader</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+				<div class="modal-body">
+					<img  class="image-example" src="img/cover-example-ereader.png" alt="example of book cover">
+					<pre><code>
+	@font-face
+{font-family: BodoniFLF-BoldItalic;
+        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
+@font-face 
+{font-family: BodoniFLF-Bold;
+        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
+
+
+
+
+
+
+		.book-cover{text-align: center;
+            
+            margin-top:5%;
+            width: 750px;
+	    position: absolute;
+	    margin-left: 20%;
+	    margin-right: auto;
+	    padding: 0px;
+	/*useful properties to maintain fixed dimensions */
+        }
+
+.author{font-family: BodoniFLF-BoldItalic;
+        font-size: 25px;
+       
+        text-align: center;      
+        }
+
+.title{font-family: BodoniFLF-Bold;
+        font-size: 35px;
+        margin-top: -30px;  
+        text-align: center;    
+        }
+
+.text-cover{position: absolute; 
+        white-space: nowrap;
+        margin-top: 199px; 
+        margin-left: 36%;
+        color:beige;
+        }
+
+.logo{position: absolute;
+        margin-top:55%;   
+        margin-left:-10%; 
+        width:50px;
+        }
+
+.cover-img{ text-align:center;
+        width:9cm; 
+        height: 12.5cm;
+}
+
+
+					
+					</code></pre>
+	
+				</div>
+				<div class="modal-footer">
+				  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+				</div>
+			  </div>
+			</div>
+			</div>
+		</ul> </div>
+		</div>
 <p class="sub-paragraph">How to use it</p>
 <p class="sub-paragraph2">Connect the css file to the html file and make changes to the files, if necessary, in order to create the cover page.</p>
 
@@ -388,16 +525,6 @@
 	<div class="contatti">
 		<p class="contatti2"><img src="img/contatti.png" class="img-contatti">sara.armaroli2@studio.unibo.it</p>	
 	
-
-	
-</div>
-
-
-
-
-  
-  
-  
 </div>
 <!------------------------------------------FOOTER-------------------------------------------->
 <div class="footer">
