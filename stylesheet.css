@@ -98,7 +98,7 @@ body{max-width:100%;
         font-family: Chonburi-Regular;
         color:F18D3C;}
 
-.titolo2{font-size: 20px;
+.titolo2{font-size: 25px;
         font-family: Coustard-Regular;
         color:5D987D;
         }
@@ -140,16 +140,24 @@ body{margin:0;}
                             max-width:100px;
                            background-size: cover;
                            background-position: center center;
+                           
                         }
+.row {margin-right: 6px;
+}
 
- .carousel-container{margin-bottom:2%;}
+ .carousel-container{margin-bottom:2%;
+margin-left:5%;
+margin-right:5%;}
 
-
+.text-carousel{margin-top:95%;
+        font-size: 20px;
+        font-family: Coustard-Regular;
+        color:5D987D; }
 .interruzione-freccia {text-align: center;
                         background-color: FFF4C6;
                         margin-top:-10%;
                         padding-bottom:5%;
-                        margin-bottom: 5%;}
+                        margin-bottom: 0%;}
 
 
 /*sezione 3*/
@@ -413,16 +421,10 @@ pre{text-align:justify;
          
               
 /*media queries*/
-@media (width:1024px){#final-dissertation{margin-left:35%;}
-        
-                    
-        
-                     
-
-                    
-                      
-                               
-                        .description0-sezione3{white-space:normal;
+@media (width:1024px){.body{overflow-x: hidden;}
+        #final-dissertation{margin-left:35%;}
+        .text-carousel{margin-top:120%;}
+               .description0-sezione3{white-space:normal;
                                         margin-left:-16%;
                                         margin-top: 32%;} 
                         .drawing1{margin-top:-67px;}
@@ -451,9 +453,9 @@ pre{text-align:justify;
                         #final-dissertation{ margin-top:-5%;
                                              margin-left:74%; }
 
-    
+                        .text-carousel{margin-top:130%;}
                        .interruzione-freccia{margin:auto;
-                                             margin-top:-30%;
+                                             margin-top:-20%;
                                              padding-bottom:10%;
                                              }
                         .parent{display:contents;
@@ -524,7 +526,7 @@ pre{text-align:justify;
                 
 
                         .interruzione-freccia{margin:auto;
-                                              margin-top:-30%;}
+                                              margin-top:-40%;}
                         
 
                         .drawing0{margin-right:40%;}
