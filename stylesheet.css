@@ -171,9 +171,11 @@ margin-right:5%;}
 
 .sezione-card{margin-top:5%;}
 
-
+.zanichelli{margin-left:10%;}
+.mondadori{margin-left:10%;}
 .carre_couleur
 {
+justify-content: center;
   width:200px;
   height: 200px;
   display: inline-block;
@@ -238,7 +240,15 @@ margin-right:5%;}
 .step2{font-size: 25px;
         font-family: Coustard-Regular;
         color:5D987D;
-margin-top:10%;}
+margin-top:10%;
+padding-bottom:3%;}
+
+.step3{font-size: 25px;
+font-family: Coustard-Regular;
+color:5D987D;
+margin-top:20%;
+padding-bottom:3%;}
+
 
 .sub-paragraph{font-size: 30px;
                 font-family: Chonburi-Regular;
