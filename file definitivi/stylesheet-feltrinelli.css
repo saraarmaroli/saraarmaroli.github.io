@@ -65,18 +65,18 @@
 @media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
                                                          width:28%;              
                                                          }
-                                                   .decoration{height:9.1%;
+                                                   .decoration{height:9.3%;
                                                                 margin-top:-3.4%;}
      
                                                  } 
 
-@media (max-width: 600px){.decoration{height:9.1%;}
-                                                .logo{width:30%;}
+@media (max-width: 600px){.decoration{height:9.3%;}
+                         .logo{width:30%;}
                                                 }
 
                                         
  @media only screen and (min-width: 1200px) and (max-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:11.4%;
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:9.3%;
                                                         margin-top:-4.4%;}
                                            .author{font-size: 42px;
                                                 }
