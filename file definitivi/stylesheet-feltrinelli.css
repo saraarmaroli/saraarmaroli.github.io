@@ -1,9 +1,3 @@
-@font-face
-{font-family: BodoniFLF-BoldItalic;
-        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-{font-family: BodoniFLF-Bold;
-        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
 
 @font-face 
 {font-family: OpenSans-Regular;
@@ -16,77 +10,69 @@
 
 
 .decoration{position: absolute; 
-        content: url(img/feltrinelli-decoration.png);
-        width: auto;
-        height: 9.3%;
-        margin-top:-3.2%;
-
-}        
+            content: url(img/feltrinelli-decoration.png);
+            width: auto;
+            height: 9.3%;
+            margin-top:-3.2%;
+           }        
 
 .author{font-family: OpenSans-Regular;
-        font-size: 38px;
+        font-size: 3em;
         text-transform: uppercase;
         }
 
 .title{font-family: OpenSans-SemiBold;
-        font-size: 35px;
-        margin-top: -10%;
-        }
+       font-size: 2.5em;
+       margin-top: -10%;
+      }
 
 .curator{display: none;}
 .introduction{display: none;}
 .specification{display: none;}
 
 .text-cover{position: absolute; 
-        white-space: nowrap;
-        margin-top:6%;
-        margin-left:10%;
-        color:white;
-        }
+           white-space: nowrap;
+           margin-top:6%;
+           margin-left:10%;
+           color:white;
+           }
 
 .logo{content: url(img/logo-feltrinelli.png);
-        position: absolute;
-        background-size: 60% 60%;
-        margin-top:-100%;
-        margin-left:6%;
-    
-        }
+      position: absolute;
+      background-size: 60% 60%;
+      margin-top:-100%;
+      margin-left:6%;
+     }
 
 .cover-img{background-image: url(img/feltrinelli2.png);
-        background-size: 70% 70%;
-        background-repeat: no-repeat;
-        background-color:c31f20;
-        background-position: center 100%;
-        
-        }
+          background-size: 70% 70%;
+          background-repeat: no-repeat;
+          background-color:c31f20;
+          background-position: center 100%;
+          }
 
 
 /* Media Query for Tablets portrait mode */ 
 @media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
                                                          width:28%;              
                                                          }
-                                                   .decoration{height:9.3%;
-                                                                margin-top:-3.4%;}
-     
+                                                   .decoration{margin-top:-3.4%;}
                                                  } 
+                                    
 
-@media (max-width: 600px){.decoration{height:9.3%;}
-                         .logo{width:30%;}
-                                                }
+@media (max-width: 600px){.logo{width:30%;}
+                         }
 
                                         
  @media only screen and (min-width: 1200px) and (max-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{height:9.3%;
-                                                        margin-top:-4.4%;}
-                                           .author{font-size: 42px;
-                                                }
-                                                        
-                                            .title{font-size: 40px;}                                                        
-         
-                                                }
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{margin-top:-4.4%;}
+                                           .author{font-size: 42px;}
+                                           .title{font-size: 40px;}                                                        
+                                          }
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){.decoration{height:9.3%;
-        margin-top:-4.4%;}}
+and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
+                                        }
 
 
  

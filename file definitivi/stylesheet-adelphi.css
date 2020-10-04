@@ -1,31 +1,24 @@
 
-
-
 @font-face  {font-family:  EBGaramond;
                    src: url('font/EBGaramond.ttf') format('truetype');}
                
 @font-face  {font-family:   EBGaramond-Italic-VariableFont_wght;
                src: url('font/ EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');}                             
                
-                  
-
-    
+  
 
 .author{font-family: EBGaramond;
-        font-size: 30px;
+        font-size: 1.8em;
         margin-left:45%;
         margin-top:40%;
         text-transform: uppercase;
         font-weight: 800;
-
-         
         }
 
 .title{font-family: EBGaramond-Italic-VariableFont_wght;
-        font-size: 55px;
+        font-size: 3.4em;
         margin-left:44%;
-        
-        }
+       }
 
 .curator{border: solid 2px black;
         color: F29159;
@@ -34,55 +27,49 @@
         padding-bottom: 251%;
         padding-right: 156.5%;
         margin-left: 15%;
-        font-size: 0px;}
+        font-size: 0em;
+       }
 
-.introduction{
-border:solid 2px black;
-color: F29159;
-padding-top:70%;
-margin-top: -240%;
-padding-bottom:46%;
-padding-right:147%;
-margin-left:20%;
-font-size: 0px;
-}
+.introduction{border:solid 2px black;
+              color: F29159;
+              padding-top:70%;
+              margin-top: -240%;
+              padding-bottom:46%;
+              padding-right:147%;
+              margin-left:20%;
+              font-size: 0em;
+             }
 
 .specification{border: solid 2px black;
-        color: F29159;
-        padding-top: 10%;
-        margin-top: 1%;
-        padding-bottom: 103%;
-        padding-right: 147%;
-        margin-left: 20%;
-        font-size: 0px;}
+               color: F29159;
+               padding-top: 10%;
+               margin-top: 1%;
+               padding-bottom: 103%;
+               padding-right: 147%;
+               margin-left: 20%;
+               font-size: 0em;
+              }
 
 
-.text-cover{
-    position: absolute; 
-        white-space: nowrap;
-        color:black;
-        justify-content: center;
-     
-        }
+.text-cover{position: absolute; 
+           white-space: nowrap;
+           color:black;
+           justify-content: center; 
+           }
 
 .logo{content: url(img/logo-adelphi.png);
-        position: absolute;
-        width: 70%;
-        margin-top:-125%;
-        margin-left: 10%;
-            
-        }
+      position: absolute;
+      width: 70%;
+      margin-top:-125%;
+      margin-left: 10%;
+      }
 
 .cover-img{background-image: url(img/img-adelphi.jpg);
-        background-size:75% 40%;
-        background-repeat: no-repeat;
-     
-        background-position: center 90%;
-        background-color: F29159;
-        
-        
-        
-        }
+           background-size:75% 40%;
+           background-repeat: no-repeat;
+           background-position: center 90%;
+           background-color: F29159;
+          }
 
 
 

@@ -1,115 +1,87 @@
 /* copertina Einaudo seguendo lo stile dei Milleni con lo stile del 1984 */ 
-@font-face
-{font-family: BodoniFLF-BoldItalic;
-        src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-{font-family: BodoniFLF-Bold;
-        src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-
-@font-face 
-{font-family: OpenSans-Regular;
+ @font-face 
+ {font-family: OpenSans-Regular;
                 src: url('font/OpenSans-Regular.ttf') format('truetype');}
 
- @font-face 
- {font-family: OpenSans-SemiBold;
-                src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
-
-
-@font-face  {font-family:  EBGaramond;
-                   src: url('font/EBGaramond.ttf') format('truetype');}
-               
-                              
-               
 
 .decoration{position: absolute; 
-        content: url(img/deco-Einaudi.jpg);
-        width: 40%;
-        height: 30%;
-        margin-top:10%;
-        margin-left:25%;
-        border:solid;
-        border-color: E23C12;
+            content: url(img/deco-Einaudi.jpg);
+            width: 40%;
+            height: 30%;
+            margin-top:10%;
+            margin-left:25%;
+            border:solid;
+            border-color: E23C12;
+          }        
 
-}        
-
-.author{
-        font-size: 35px;
-        
+.author{font-size: 2em;
         }
 
-.title{
-        font-size: 35px;
-        margin-top: -1vmax;
-        }
+.title{font-size: 2em;
+       margin-top: -1vmax;
+      }
 
 .curator{display: none;}
 .introduction{display: none;}
 .specification{display: none;}
 
 .text-cover{font-family:OpenSans-Regular;
-    position: absolute; 
-        white-space: nowrap;
-       margin-top:47%;
-        text-align: center;
-        color:black;
-        margin-left:20%;
-        text-transform: uppercase;
-        }
+            position: absolute; 
+            white-space: nowrap;
+            margin-top:47%;
+            text-align: center;
+            color:black;
+            margin-left:20%;
+            text-transform: uppercase;
+            }
 
 .logo{content: url(img/logo-einaudi.png);
-        position: absolute;
-        width: 30%;
-        margin-top:-25%;
-        padding-left:226px;
-        padding-right:228px;
-        border-bottom: 2px solid;
-        border-top: 2px solid;
-        padding-top: 0.5vmax;
-        padding-bottom: 0.5vmax;
-       border-color:BD320F;
-        }
+      position: absolute;
+      width: 30%;
+      margin-top:-25%;
+      padding-left:14em;
+      padding-right:14.4em;
+      border-bottom: 2px solid;
+      border-top: 2px solid;
+      padding-top: 0.5vmax;
+      padding-bottom: 0.5vmax;
+      border-color:BD320F;
+     }
 
-.cover-img{
-       
-     
-        background-color:white;
-       border: solid  black;
-        
-        
-        }
+.cover-img{background-color:white;
+           border: solid  black;
+          }
 
 
 /* Media Query for Tablets portrait mode */ 
 
-
 @media (max-width: 600px){.decoration{height:9.1%;}
-                                                .logo{width:30%;
-                                                margin-top:-13%;
-                                                padding-right:226px;
-                                                }
-                                               
-                                                .decoration{margin-left: 23.5%;
-                                                        width: 45%;
-                                                        height: 35%;
-                                                }
-                                                .text-cover{margin-top:55%;}
-                                            }
+                          .logo{width:30%;
+                                margin-top:-13%;
+                                padding-right: 13.2em;
+                                padding-left: 15em;
+                                }
+                          .decoration{margin-left: 23.5%;
+                                      width: 45%;
+                                      height: 35%;
+                                      }
+                          .text-cover{margin-top:55%;}
+                         }
 
                                         
  @media only screen and (min-width: 1200px) and (max-width: 1600px) 
 and (-webkit-min-device-pixel-ratio: 1.5){
-                                            .title{font-size: 35px;}  
-                                            .text-cover{margin-left: 20%;
-                                                font-size: 35px;}
+                                             
+                                            .text-cover{margin-left: 23%;
+                                                font-size: 1em;}
                                             .decoration{margin-left:26%;}                                                      
-                                            .logo{padding-right: 229px;
-                                                padding-left: 222px;}
-                                                }
+                                           
+                                         }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){.logo{padding-right: 219px;
-    padding-left: 237px;}
-    }
+and (-webkit-min-device-pixel-ratio: 2){.logo{padding-right: 14.4em;
+                                              padding-left: 14em;}
+                                        }
 
 
  

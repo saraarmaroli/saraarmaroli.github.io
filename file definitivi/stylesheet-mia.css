@@ -5,75 +5,52 @@
 {font-family: BodoniFLF-Bold;
         src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
 
-@font-face 
-{font-family: OpenSans-Regular;
-                src: url('font/OpenSans-Regular.ttf') format('truetype');}
 
- @font-face 
- {font-family: OpenSans-SemiBold;
-                src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
-
-
-
-.decoration{display: none;
-
-}        
+.decoration{display: none;}        
 
 .author{font-family: BodoniFLF-BoldItalic;
-    font-size: 30px;
-    text-align: center;
+        font-size: 1.87em;
+        text-align: center;
         }
 
 .title{font-family: BodoniFLF-Bold;
-    font-size: 50px;
-    margin-top: -40px;  
-    text-align: center; 
-        }
+       font-size:  3.12em;
+       margin-top: -1em;  
+       text-align: center; 
+       }
 
 .curator{display: none;}
 .introduction{display: none;}
 .specification{display: none;}
 
 .text-cover{position: absolute; 
-    white-space: nowrap;
-    margin-top: 57%; 
-    margin-left: 23%;
-    color:#D15353;
-        }
+            white-space: nowrap;
+            margin-top: 57%; 
+            margin-left: 23%;
+            color:#D15353;
+           }
 
 .logo{content: url(img/logo.png);
-    position: absolute;
-    margin-top:-15%;   
-    margin-left:70%; 
-    width:10%;
-    
-        }
+      position: absolute;
+      margin-top:-15%;   
+      margin-left:70%; 
+      width:10%;
+    }
 
 .cover-img{background-image: url(img/promessi-sposi-cover.png);
-    text-align:center;
-    background-size: 100% 100%;
-        background-repeat: no-repeat;
-        
-        
-        }
+          text-align:center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+           }
 
 
 /* Media Query for Tablets portrait mode */ 
-@media (min-width: 768px) and (max-width: 1024px){ .author{font-size:35px ;}
+@media (min-width: 768px) and (max-width: 1024px){ .author{font-size:2.18em ;}
      
                                                  } 
 
 @media (max-width: 600px){.decoration{height:9.1%;}
-.author{font-size:35px ;}                      
-                                                }
-
-                                        
- @media only screen and (min-width: 1200px) and (max-width: 1600px) 
-and (-webkit-min-device-pixel-ratio: 1.5) {                                                     
-         
-                                                }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){}
-
+                          .author{font-size:2.18em;}                      
+                         }
 
  
