@@ -250,11 +250,9 @@ padding-bottom:3%;}
         font-size:20px;
     }
 
-.step3{font-size: 25px;
-font-family: Coustard-Regular;
-color:5D987D;
+.step3{
 margin-top:20%;
-padding-bottom:3%;}
+padding-bottom:1%;}
 
 
 .sub-paragraph{font-size: 30px;
@@ -268,6 +266,10 @@ padding-bottom:3%;}
 .sub-paragraph3{font-family: Coustard-Regular;
 margin-top:-3%;}
 
+.sub-paragraph4{font-family: Coustard-Regular;
+margin-left:7%;
+margin-right:7%;
+margin-bottom:3%;}
 
 .pre-scrollable { text-align:left;
                  margin-top:3%;
