@@ -1,6 +1,3 @@
-/* 
- non in cm le misure delle cover
-*/
 
 .book-cover{
   width: 750px;
@@ -8,7 +5,7 @@
   margin-top:3%;
   margin-bottom: 3%;
   margin-left: 24%;
- margin-right: 20%;}      
+  margin-right: 20%;}      
   /*useful properties to maintain fixed dimensions */
   
 
@@ -26,8 +23,6 @@
                                              .book-cover{ margin-top:8%;
                                                           margin-left: 27%;
                                                           }
-
-
                                             }
 
 

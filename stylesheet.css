@@ -244,6 +244,12 @@ justify-content: center;
 margin-top:10%;
 padding-bottom:3%;}
 
+.existingcover{margin-top:3%;
+        font-family: Chonburi-Regular;
+        color: F18D3C;
+        font-size:20px;
+    }
+
 .step3{font-size: 25px;
 font-family: Coustard-Regular;
 color:5D987D;
@@ -258,6 +264,9 @@ padding-bottom:3%;}
                 }
 
 .sub-paragraph2{font-family: Coustard-Regular;}
+
+.sub-paragraph3{font-family: Coustard-Regular;
+margin-top:-3%;}
 
 
 .pre-scrollable { text-align:left;
@@ -449,6 +458,8 @@ pre{text-align:justify;
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}
                          }
+
+                         
     
         
 @media (max-width: 700px){body{overflow-x: hidden;}

@@ -171,26 +171,33 @@
 					
 	<pre >
 	<code class="html-text">
-	&lt;hmtl&gt;
-	&lt;head&gt; 
-	&lt;meta charset="utf-8"&gt;
-	&lt;title&gt; paper book cover &lt;/title&gt;		
-	&lt;link rel="stylesheet" type="text/css" href="stylesheet-book.css"&gt; 
-	&lt;style id="css" type="text/css" href="stylesheet.css"&gt;&lt;/style&gt;
-	&lt;link rel="icon" href="logo-libro.png"&gt;
-	&lt;/head&gt;
+&lt;hmtl&gt;
+    &lt;head&gt; 
+		&lt;meta charset="utf-8"&gt;
+		&lt;title&gt; Book cover &lt;/title&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;	
+		&lt;link rel="stylesheet" type="text/css" href="stylesheet-zanichelli.css"&gt; 
+		&lt;!----name of the css file containing the properties that the designer wants to edit--&gt;
+		&lt;link rel="stylesheet" type="text/css" href="stylesheet-fixed-properties.css"&gt;   
+    &lt;/head&gt;
 	
-	&lt;body&gt;						   
+&lt;body&gt;
 	&lt;div class="book-cover"&gt;
-	&lt;div class="text-cover"&gt;
-	&lt;p class="author"&gt; Alessandro Manzoni&lt;/p&gt;
-	&lt;p class="title"&gt;I promessi sposi&lt;/p&gt;
+		&lt;div class="decoration"&gt;&lt;/div&gt;
+		&lt;div class="text-cover"&gt;	
+		&lt;p class="author"&gt; Alessandro Manzoni&lt;/p&gt;
+		&lt;p class="title"&gt;I promessi sposi&lt;/p&gt;
+		&lt;p class="curator"&gt;A cura di Sandro Invidia&lt;/p&gt;
+		&lt;p class="introduction"&gt;Introduzione di Salvatore Silvano Nigro&lt;/p&gt;
+		&lt;p class="specification"&gt;Con le illustrazioni originali di Francesco Gonin&lt;/p&gt;
 	&lt;/div&gt;
-	&lt;img class="cover-img" src="img/promessi-sposi-cover.png" alt="cover promessi sposi"&gt;
-	&lt;img class="logo" src="img/logo.png" alt="logo publishing house"&gt;
-	&lt;/div&gt;				
-	&lt;/body&gt;
-	&lt;/hmtl&gt;
+	&lt;div class="cover-img"&gt;&lt;/div&gt;
+	&lt;div class="logo"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+		
+&lt;/body&gt;
+&lt;/hmtl&gt;
+	
 	
 		</code></pre>
 					
@@ -220,60 +227,65 @@
 				</button>
 			  </div>
 				<div class="modal-body">
-						<img  class="image-example" src="img/book-cover-example.png" alt="example of book cover">
 						
 				<pre><code>
-		
-@font-face
-	  {font-family: BodoniFLF-BoldItalic;
-	   src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-@font-face 
-	 {font-family: BodoniFLF-Bold;
-	  src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-		
 
-.book-cover{
-        width: auto;
-        width: 750px;
-        position: absolute;
-        margin-left: 28%;
-        margin-right: auto;
-		padding: 0px;
-		/*useful properties to maintain fixed dimensions */
-      
-        }
-
-.author{font-family: BodoniFLF-BoldItalic;
-        font-size: 28px;
-        text-align: center;  
-           
-        }
-
-.title{font-family: BodoniFLF-Bold;
-        font-size: 46px;
-        margin-top: -30px;  
-        text-align: center;  
-         
-        }
-
-.text-cover{position: absolute; 
-        white-space: nowrap;
-        margin-top: 345px; 
-        margin-left: 19%;
-        color:#D15353;
-        }
-
-.logo{position: absolute;
-        margin-top:93%;   
-        margin-left:-17%; 
-        width:80px;
-        
-        }
-
-.cover-img{ text-align:center;
-        width:15cm;
-        height: 21cm;}
-
+.book-cover{width: 750px;
+            position: absolute;
+            margin-top:3%;
+            margin-bottom: 3%;
+            margin-left: 24%;
+            margin-right: 20%;}      
+/*useful properties to maintain fixed dimensions */
+						
+					  
+					  
+.cover-img{width:17.78cm;
+           height: 25.4cm;}
+/*dimension of the paper book cover */
+					  
+/* ----------- Kindle Fire HD da 8'' 8.9" 10', 13''----------- */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{width:90%;
+                                                     }
+                                           .book-cover{ margin-top:8%;
+                                                        margin-left: 27%;
+                                                      }
+                                           }
+					  
+					  
+/* -----------  big landscape tablets: 12.9", laptops, and desktops  ----------- */
+					  
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) { .cover-img {width:90%;
+                                                     }
+                                          .book-cover{margin-top:5%;
+                                                      margin-left: 16%;
+                                                      margin-right: 5%;
+                                                     }
+                                        }
+					  
+					  
+ /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
+ @media only screen and (max-width: 600px) { .cover-img {width:100%;
+                                                        }
+                                            .book-cover{margin-top:30%;
+                                                        margin-left: 8%;
+                                                        margin-right: auto;
+                                                       }
+                                           }
+					  
+																
+ /* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
+ @media only screen and (max-width: 768px) {.cover-img{text-align:center;
+	                                                   width:90%;
+                                                      }
+                                            .book-cover{margin-top: 19%;
+                                                        margin-left: 13%;
+                                                        margin-right:auto;
+                                                       }
+                                            }
+ 
 				</code></pre>
 				</div>
 				<div class="modal-footer">
@@ -291,7 +303,8 @@
 			<div class="modal-dialog modal-dialog-centered" role="document">
 			  <div class="modal-content">
 			  <div class="modal-header">
-				<h5 class="modal-title">CSS file editable by the designer according to the style required</h5>
+				<h5 class="modal-title">Example of CSS file editable by the designer according to the style required.
+				This file refers to the reproduction of the cover of the Feltrinelli edition of the Promessi sposi</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				  <span aria-hidden="true">&times;</span>
 				</button>
@@ -299,54 +312,81 @@
 				<div class="modal-body">
 				<pre>
 					<code>
-						<img  class="image-example2" src="img/smartphone-cover-example.png" alt="example of book cover">
+
+
+ {font-family: OpenSans-Regular;
+src: url('font/OpenSans-Regular.ttf') format('truetype');}
 						
-@font-face
-		 {font-family: BodoniFLF-BoldItalic;
-		  src: url('font/BodoniFLF-BoldItalic.ttf') format('truetype');}
-		  
 @font-face 
-          {font-family: BodoniFLF-Bold;
-           src: url('font/BodoniFLF-Bold.ttf') format('truetype');}
-		
-.book-cover{text-align: center;
-            margin-top:5%;
-            width: auto;
-            width: 750px;
-            position: absolute;
-            margin-left: 20%;
-            margin-right: auto;
-            padding: 0px;
-	/*useful properties to maintain fixed dimensions */
-        }
-
-.author{font-family: BodoniFLF-BoldItalic;
-        font-size: 22px;
-        text-align: center;      
-        }
-
-.title{font-family: BodoniFLF-Bold;
-        font-size: 34px;
-        margin-top: -30px;  
-        text-align: center;    
-        }
-
+{font-family: OpenSans-SemiBold;
+src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
+						
+						
+.decoration{position: absolute; 
+           content: url(img/feltrinelli-decoration.png);
+           width: auto;
+           height: 9.3%;
+           margin-top:-3.2%;
+           }        
+						
+.author{font-family: OpenSans-Regular;
+        font-size: 3em;
+        text-transform: uppercase;
+       }
+						
+.title{font-family: OpenSans-SemiBold;
+       font-size: 2.5em;
+       margin-top: -10%;
+      }
+					
+.curator{display: none;}
+.introduction{display: none;}
+.specification{display: none;}
+						
 .text-cover{position: absolute; 
-        white-space: nowrap;
-        margin-top: 29.5%; 
-        margin-left: 34.5%;
-        color:#D15353;
-        }
-
-.logo{position: absolute;
-        margin-top:58.5%;   
-        margin-left:-11%; 
-        width:60px;
-        }
-
-.cover-img{ text-align:center;
-      width:  7.5cm;
-      height:13.3cm;}		
+           white-space: nowrap;
+           margin-top:6%;
+           margin-left:10%;
+           color:white;
+           }
+						
+.logo{content: url(img/logo-feltrinelli.png);
+      position: absolute;
+      background-size: 60% 60%;
+      margin-top:-100%; 
+      margin-left:6%;
+     }
+						
+.cover-img{background-image: url(img/feltrinelli2.png);
+           background-size: 70% 70%;
+           background-repeat: no-repeat;
+           background-color:c31f20;
+           background-position: center 100%;
+          }
+						
+						
+/* Media Query for Tablets portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
+                                                         width:28%;              
+                                                        }
+                                                    .decoration{margin-top:-3.4%;}
+                                                } 
+															
+						
+@media (max-width: 600px){.logo{width:30%;}
+                         }
+						
+																
+@media only screen and (min-width: 1200px) and (max-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{margin-top:-4.4%;}
+                                           .author{font-size: 2.6em;}
+                                           .title{font-size:  2.5em;}                                                        
+                                          }
+						
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
+                                       }
+						
 
 					</code>
 				</pre>
@@ -362,19 +402,20 @@
 				
 			  
 <p class="step2">2. Create the cover according to the desired style</p>
-<p class="sub-paragraph2">Below some examples of covers I designed using the three uploaded files</p>
-<p class="step2">Reproductions of existing covers of "I promessi sposi"</p>
+<p class="sub-paragraph3">Below some examples of covers I designed using the three uploaded files</p>
+<p class="step2 existingcover">A. Reproductions of existing covers of "I promessi sposi"</p>
 <div class="copertine-riprodotte">
 	<div class="carre_couleur base_hov" style="background-color:FDD692">
-		<div class="retract"  style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter0"><img id="cop-feltrinelli" style="width:140%" src="img/feltrinelli-copertina.jpg"></a></div>
+		<div class="retract"  style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter4"><img id="cop-feltrinelli" style="width:140%" src="img/feltrinelli-copertina.jpg"></a></div>
+		
 		
 	  </div>
 	  <div class="carre_couleur base_hov mondadori" style="background-color:FDD692;">
-		<div class="retract" style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1"><img style="width:150%" src="img/mondadori-copertina.jpg"></a></div>
+		<div class="retract" style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter5"><img style="width:150%" src="img/mondadori-copertina.jpg"></a></div>
 		
 	  </div>
 	  <div class="carre_couleur base_hov zanichelli" style="background-color:FDD692;">
-		<div class="retract" style="background-color:FDD692;"> <a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter2"><img style="width:150%" src="img/zanichelli-copertina.jpg"></a></div>
+		<div class="retract" style="background-color:FDD692;"> <a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter6"><img style="width:150%" src="img/zanichelli-copertina.jpg"></a></div>
 		
 	  </div>
 	 
@@ -399,6 +440,104 @@
 	<div class="retract" style="background-color:FDD692"><a  role="button" class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter1"><img style="width:155%" src="img/mia-cop.png"></a></div>
 	
   </div>
+   <!-- Modal css2 -->
+   <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title">Feltrinelli</h5>
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+		<div class="modal-body">
+		<pre>
+			<code>
+
+
+{font-family: OpenSans-Regular;
+src: url('font/OpenSans-Regular.ttf') format('truetype');}
+				
+@font-face 
+{font-family: OpenSans-SemiBold;
+src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
+				
+				
+.decoration{position: absolute; 
+   content: url(img/feltrinelli-decoration.png);
+   width: auto;
+   height: 9.3%;
+   margin-top:-3.2%;
+   }        
+				
+.author{font-family: OpenSans-Regular;
+font-size: 3em;
+text-transform: uppercase;
+}
+				
+.title{font-family: OpenSans-SemiBold;
+font-size: 2.5em;
+margin-top: -10%;
+}
+			
+.curator{display: none;}
+.introduction{display: none;}
+.specification{display: none;}
+				
+.text-cover{position: absolute; 
+   white-space: nowrap;
+   margin-top:6%;
+   margin-left:10%;
+   color:white;
+   }
+				
+.logo{content: url(img/logo-feltrinelli.png);
+position: absolute;
+background-size: 60% 60%;
+margin-top:-100%; 
+margin-left:6%;
+}
+				
+.cover-img{background-image: url(img/feltrinelli2.png);
+   background-size: 70% 70%;
+   background-repeat: no-repeat;
+   background-color:c31f20;
+   background-position: center 100%;
+  }
+				
+				
+/* Media Query for Tablets portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
+												 width:28%;              
+												}
+											.decoration{margin-top:-3.4%;}
+										} 
+													
+				
+@media (max-width: 600px){.logo{width:30%;}
+				 }
+				
+														
+@media only screen and (min-width: 1200px) and (max-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{margin-top:-4.4%;}
+								   .author{font-size: 2.6em;}
+								   .title{font-size:  2.5em;}                                                        
+								  }
+				
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
+							   }
+				
+
+			</code>
+		</pre>
+		</div>  
+		<div class="modal-footer">
+		  <button role="button" id="close button" class="button" data-dismiss="modal">CLOSE</button>
+		</div>
+	  </div>
+	</div>
+	</div> 
 <p class="sub-paragraph">How to use it</p>
 <p class="sub-paragraph2">Connect the css file to the html file and make changes to the files, if necessary, in order to create the cover page.</p>
 
