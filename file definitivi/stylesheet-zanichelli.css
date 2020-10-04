@@ -6,21 +6,18 @@
                
 
 .decoration{position: absolute; 
-        content: url(img/zanichelli.jpg);
-        width: 45%;
-        margin-left:44.8%;
-}        
+            content: url(img/zanichelli.jpg);
+            width: 45%;
+            margin-left:44.8%;
+            }        
 
-.author{font-size: 28px;
+.author{font-size: 1.75em;
         margin-left:15%;
-        
-        
         }
 
-.title{font-size: 40px;
-        margin-top: -9%;
-        margin-left:15%;
-        
+.title{font-size: 2.5em;
+       margin-top: -9%;
+       margin-left:15%; 
         }
 
 .curator{margin-left:15%;
@@ -32,36 +29,32 @@
 .specification{display:none;}
 
 .text-cover{font-family:  EBGaramond-Bold;
-        position: absolute; 
-        white-space: nowrap;
-        padding-top:5%;
-        padding-bottom: 15.8%;
-        padding-right:9.5%;
-       
-       color:white;
-        background-color: #748a97;
-      
+            position: absolute; 
+            white-space: nowrap;
+            padding-top:5%;
+            padding-bottom: 15.8%;
+            padding-right:9.5%;
+            color:white;
+            background-color: #748a97;
         }
 
 .logo{content: url(img/zanichelli-logo.png);
-        position: absolute;
-        width: 20%;
-        margin-top:-20%;
-        margin-left:35%;
-    
-        }
+      position: absolute;
+      width: 20%;
+      margin-top:-20%;
+      margin-left:35%;
+      }
 
 .cover-img{border: solid 0.5px black;
-        background-color:white;
-}
-
-
+           background-color:white;
+          }
 
 @media only screen 
 and (min-device-width: 1024px) 
 and (max-device-width: 1366px)
-and (-webkit-min-device-pixel-ratio: 2){.decoration{
-        margin-left:45%;
-} }
+and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-left:45%;
+                                                   } 
+                                       }
 
-@media only screen and (max-width: 768px){.decoration{margin-left:45%;}}
+@media only screen and (max-width: 768px){.decoration{margin-left:45%;}
+                                         }
