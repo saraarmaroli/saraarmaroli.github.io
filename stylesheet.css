@@ -173,6 +173,7 @@ margin-right:5%;}
 
 .zanichelli{margin-left:10%;}
 .mondadori{margin-left:10%;}
+.mia-copertina{margin-right:6%;}
 .carre_couleur
 {
 justify-content: center;
@@ -253,7 +254,7 @@ padding-bottom:3%;}
 .sub-paragraph{font-size: 30px;
                 font-family: Chonburi-Regular;
                 color:3AA494;
-                margin-top:15%;
+                margin-top:20%;
                 }
 
 .sub-paragraph2{font-family: Coustard-Regular;}
