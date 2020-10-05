@@ -56,5 +56,11 @@ and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-left:45%;
                                                    } 
                                        }
 
-@media only screen and (max-width: 768px){.decoration{margin-left:45%;}
-                                         }
+@media only screen and (max-width: 760px){.decoration{margin-left:52%;
+                                                     width: 48%;}
+                                         .text-cover{width:43%;
+                                                    margin-right:52%;
+                                                   margin-bottom:10%;
+                                                    padding-bottom:20%;}
+                                        .logo{margin-left:41%;}
+                                                }
