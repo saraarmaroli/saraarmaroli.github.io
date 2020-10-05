@@ -44,11 +44,13 @@
 
 /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
 @media only screen and (max-width: 600px) { .cover-img {width:100%;
+  
                                                         }
 
                                             .book-cover{margin-top:30%;
                                                         margin-left: 8%;
                                                         margin-right: auto;
+                                                        padding-bottom:10%;
                                                         }
                                           }
 
@@ -56,11 +58,14 @@
 /* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
 @media only screen and (max-width: 760px) {.cover-img{text-align:center;
                                                       width:100%;
+                                                      height: 180vh;
+                                                      
                                                     }
 
                                           .book-cover{margin-top: 19%;
                                                     margin-left: -2%;
                                                     margin-right:auto;
+                                                    
                                                      }
                                            }
 
