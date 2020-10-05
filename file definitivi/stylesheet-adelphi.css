@@ -2,8 +2,7 @@
 @font-face  {font-family:  EBGaramond;
                    src: url('font/EBGaramond.ttf') format('truetype');}
                
-@font-face  {font-family:   EBGaramond-Italic-VariableFont_wght;
-               src: url('font/ EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');}                             
+
                
   
 
@@ -15,9 +14,10 @@
         font-weight: 800;
         }
 
-.title{font-family: EBGaramond-Italic-VariableFont_wght;
+.title{font-family: EBGaramond;
         font-size: 3.4em;
         margin-left:44%;
+        font-style: oblique;
        }
 
 .curator{border: solid 2px black;
