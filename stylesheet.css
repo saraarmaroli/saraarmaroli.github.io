@@ -153,6 +153,7 @@ margin-right:5%;}
         font-size: 20px;
         font-family: Coustard-Regular;
         color:5D987D; }
+
 .interruzione-freccia {text-align: center;
                         background-color: FFF4C6;
                         margin-top:-10%;
@@ -392,17 +393,10 @@ pre{text-align:justify;
 @media (width:1024px){.body{overflow-x: hidden;}
         #final-dissertation{margin-left:35%;}
         .text-carousel{margin-top:120%;}
-               .description0-sezione3{white-space:normal;
-                                        margin-left:-16%;
-                                        margin-top: 32%;} 
-                        .drawing1{margin-top:-67px;}
-                        .description1-sezione3{margin-top:27%;
-                                                margin-left:-17%;}
-                        .drawing2{margin-right: 32%;
-                                margin-top: -36%;}                            
-                        .description2-sezione3{margin-top: 7%;
-                                                margin-left: -8%;}
-                       
+        .copertine-riprodotte{margin-right:10%;}
+        .existingcover{margin-left:10%;
+        margin-right:10%;}
+        .mia-copertina{margin-bottom:12%;}
                 }
               
                
@@ -423,39 +417,11 @@ pre{text-align:justify;
                         .parent{display:contents;
                                 
                         }
+                        .copertine-riprodotte{margin-right:10%;}
+                        .existingcover{margin-left:10%;
+                        margin-right:10%;}
+                        .mia-copertina{margin-bottom:12%;}
 
-                        .div1{grid-area:none!important;}
-                        .div2{grid-area:none !important;}
-                        .div3{grid-area:none !important;}
-                        .div4{grid-area:none !important;}
-                        .div5{grid-area:none !important;}
-                        .div6{grid-area:none !important;}
-                       
-                      
-       
-                        .drawing0{margin-right:55%;}
-                        .description0-sezione3{
-                                                margin-top:40%;
-                                                margin-left:-29%;
-                                                white-space:nowrap;
-                                                }
-                 
-                        .drawing1{margin-left:-8%;
-                                margin-top:47%;}
-    
-                        .description1-sezione3{margin-top: 83%;
-                                                margin-left:-8%;
-                                                white-space:nowrap;
-                                               }
-                
-                        .drawing2{margin-top:95%;
-                        margin-right:67%;}
-                        .description2-sezione3{
-                                                margin-top: 139%;
-                                                margin-left: -22%; 
-                        
-                                                }
-                        
                         .sub-paragraph{margin-top:12%;}
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}
@@ -477,32 +443,6 @@ pre{text-align:justify;
                                               margin-top:-40%;}
                         
 
-                        .drawing0{margin-right:40%;}
-                        .description0-sezione3{margin-top:45%;
-                                                margin-left: -10%; 
-                                                white-space:wrap; 
-                                                font-size:18px;
-                                              }
-                        .drawing1{margin-left:10%;
-                        margin-top:50%;}
-                        .description1-sezione3{margin-top: 95%;
-                                                margin-left: 10%;
-                                                white-space:nowrap;  
-                                                }
-                        .drawing2{margin-top:110%;
-                        margin-right:40%;}
-                        .description2-sezione3{
-                                                margin-top: 160%;
-                                                margin-left: -4%;
-                                                }
-
-                        .drawing3{margin-top:180%;
-                                margin-left:8%;}
-                        .description3-sezione3{
-                                                margin-top: 230%;
-                                                margin-left: 2%;
-                                                white-space:nowrap;}
-
                         
                         .sub-paragraph{margin-top:30%;}
                         }
@@ -515,34 +455,9 @@ pre{text-align:justify;
                                 
                                  }
                         #final-dissertation{margin-top:-1%;
-                                            margin-left:10%;
-                                           }
-                        .drawing0{
-                                  margin-right:40%;}
-                        .description0-sezione3{font-size:16px;
-                                                 margin-left:-15%;
-                                                 
-                                                }
-               
-                        .drawing1{margin-top: 50%;
-                                 margin-left:5%;}
-                        .description1-sezione3{font-size:18px;
-                                                margin-left:5%;
-                                                 margin-top:95%;}   
-
-                        .drawing2{margin-top:110%;
-                                margin-left:-50%;}
-                        .description2-sezione3{font-size:18px;
-                                                margin-left:-8%;
-                                                margin-top:170%;} 
-
-                        .drawing3{margin-top:180%;
-                                  margin-left:2%;}
-                        .description3-sezione3{font-size:18px;
-                                                margin-left:-3%;
-                                                margin-top:238%;} 
-
+                                            margin-left:10%;}
                         
+                                           
                
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}                         
@@ -558,32 +473,6 @@ pre{text-align:justify;
                         .titolo2{font-size:16px;
                                 }    
                        
-                        .interruzione-freccia{margin:auto;
-                                              margin-top:-50%;}
-                        .drawing0{margin-right:35%;}
-                        .description0-sezione3{font-size:16px;
-                                                margin-left:-18%;
-                                                }
-
-
-                        .drawing1{margin-top: 50%;
-                                margin-left:6%;}
-                        .description1-sezione3{font-size:16px;
-                                                margin-left:10%;
-                                                margin-top:98%;}   
-
-                        .drawing2{margin-top:110%;}
-                        .description2-sezione3{font-size:16px;
-                                                margin-left:-5%;
-                                                margin-top:162%;} 
-
-                        .drawing3{margin-top:170%;
-                                margin-left:4%;}
-                        .description3-sezione3{font-size:16px;
-                                                margin-left:1%;
-                                                margin-top:225%;} 
-
-
                         
 
                         }
