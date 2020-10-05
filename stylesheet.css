@@ -160,7 +160,8 @@ margin-right:5%;}
                         padding-bottom:5%;
                         margin-bottom: 0%;}
 
-
+.freccia2{margin-top:10%;
+        width:50px;}
 /*sezione 3*/
 
 .sezione3{ background-color: FDD692;
@@ -276,7 +277,7 @@ margin-bottom:3%;}
                  margin-top:3%;
                 margin-left: 10%;
                 margin-right:10%;
-                padding-bottom: 1%;
+        
                 background-color: black;
                 }
 
