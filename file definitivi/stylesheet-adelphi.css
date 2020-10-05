@@ -70,35 +70,22 @@
 
 @media (max-width: 760px){
 .logo{
-        width: 70%;
     margin-top: -124%;
     margin-left: 11%;
-    border: 2px solid;
-    padding-top: 3%;
     padding-bottom: 111%;
     padding-left: 3%;
-    padding-right: 5%;
         }
 
-.author{font-family: EBGaramond;
-        font-size: 1.8em;
-        margin-top: 40%;
-        text-transform: uppercase;
-        font-weight: 800;
-        position: absolute;
-        padding-top: 12%;
+.author{padding-top: 12%;
         padding-bottom: 85%;
         margin-left: 34%;
-        border: 2px solid;
         padding-left: 22%;
         padding-right: 37%;
 }
 .title{margin-left: 56%;
-        
         margin-top: 72%;}
-.curator{border: 2px solid;
-        font-size: 0px;
-        padding-top: 126%;
+
+.curator{
         margin-top: 59%;
         padding-left: 50%;
         margin-left: 32%;
