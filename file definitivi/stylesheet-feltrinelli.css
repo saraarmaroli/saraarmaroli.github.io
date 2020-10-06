@@ -12,17 +12,17 @@
 .decoration{position: absolute; 
             content: url(img/feltrinelli-decoration.png);
             width: auto;
-            height: 9.25%;
+            height: 4.25%;
             margin-top:-3.2%;
            }        
 
 .author{font-family: OpenSans-Regular;
-        font-size: 3em;
+        font-size: 3.1em;
         text-transform: uppercase;
         }
 
 .title{font-family: OpenSans-SemiBold;
-       font-size: 2.5em;
+       font-size: 3em;
        margin-top: -10%;
       }
 
@@ -32,16 +32,17 @@
 
 .text-cover{position: absolute; 
            white-space: nowrap;
-           margin-top:6%;
+           margin-top:2%;
            margin-left:10%;
            color:white;
            }
 
 .logo{content: url(img/logo-feltrinelli.png);
       position: absolute;
-      background-size: 60% 60%;
-      margin-top:-100%;
+      background-size: 70% 70%;
+      margin-top:-95%;
       margin-left:6%;
+      width: 25%;
      }
 
 .cover-img{background-image: url(img/feltrinelli2.png);
@@ -62,7 +63,7 @@
                                     
 
 @media (max-width: 760px){.logo{width:30%;}
-.decoration{height: 10.35%;
+.decoration{height: 4.54%;
                         }                        }
 
                                         
