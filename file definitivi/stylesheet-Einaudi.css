@@ -33,6 +33,7 @@
             color:black;
             margin-left:20%;
             text-transform: uppercase;
+            font-weight: 600;
             }
 
 .logo{content: url(img/logo-einaudi.png);
