@@ -711,7 +711,8 @@ src: url('font/EBGaramond-Bold.ttf') format('truetype');}
 					   
 .curator{margin-left:15%;
         color:black;
-        margin-top:-10%;
+		margin-top:-10%;
+		font-size: 1.2em;
         }
 					   
 .introduction{display: none;}
@@ -721,7 +722,7 @@ src: url('font/EBGaramond-Bold.ttf') format('truetype');}
             position: absolute; 
             white-space: nowrap;
             padding-top:5%;
-            padding-bottom: 15.7%;
+            padding-bottom: 14.2%;
             padding-right:9.5%;
             color:white;
             background-color: #748a97;
@@ -748,11 +749,19 @@ and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-left:45%;
                                           .text-cover{width:43%;
                                                       margin-right:52%;
                                                       margin-bottom:10%;
-													  padding-bottom:20%;}
+													  padding-bottom:19%;}
                                           .logo{margin-left:41%;}
 						
                                         }
-		  
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1366px)
+ and (min-device-width: 1024px){.text-cover{margin-bottom:14.6%;}}
+
+ @media only screen and (-webkit-min-device-pixel-ratio: 1.5) 
+ and (max-width: 1600px) and (min-width: 1200px){
+                                                 .text-cover {padding-bottom:14.7%;
+	                                            }
+                         
 			</code>
 				</pre>
 				</div>  
