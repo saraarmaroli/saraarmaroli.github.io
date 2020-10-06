@@ -8,8 +8,9 @@
 .decoration{position: absolute; 
             content: url(img/mondadori.png);
             width: auto;
-            height: 15%;
-            margin-top:2%;
+            height: 5.8%;
+            margin-top:4%;
+            margin-left:3%;
            }        
 
 .author{font-size: 3.7em;
@@ -48,9 +49,9 @@
      }
 
 .cover-img{background-image: url(img/img-mondadori.png);
-           background-size: 30% 30%;
+           background-size: 45% 40%;
            background-repeat: no-repeat;
-           background-color:#E5B012;
+           background-color:e6b41f;
            background-position: right top;
          }
 
