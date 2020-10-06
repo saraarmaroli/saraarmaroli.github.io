@@ -8,7 +8,7 @@
 .decoration{position: absolute; 
             content: url(img/mondadori.png);
             width: auto;
-            height: 15%;
+            height: 12%;
             margin-top:2%;
            }        
 
@@ -27,7 +27,9 @@
                font-weight:bold;
                color:FFE6B0;
                background-color:#463346 ;
-               padding-bottom:1.5%;
+               padding-left:1.5%;
+               padding-right:1.5%;
+               padding:0.5%;
                }
 
 .text-cover{font-family:  EBGaramond;

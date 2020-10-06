@@ -1,0 +1,88 @@
+
+ @font-face 
+ {font-family: OpenSans-Regular;
+                src: url('font/OpenSans-Regular.ttf') format('truetype');}
+
+
+.decoration{position: absolute; 
+            content: url(img/deco-Einaudi.jpg);
+            width: 40%;
+            height: 30%;
+            margin-top:10%;
+            margin-left:25%;
+            border:solid;
+            border-color: E23C12;
+          }        
+
+.author{font-size: 2em;
+        }
+
+.title{font-size: 2em;
+       margin-top: -1vmax;
+      }
+
+.curator{display: none;}
+.introduction{display: none;}
+.specification{display: none;}
+
+.text-cover{font-family:OpenSans-Regular;
+            position: absolute; 
+            white-space: nowrap;
+            margin-top:47%;
+            text-align: center;
+            color:black;
+            margin-left:20%;
+            text-transform: uppercase;
+            }
+
+.logo{content: url(img/logo-einaudi.png);
+      position: absolute;
+      width: 30%;
+      margin-top:-25%;
+      padding-left:14em;
+      padding-right:14.4em;
+      border-bottom: 2px solid;
+      border-top: 2px solid;
+      padding-top: 0.5vmax;
+      padding-bottom: 0.5vmax;
+      border-color:BD320F;
+     }
+
+.cover-img{background-color:white;
+           border: solid  black;
+          }
+
+
+/* Media Query for Tablets portrait mode */ 
+
+@media (max-width: 600px){.decoration{height:9.1%;}
+                          .logo{width:30%;
+                                margin-top:-13%;
+                                padding-right: 17em;
+                                padding-left: 16em;
+                                }
+                          .decoration{margin-left: 27.5%;
+                                      width: 45%;
+                                      height: 35%;
+                                      }
+                          .text-cover{margin-top:55%;
+                                    margin-left:26%;}
+                         }
+
+                                        
+ @media only screen and (min-width: 1200px) and (max-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1.5){
+                                             
+                                            .text-cover{margin-left: 23%;
+                                                font-size: 1em;}
+                                            .decoration{margin-left:26%;}                                                      
+                                           
+                                         }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){.logo{padding-right: 14.4em;
+                                              padding-left: 14em;}
+                                        }
+
+
+ 

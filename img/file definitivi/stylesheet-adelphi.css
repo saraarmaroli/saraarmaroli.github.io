@@ -1,0 +1,93 @@
+
+@font-face  {font-family:  EBGaramond;
+                   src: url('font/EBGaramond.ttf') format('truetype');}
+               
+
+               
+  
+
+.author{font-family: EBGaramond;
+        font-size: 1.8em;
+        margin-top: 40%;
+        text-transform: uppercase;
+        font-weight: 800;
+        position: absolute;
+        padding-top: 3%;
+        padding-bottom: 94%;
+        margin-left: 23%;
+        border: 2px solid;
+        padding-left: 30%;
+        padding-right: 28%;
+    }
+        
+
+.title{font-family: EBGaramond;
+        font-size: 3.4em;
+        margin-left: 49%;
+        font-style: oblique;
+        margin-top: 63%;
+       
+       }
+
+.curator{border: 2px solid;
+        font-size: 0px;
+        padding-top: 126%;
+        margin-top: 68%;
+        padding-left: 24%;
+        margin-left: 23%;
+        margin-right: -83%;}
+
+.introduction{display:none;}
+.specification{display: none;}
+
+
+.text-cover{position: absolute; 
+           white-space: nowrap;
+           color:black;
+           justify-content: center; 
+           }
+
+.logo{content: url(img/logo-adelphi.png);
+        position: absolute;
+        width: 70%;
+        padding-top: 3%;
+       padding-bottom: 112%;
+        margin-top: -125%;
+        margin-left: 5%;
+        border: 2px solid;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+.cover-img{background-image: url(img/img-adelphi.jpg);
+           background-size:70% 40%;
+           background-repeat: no-repeat;
+           background-position: center 90%;
+           background-color: F29159;
+           
+          }
+
+
+@media (max-width: 760px){
+.logo{
+    margin-top: -124%;
+    margin-left: 11%;
+    padding-bottom: 111%;
+    padding-left: 3%;
+        }
+
+.author{padding-top: 12%;
+        padding-bottom: 85%;
+        margin-left: 34%;
+        padding-left: 22%;
+        padding-right: 37%;
+}
+.title{margin-left: 56%;
+        margin-top: 72%;}
+
+.curator{
+        margin-top: 59%;
+        padding-left: 50%;
+        margin-left: 32%;
+        margin-right: -96%;}
+}

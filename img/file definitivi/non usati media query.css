@@ -1,0 +1,115 @@
+/* 
+ non in cm le misure delle cover
+*/
+
+.book-cover{
+    width: auto;
+    width: 750px;
+    position: absolute;
+    margin-right: auto;
+    padding: 0px;
+    margin-top:3%;
+    margin-bottom: 3%;
+  margin-left: 26%;
+  margin-right: 20%;}      
+    /*useful properties to maintain fixed dimensions */
+    
+  
+  
+  .cover-img{width:17.78cm;
+    height: 25.4cm;}
+  
+  /* ----------- Kindle Fire HD 7" risolvere perchè  ci sono quelli  da  e da 10.3  e da 13capire come fare media query, o una per ognuno più specifiche oppure due per quelli grandi e per quelli piccoli e farlo con sfondo grigino ----------- */
+  
+  
+  /* ----------- tablet Fire HD da 8'' 8.9" 10', 13''----------- */
+  
+  
+  
+  /* ----------- Kindle Fire HD da 8'' 8.9" 10', 13''----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-width: 1200px) 
+    and (max-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {.cover-img{background-color: salmon;
+                                                          text-align:center;
+                                                          width:100%;
+                                                           }
+                                               .book-cover{
+                                                            margin-top:8%;
+                                                            margin-left: 18%;
+                                                            }
+  
+  
+  }
+  
+  /* Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
+  @media  (min-width: 768px) and (max-width: 1112px){ .cover-img{background-color: blue;
+                                                                            text-align:center;
+                                                                            width:88%;
+                                                                           }
+                                                      
+                                                      .book-cover{
+                                                                  margin-top:8%;
+                                                                  margin-left: 7%;
+                                                                }
+  
+                                                              } 
+          
+  
+  /* ----------- tablet 12.9" ----------- */
+  
+  @media only screen 
+    and (min-device-width: 1024px) 
+    and (max-device-width: 1366px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+  */
+    @media(min-width: 280px) and (max-width: 600px){ .cover-img {background-color: cadetblue;
+                                                                 width:96%;
+      
+                                                                }
+                                                    .book-cover{
+                                                    margin-top:30%;
+                                                    margin-left: 5%;
+                                                    margin-right: 5%;
+  
+                                                                }
+    
+                                                    }
+      
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {}
+  
+  
+  
+  
+  
+  
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {}
+  
+  @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+  
+  @media (max-width: 1024px) and (orientation: portrait) {
+    /* A tablet version in portrait mode */
+  }
+  @media (max-width: 1194px) {
+    /* 1194px screen and all screens smaller */
+  }
+  
+  @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+  @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+  
+  
+  

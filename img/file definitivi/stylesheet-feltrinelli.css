@@ -1,0 +1,81 @@
+
+@font-face 
+{font-family: OpenSans-Regular;
+                src: url('font/OpenSans-Regular.ttf') format('truetype');}
+
+ @font-face 
+ {font-family: OpenSans-SemiBold;
+                src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
+
+
+
+.decoration{position: absolute; 
+            content: url(img/feltrinelli-decoration.png);
+            width: auto;
+            height: 4.25%;
+            margin-top:-3.2%;
+           }        
+
+.author{font-family: OpenSans-Regular;
+        font-size: 3.1em;
+        text-transform: uppercase;
+        }
+
+.title{font-family: OpenSans-SemiBold;
+       font-size: 3em;
+       margin-top: -10%;
+      }
+
+.curator{display: none;}
+.introduction{display: none;}
+.specification{display: none;}
+
+.text-cover{position: absolute; 
+           white-space: nowrap;
+           margin-top:2%;
+           margin-left:10%;
+           color:white;
+           }
+
+.logo{content: url(img/logo-feltrinelli.png);
+      position: absolute;
+      background-size: 70% 70%;
+      margin-top:-95%;
+      margin-left:6%;
+      width: 25%;
+     }
+
+.cover-img{background-image: url(img/feltrinelli2.png);
+          background-size: 70% 70%;
+          background-repeat: no-repeat;
+          background-color:c31f20;
+          background-position: center 100%;
+          }
+
+
+/* Media Query for Tablets portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
+                                                         width:28%;              
+                                                         }
+                                                   .decoration{margin-top:-3.4%;
+                                                      }
+                                                 } 
+                                    
+
+@media (max-width: 760px){.logo{width:30%;}
+.decoration{height: 4.54%;
+                        }                        }
+
+                                        
+ @media only screen and (min-width: 1200px) and (max-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{margin-top:-4.4%;}
+                                           .author{font-size: 2.6em;}
+                                           .title{font-size:  2.5em;}                                                        
+                                          }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
+                                        }
+
+
+ 
