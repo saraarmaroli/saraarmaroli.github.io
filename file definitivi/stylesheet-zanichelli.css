@@ -70,4 +70,6 @@ and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-left:45%;
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1600px) and (min-width: 1200px){
 .text-cover {
    padding-bottom:14.7%;
-}
+}}
+
+@media (max-width: 1024px) and (min-width: 768px){.text-cover{    padding-bottom: 14.6%;}}

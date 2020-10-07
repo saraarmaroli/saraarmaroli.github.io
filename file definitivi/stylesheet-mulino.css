@@ -26,7 +26,7 @@
             color:white;
             background-color: 90be6d;
             margin-top:0%;
-            padding-right:15.3%;
+            padding-right:11%;
             padding-left:5%;
            }
 
@@ -40,7 +40,7 @@
 .cover-img{background-image: url(img/img-mulino.png);
            background-size: 70% 60%;
            background-repeat: no-repeat;
-           border: solid black;
+           border: 1px solid black;
            background-position: center 90%;
           }
 
