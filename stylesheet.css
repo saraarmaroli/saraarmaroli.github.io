@@ -94,9 +94,14 @@ body{max-width:100%;
 .titolo{margin-top:-50px;
        }
 
-.titolo1{font-size: 50px;
+.titolo0{font-size: 50px;
         font-family: Chonburi-Regular;
         color:beige;}
+
+ .titolo1{font-size: 50px;
+          font-family: Chonburi-Regular;
+           color:F8B075;}
+        
 
 .titolo2{font-size: 25px;
         font-family: Coustard-Regular;
@@ -361,7 +366,7 @@ pre{text-align:justify;
       }
     
 .copyright {
-            background-color: F8B075;;  
+            background-color: F8B075;  
             font-family: Helvetica, Arial, sans-serif; 
             letter-spacing: 2.5px; 
             font-size: 12px; 
@@ -452,7 +457,7 @@ pre{text-align:justify;
 @media (max-width: 650px){body{overflow-x: hidden;}
 
 
-                        .titolo1{font-size:35px;}
+                        .titolo1 .titolo0{font-size:35px;}
                          #about{margin-left: -80%;
                                 
                                  }
