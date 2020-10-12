@@ -49,7 +49,7 @@ body{max-width:100%;
                     white-space: nowrap; }
 
 
-.navbar {background-color:FDD692; 
+.navbar {background-color:F8B075; 
         font-family: Helvetica, Arial, sans-serif;
         font-size: 9pt;
         font-weight: bold;
@@ -88,7 +88,7 @@ body{max-width:100%;
 /* per home page sezione 1*/
 .copertina{margin-top:auto;
         padding-bottom: 5%;
-        background-color:FDD692;
+        background-color:F8B075;;
         text-align:center;}
 
 .titolo{margin-top:-50px;
@@ -96,7 +96,7 @@ body{max-width:100%;
 
 .titolo1{font-size: 50px;
         font-family: Chonburi-Regular;
-        color:F18D3C;}
+        color:beige;}
 
 .titolo2{font-size: 25px;
         font-family: Coustard-Regular;
