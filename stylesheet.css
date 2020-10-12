@@ -88,7 +88,7 @@ body{max-width:100%;
 /* per home page sezione 1*/
 .copertina{margin-top:auto;
         padding-bottom: 5%;
-        background-color:F8B075;;
+        background-color:F8B075;
         text-align:center;}
 
 .titolo{margin-top:-50px;
@@ -155,7 +155,7 @@ margin-right:5%;}
         color:5D987D; }
 
 .interruzione-freccia {text-align: center;
-                        background-color: FFF4C6;
+                        background-color: F1DCA7;
                         margin-top:-10%;
                         padding-bottom:5%;
                         margin-bottom: 0%;}
@@ -164,7 +164,7 @@ margin-right:5%;}
         width:50px;}
 /*sezione 3*/
 
-.sezione3{ background-color: FDD692;
+.sezione3{ background-color: F8B075;
            padding-top:8%;
            margin-top:auto;
            text-align: center;
@@ -237,7 +237,7 @@ justify-content: center;
 {
   font-size:12px;
   font-family: Chonburi-Regular;
- color:F18D3C;
+ color:beige;
 }
 
 .step2{font-size: 25px;
@@ -248,7 +248,7 @@ padding-bottom:3%;}
 
 .existingcover{margin-top:3%;
         font-family: Chonburi-Regular;
-        color: F18D3C;
+        color: beige;
         font-size:20px;
     }
 
@@ -297,7 +297,7 @@ pre{text-align:justify;
 
 /*sezione 4*/
 
-.sezione4{ background-color: FFF4C6;
+.sezione4{ background-color: F1DCA7;
             padding-top:8%;
            text-align: center;}
 
@@ -325,7 +325,7 @@ pre{text-align:justify;
         left: 0;
         bottom:0;
         width: 100%;
-        background-color:FDD692; 
+        background-color:F8B075;; 
         color: white;
         text-align: center;
         font-family: Helvetica, Arial, sans-serif;
@@ -361,7 +361,7 @@ pre{text-align:justify;
       }
     
 .copyright {
-            background-color: FDD692;  
+            background-color: F8B075;;  
             font-family: Helvetica, Arial, sans-serif; 
             letter-spacing: 2.5px; 
             font-size: 12px; 
