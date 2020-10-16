@@ -580,7 +580,14 @@ pre{text-align:justify;
                                 
                         }
 
-                         
+ @media (max-width: 900px){ body{ overflow-x: hidden;}
+                      .sezione3{background-color: orange;}
+                        
+                      .slide-copertine{margin-bottom:50%;
+                        margin-left:10%;}  
+                .step-slide-copertine{margin-top:30%;}  
+                .zanichelli{margin-top:40%;}                           
+                }
     
         
 @media (max-width: 700px){body{overflow-x: hidden;}
@@ -603,10 +610,10 @@ pre{text-align:justify;
                         .slide-copertine{padding-bottom:32%;}
 
                          
-                      .carre_couleur {
+                      .carre_couleur {padding-right:-10%;
+                        margin-left:30%;
                         width: 80%;
-                        padding:5%;
-                        margin-left:25%;
+                      
                     }
         .mondadori{margin-top:50%;
                  }
@@ -622,8 +629,8 @@ pre{text-align:justify;
 
         .acced{display:none;}
 
-        .slide-copertine{padding-bottom:200%;
-                        margin-bottom:200%;
+        .slide-copertine{
+                        margin-bottom:20%;
                         }
 
 
@@ -669,8 +676,8 @@ pre{text-align:justify;
                       
                       .carre_couleur {
                         width: 80%;
-                        padding:5%;
-                        margin-left:25%;
+                        padding-right:-150%;
+                        margin-left:20%;
                     }
         .mondadori{margin-top:50%;
                  }
@@ -686,8 +693,8 @@ pre{text-align:justify;
 
         .acced{display:none;}
 
-        .slide-copertine{padding-bottom:200%;
-                        margin-bottom:200%;
+        .slide-copertine{
+                        margin-bottom:30%;
                         }
 
 
@@ -698,8 +705,9 @@ pre{text-align:justify;
                         }
 
                         #img-inner img {
-                                width: 51%;
-                                height: 51%;
+                                width: 70%;
+                                height: 70%;
+                               
                             }
                         }
                 
@@ -734,8 +742,10 @@ pre{text-align:justify;
 
                         .acced{display:none;}
 
-                        .slide-copertine{padding-bottom:32%;}
-
+                        .slide-copertine{margin-bottom:50%;
+                        margin-left:10%;}
+                      
+                        #foto-copertine{margin-left:-65%;}
                         }
 
 
