@@ -408,6 +408,7 @@ pre{text-align:justify;
                
 
 @media (max-width: 992px){ body{ overflow-x: hidden;}
+     
 
                         #about{margin-left: 9%;
                                 margin-top: 3%;
@@ -438,6 +439,7 @@ pre{text-align:justify;
     
         
 @media (max-width: 700px){body{overflow-x: hidden;}
+          
                         #about{margin-left: -10%;
                                
                                  }
@@ -455,6 +457,7 @@ pre{text-align:justify;
                         }
 
 @media (max-width: 650px){body{overflow-x: hidden;}
+      
 
 
                         .titolo1 .titolo0{font-size:35px;}
@@ -472,6 +475,7 @@ pre{text-align:justify;
 
 
 @media (max-width: 550px){body{ overflow-x: hidden;}
+.freccia{margin-top:50%;}
                         #about{margin-left: -10%;
                                 }
                 
@@ -479,8 +483,29 @@ pre{text-align:justify;
                                             margin-left:3%;}    
                         .titolo2{font-size:16px;
                                 }    
+
+                        .carre_couleur {
+                                        width: 80%;
+                                        padding:5%;
+                                        margin-left:25%;
+                                    }
+                        .mondadori{margin-top:50%;
+                                 }
+                        .zanichelli{margin-top:50%;
+                                  margin-bottom:25%;}
                        
+                        .mia-copertina{margin-bottom:25%;
+                        margin-left:20%;}
                         
+                        .Download{margin-left:5%;
+                        margin-right:5%;
+                        font-size:25px;}
+
+                        .acced{display:none;}
+
+                        
+                        
+
 
                         }
 
