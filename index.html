@@ -35,12 +35,11 @@
 		</button>
 	  </div>
 		<div class="modal-body">
-			<p>Considering the importance of covers as a vehicle through which to self-advert the content itself and given the possibility to read books on different devices, in addition to the classic book. I thought it would be interesting to create a CSS library that would allow to quickly and easily adapt the cover to different formats and styles. In particular, the library is composed of an HTML file that contains all the information that must be present on a cover and two CSS style sheets, one with all the properties that must remain unchanged regardless of the style desired, so for example information about the format of the covers and consequently about the device on which they can be displayed: tablet, smartphone, traditional cover and Ereader. The second style sheet is the one that the designer can modify according to the style he/she wants to give to the cover. It is, therefore, possible to link the two CSS files to the reference HTML file. </p>
-			<p>To show how the CSS library works, I decided to reproduce, using the three files mentioned above, the covers of "I Promessi sposi" of Alessandro Manzoni, Feltrinelli, Mondadori and Zanichelli. Moreover, having studied the graphic design of Adelphi, Einaudi and Il Mulino in my thesis, I decided to create covers of "I Promessi sposi" taking as a starting point one of the styles that these publishing houses have adopted over time.
-			Lastly, without following a predefined style, I have recreated a possible cover of the same text trying to make it more modern and attractive, while keeping it simple both to be different from the covers currently on the market and to attract the attention of a young public that has to study it at school and for lovers of Italian literature.)</p>
+			<p>Considering the importance of covers as a vehicle through which to self-advert the content itself and given the possibility to read books on different devices. I thought it would be interesting to create a CSS library that would allow to quickly and easily adapt the cover to different formats and styles. In particular, the library is composed of an HTML file that contains all the information that must be present on a cover and two CSS style sheets, one with all the properties that must remain unchanged regardless of the style desired, so for example information about the format of the covers and consequently about the device on which they can be displayed: tablet, smartphone, traditional cover and Ereader. The second style sheet is the one that the designer can modify according to the style he/she wants to give to the cover. It is, therefore, possible to link the two CSS files to the reference HTML file. </p>
+			<p>To show how the CSS library works, I decided to reproduce, using the three files mentioned above, the covers of Alessandro Manzoni's "I Promessi sposi", of editions already on the market: Feltrinelli, Mondadori and Zanichelli. Moreover, having studied the graphic design of Adelphi, Einaudi and Il Mulino in my thesis, I decided to create covers of "I Promessi sposi" taking as a starting point one of the styles that these publishing houses have adopted over time.
+			Lastly, without following a predefined style, I have recreated a possible cover of the same text trying to make it more modern and attractive, while keeping it simple both to be different from the covers currently on the market and to attract the attention of a young public that has to study it at school and for lovers of Italian literature.</p>
 
-			<p>Disclaimer: All copyrights and related rights on the content remain with their original owners. All copyright on the css library choices are 2020@SARA ARMAROLI</p>
-			<a href="file definitivi/book cover.html">prova copertine</a>
+			<p>Disclaimer: All copyrights and related rights on the content remain with their original owners. All copyright on the CSSlibrary choices are 2020@SARA ARMAROLI</p>
 		
 		</div>
 		<div class="modal-footer">
@@ -266,27 +265,32 @@ and (-webkit-min-device-pixel-ratio: 2) { .cover-img {width:90%;
                                                       margin-right: 5%;
                                                      }
                                         }
+										
 					  
-@media (max-width: 1024px) and (min-width: 768px){.book-cover{margin-left:9%;}}					  
- /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
- @media only screen and (max-width: 600px) { .cover-img {width:100%;
-                                                        }
-                                            .book-cover{margin-top:30%;
-                                                        margin-left: 8%;
-                                                        margin-right: auto;
-                                                       }
-                                           }
-					  
-																
- /* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
- @media only screen and (max-width: 760px) {.cover-img{text-align:center;
+@media (max-width: 1024px) and (min-width: 768px){.book-cover{margin-left:9%;}}	
+
+/* Medium devices (landscape tablets, 768px and up)  Media Query for  small Tablets, 9.7'' 10.2', 10.5''  and kindle of 6'', 7'', */ 
+@media only screen and (max-width: 760px) {.cover-img{text-align:center;
                                                        width:100%;
-                                                      }
+                                                     }
 
                                             .book-cover{margin-top: 19%;
                                                         margin-left: -2%;
                                                         margin-right:auto;
+                                                         }
+
+ /* Extra small devices (phones, 600px and down) Most of the Smartphones Mobiles (Portrait) */
+ @media only screen and (max-width: 600px) { .cover-img {width:100%;
+                                                        }
+                                            .book-cover{margin-top:30%;
+                                                        margin-left: -3%;
+                                                        margin-right: auto;
+                                                        padding-bottom:10%;
                                                        }
+                                           }
+					  
+																
+
 				</code></pre>
 				</div>
 				<div class="modal-footer">
@@ -318,80 +322,85 @@ and (-webkit-min-device-pixel-ratio: 2) { .cover-img {width:90%;
 @font-face 
 {font-family: OpenSans-Regular;
 src: url('font/OpenSans-Regular.ttf') format('truetype');}
-										
+						
 @font-face 
 {font-family: OpenSans-SemiBold;
 src: url('font/OpenSans-SemiBold.ttf') format('truetype');}
-										
-										
-										
+					
+						
+						
 .decoration{position: absolute; 
             content: url(img/feltrinelli-decoration.png);
             width: auto;
             height: 4.25%;
             margin-top:-3.2%;
-           }        
-									
+            }        
+						
 .author{font-family: OpenSans-Regular;
         font-size: 3.1em;
         text-transform: uppercase;
-       }
-										
+        }
+						
 .title{font-family: OpenSans-SemiBold;
        font-size: 3em;
        margin-top: -10%;
-      }
-										
+       }
+						
 .curator{display: none;}
 .introduction{display: none;}
 .specification{display: none;}
-										
+						
 .text-cover{position: absolute; 
             white-space: nowrap;
             margin-top:2%;
             margin-left:10%;
             color:white;
-           }
-									
+            }
+					
 .logo{content: url(img/logo-feltrinelli.png);
       position: absolute;
       background-size: 70% 70%;
-      margin-top:-95%; 
+      margin-top:-95%;
       margin-left:6%;
       width: 25%;
      }
-										
+					
 .cover-img{background-image: url(img/feltrinelli2.png);
            background-size: 70% 70%;
            background-repeat: no-repeat;
            background-color:c31f20;
-          background-position: center 100%;
+           background-position: center 100%;
           }
-										
+						
+						
 /* Media Query for Tablets portrait mode */ 
 @media (min-width: 768px) and (max-width: 1024px){ .logo{margin-top:-100%;
                                                          width:28%;              
                                                         }
                                                     .decoration{margin-top:-3.4%;
-                                                                }
-                                                } 
-																			
-										
+                                                               }
+                                                 } 
+															
+						
 @media (max-width: 760px){.logo{width:30%;}
                           .decoration{height: 4.55%;
-                                     }                        
-                        }
-										
-																				
+                                     }
+                         }
+						
+																
 @media only screen and (min-width: 1200px) and (max-width: 1600px) 
 and (-webkit-min-device-pixel-ratio: 1.5) {.decoration{margin-top:-4.4%;}
-                                            .author{font-size: 2.6em;}
-                                           .title{font-size:  2.5em;}                                                        
-                                          }
-										
+                                           .author{font-size: 2.6em;}
+                                          .title{font-size:  2.5em;}                                                        
+                                           }
+						
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
                                        }
+						
+						
+						 
+
 										
 										
 							
@@ -411,7 +420,7 @@ and (-webkit-min-device-pixel-ratio: 2){.decoration{margin-top:-4.4%;}
 				
 			  
 <p class="step2">2. Create the cover according to the desired style</p>
-<p class="sub-paragraph3">Below some examples of covers I designed using the three uploaded files</p>
+<p class="sub-paragraph3">Below some examples of covers I designed using the three uploaded files.<br><br> In particular,  the only changes are made to the designer-CSS file (CSS 2), leaving the other two uploaded files unchanged.</p>
 <p class="step2 existingcover">A. Reproductions of existing covers of "I promessi sposi"</p>
 <div class="copertine-riprodotte">
 	<div class="carre_couleur base_hov feltrinelli" style="background-color:F8B075;">
