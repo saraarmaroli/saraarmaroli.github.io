@@ -147,6 +147,8 @@ body{margin:0;}
                            background-position: center center;
                            
                         }
+
+
 .row {margin-right: 6px;
 }
 
@@ -284,6 +286,7 @@ margin-top:5%;
     position: absolute;
     margin-left: -305px;
 }
+
 
 #foto-copertine * {
     user-select: none;
@@ -760,4 +763,4 @@ pre{text-align:justify;
 
      
 
-                       
+                     
