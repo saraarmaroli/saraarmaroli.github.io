@@ -75,14 +75,12 @@ body{max-width:100%;
         }
 
 .button:hover {color: #aeb0c8;
-      } 
+                } 
 
 .modal-body {font-size: 8pt;
              color: black;
              font-family: Coustard-Regular;
-         }
-
-
+                }
 
 
 /* per home page sezione 1*/
@@ -120,8 +118,7 @@ body{margin:0;}
         justify-content: center;
         font-size: 100%;
         padding-top:8%;
-        margin:auto;
-     
+        margin:auto;     
         }
 
 
@@ -150,11 +147,11 @@ body{margin:0;}
 
 
 .row {margin-right: 6px;
-}
+     }
 
  .carousel-container{margin-bottom:2%;
-margin-left:5%;
-margin-right:5%;}
+                     margin-left:5%;
+                     margin-right:5%;}
 
 .text-carousel{margin-top:95%;
         font-size: 20px;
@@ -182,120 +179,112 @@ margin-right:5%;}
 
 .zanichelli{margin-left:10%;}
 .mondadori{margin-left:10%;}
-.mia-copertina{margin-right:6%;}
-.carre_couleur
-{
-justify-content: center;
-  width:200px;
-  height: 200px;
-  display: inline-block;
-  position: relative;
-  margin-top: 0px;
-}
-.base_hov .retract
-{
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform-origin: 50% 20%; 
-  -webkit-transform: scale(1);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform-origin: 50% 20%;
-  -moz-transform: scale(1);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform-origin: 50% 20%;
-  -ms-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform-origin: 50% 20%;
-  transform: scale(1);
-  width:200px;
-  height: 200px;
-  position: absolute;
-  z-index: 2;
-  left:0;
-}
-.base_hov:hover .retract
-{
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(0.6);
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(0.6);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(0.6);
-  transition: all 200ms ease-in;
-  transform: scale(0.6);
-}
-.acced
-{
-  width: 180px;
-  padding:10px;
-  bottom:0; 
-  position:absolute;
-  z-index: 1; 
-  text-align: left;
-}
-.big_acced
-{
+.mia-copertina{margin-right:8%;}
+
+.carre_couleur{justify-content: center;
+                width:200px;
+                height: 200px;
+                display: inline-block;
+                position: relative;
+                margin-top: 0px;
+                }
+
+.base_hov .retract{
+                  -webkit-transition: all 200ms ease-in;
+                  -webkit-transform-origin: 50% 20%; 
+                  -webkit-transform: scale(1);
+                  -moz-transition: all 200ms ease-in;
+                 -moz-transform-origin: 50% 20%;
+                 -moz-transform: scale(1);
+                 -ms-transition: all 200ms ease-in;
+                -ms-transform-origin: 50% 20%;
+                 -ms-transform: scale(1);
+                transition: all 200ms ease-in;
+                transform-origin: 50% 20%;
+                transform: scale(1);
+                width:200px;
+                height: 200px;
+                position: absolute;
+                z-index: 2;
+                left:0;
+                }
+.base_hov:hover .retract{ -webkit-transition: all 200ms ease-in;
+                        -webkit-transform: scale(0.6);
+                        -moz-transition: all 200ms ease-in;
+                        -moz-transform: scale(0.6);
+                        -ms-transition: all 200ms ease-in;
+                        -ms-transform: scale(0.6);
+                         transition: all 200ms ease-in;
+                         transform: scale(0.6);
+                        }
+.acced{
+        width: 180px;
+        padding:10px;
+        bottom:0; 
+        position:absolute;
+        z-index: 1; 
+        text-align: left;
+        }
+
+.big_acced{
   color:#ffffff;
   font-size:25px;
   font-weight: 400;
   font-family:'Roboto';
   
-}
-.middle_acced
-{
+        }
+
+.middle_acced{
   font-size:12px;
   font-family: Chonburi-Regular;
  color:beige;
-}
+                }
 
 .step2{font-size: 25px;
         font-family: Coustard-Regular;
         color:5D987D;
-margin-top:10%;
-padding-bottom:3%;}
+        margin-top:10%;
+        padding-bottom:3%;}
 
 .existingcover{margin-top:3%;
-        font-family: Chonburi-Regular;
-        color: beige;
-        font-size:20px;
-    }
+                font-family: Chonburi-Regular;
+                 color: beige;
+                font-size:20px;
+                }
 
-.step3{
-margin-top:23%;
-padding-bottom:1%;}
-
-
+.step3{margin-top:23%;
+        padding-bottom:1%;}
 
 
 .step-slide-copertine{font-size: 25px;
-        font-family: Coustard-Regular;
-        color:5D987D;
-margin-top:20%;
-}
+                        font-family: Coustard-Regular;
+                        color:5D987D;
+                        margin-top:20%;
+                        }
 
 ul, li { display: block; }
+
 .slide-copertine{  margin-bottom: 20%;
-padding-bottom:20%;}
+                padding-bottom:20%;}
 
-#foto-copertine {
-margin-top:5%;
-
-    left: 48%;
-    width: 609px;
-    height: 405px;
-    display: block;
-    position: absolute;
-    margin-left: -305px;
-}
+#foto-copertine {margin-top:5%;
+                 left: 48%;
+                width: 609px;
+                height: 405px;
+                display: block;
+                position: absolute;
+                margin-left: -305px;
+                }
 
 
 #foto-copertine * {
-    user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
+                user-select: none;
+                -ms-user-select: none;
+                -moz-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+                }
 
 #foto-copertine input { display: none; }
 
@@ -306,20 +295,18 @@ margin-top:5%;
     height: 405px;
     display: block;
     position: absolute;
-    
     transform: scale(0);
     -moz-transform: scale(0);
     -webkit-transform: scale(0);
-    
     transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     -webkit-transition: all .7s ease-in-out;
-}
+        }
 
 #img-inner img {
-    width: 100%;
-    height: 100%;
-}
+                width: 100%;
+                height: 100%;
+                }
 
 #img-inner:nth-of-type(1) {
     /* And... CSS3 image preloading :D */
@@ -327,7 +314,7 @@ margin-top:5%;
         url("img/feltrinelli-paragone.png"),
         url("img/mondadori-paragone.png"),
         url("img/zanichelli-paragone.png")
-}
+        }       
 
 #img-inner:hover ~ label.sb-bignav { opacity: 0.5; }
 
@@ -339,15 +326,12 @@ label.sb-bignav:hover { opacity: 1; }
     height: 100%;
     display: none;
     position: absolute;
-    
     opacity: 0;
     z-index: 9;
     cursor: pointer;
-    
     transition: opacity .2s;
     -moz-transition: opacity .2s;
     -webkit-transition: opacity .2s;
-        
     color: white;
     font-size: 50pt;
     text-align: center;
@@ -355,21 +339,19 @@ label.sb-bignav:hover { opacity: 1; }
     font-family: "Varela Round", sans-serif;
     background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
-}
+        }
 
 label[title="Next"] { right: 0; }
 
 input:checked + li > #img-inner {
     opacity: 1;
-        
     transform: scale(1);
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
-    
     transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
-}
+        }
 
 input:checked + li > label { display: block; }
 
@@ -383,18 +365,17 @@ input:checked + li > label { display: block; }
 .sub-paragraph2{font-family: Coustard-Regular;}
 
 .sub-paragraph3{font-family: Coustard-Regular;
-margin-top:-3%;}
+                margin-top:-3%;}
 
 .sub-paragraph4{font-family: Coustard-Regular;
-margin-left:7%;
-margin-right:7%;
-margin-bottom:3%;}
+                margin-left:7%;
+                margin-right:7%;
+                margin-bottom:3%;}
 
 .pre-scrollable { text-align:left;
                  margin-top:3%;
                 margin-left: 10%;
                 margin-right:10%;
-        
                 background-color: black;
                 }
 
@@ -415,7 +396,7 @@ pre{text-align:justify;
 /*sezione 4*/
 
 .sezione4{ background-color: F1DCA7;
-            padding-top:8%;
+           padding-top:8%;
            text-align: center;}
 
 .conclusion{font-family:FrankRuhlLibre-Light;
@@ -426,13 +407,10 @@ pre{text-align:justify;
 .contatti{padding-bottom:5%;
           box-align:center;}
 
-.img-contatti{width:50px;
-                }
+.img-contatti{width:50px;}
 
 .contatti2{font-family: Coustard-Regular;
            color:black;}
-
-
 
 
 /*-----------------FOOTER STYLE-----------------*/
@@ -509,51 +487,55 @@ pre{text-align:justify;
               
 /*media queries*/
 @media (width:1024px){.body{overflow-x: hidden;}
+
         #final-dissertation{margin-left:35%;}
+
         .text-carousel{margin-top:120%;}
+
         .copertine-riprodotte{margin-right:10%;}
+
         .existingcover{margin-left:10%;
-        margin-right:10%;}
+                        margin-right:10%;}
+
         .mia-copertina{margin-bottom:12%;}
 
-        .slide-copertine{padding-bottom:36% !important;
-                           
-        }
+        .slide-copertine{padding-bottom:36% !important;}
 
         #foto-copertine{left:47% !important;}
 
          .step-slide-copertine{padding-top:10%;
-        margin-left:9%;}
-                }
+                                margin-left:9%;}
+                   }
               
                
 
 @media (max-width: 992px){ body{ overflow-x: hidden;}
-.sezione3{background-color: pink;}
+
 
                         #about{margin-left: 9%;
                                 margin-top: 3%;
-                             }
+                              }
 
                         #final-dissertation{ margin-top:0%;
                                              margin-left:40%; }
 
                         .text-carousel{margin-top:130%;}
+
                        .interruzione-freccia{margin:auto;
                                              margin-top:-20%;
                                              padding-bottom:10%;
                                              }
+
                         .parent{display:contents;}
 
                         .copertine-riprodotte{margin-right:10%;
-                        margin-top:6%;}
+                                              margin-top:6%;}
 
                         .existingcover{margin-left:10%;
-                        margin-right:10%;}
-
-                        .mia-copertina{margin-bottom:12%;}
+                                        margin-right:10%;}
 
                         .sub-paragraph{margin-top:12%;}
+
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}
 
@@ -562,191 +544,190 @@ pre{text-align:justify;
                          #foto-copertine{left:47% !important;}
 
                          .step-slide-copertine{padding-top:10%;
-                                               margin-left:9%;}
-                                               
-                       
+                                               margin-left:9%;}       
                                
-                               
-                                .mia-copertina{margin-bottom:25%;
-                                margin-left:-1%;}
+                        .mia-copertina{margin-bottom:20%;
+                                      margin-left:-1%;}
                                 
-                                .Download{margin-left:5%;
+                        .Download{margin-left:5%;
                                 margin-right:5%;
                                 font-size:25px;}
 
                         .carre_couleur{justify-content: center;
-                                width: 200px;
-                                height: 200px;
-                                display: inline-block;
-                                position: relative;
-                                margin-top: 0px;}
+                                        width: 200px;
+                                        height: 200px;
+                                        display: inline-block;
+                                        position: relative;
+                                        margin-top: 0px;}
                                 
                         }
 
  @media (max-width: 900px){ body{ overflow-x: hidden;}
-                      .sezione3{background-color: orange;}
-                        
+                         
                       .slide-copertine{margin-bottom:50%;
-                        margin-left:10%;}  
+                                       margin-left:10%;}  
+
                 .step-slide-copertine{margin-top:30%;}  
-                .zanichelli{margin-top:40%;}                           
-                }
+
+                .zanichelli{margin-top:40%;
+                            margin-right:12%;}                           
+                            }
     
         
 @media (max-width: 700px){body{overflow-x: hidden;}
-          .sezione3{background-color: green;}
-                        #about{margin-left: -10%;
-                               
-                                 }
+         
+                        #about{margin-left: -10%;}
+
                         #final-dissertation{margin-top:10px;
                                              margin-left:10%;
                                             }
-                
 
                         .interruzione-freccia{margin:auto;
                                               margin-top:-40%;}
                         
-
-                        
                         .sub-paragraph{margin-top:30%;}
+                        .sub-paragraph3{margin-left:3%;
+                                         margin-right:3%;}
 
                         .slide-copertine{padding-bottom:32%;}
 
-                         
-                      .carre_couleur {padding-right:-10%;
-                        margin-left:30%;
-                        width: 80%;
-                      
-                    }
-        .mondadori{margin-top:50%;
-                 }
-        .zanichelli{margin-top:50%;
-                  margin-bottom:25%;}
+                        .carre_couleur {padding-right:-10%;
+                                        margin-left:30%;
+                                        width: 80%;
+                                        }
+                                        
+                        .freccia  {padding-top:5%;}
+
+                        .feltrinelli{margin-left:35%;}
+
+                        .mondadori{margin-top:50%;
+                                  margin-left:35% ;
+                                  }
+
+                        .zanichelli{margin-top:50%;
+                                   margin-bottom:25%;
+                                   margin-left:35%;}
        
-        .mia-copertina{margin-bottom:25%;
-        margin-left:20%;}
+                        .mia-copertina{margin-bottom:20%;
+                                      margin-left:30%;}
         
-        .Download{margin-left:5%;
-        margin-right:5%;
-        font-size:25px;}
+                        .Download{margin-left:5%;
+                                margin-right:5%;
+                                font-size:25px;}
 
-        .acced{display:none;}
+                        .acced{display:none;}
 
-        .slide-copertine{
-                        margin-bottom:20%;
-                        }
+                        .slide-copertine{margin-bottom:20%;
+                                        }
 
+                        .step-slide-copertine{font-size: 25px;
+                                              font-family: Coustard-Regular;
+                                              color:5D987D;
+                                             margin-top:20%;
+                                                }
 
-        .step-slide-copertine{font-size: 25px;
-                font-family: Coustard-Regular;
-                color:5D987D;
-                  margin-top:20%;
-                        }
-
-        #img-inner img {
-                        width: 81%;
-                        height: 81%;
-                            }
-        #img-inner:nth-of-type(1) {
-        background-image: none;}
-        .sb-bignav {
-                
-                background-color:transparent;
-                text-shadow: transparent;
-            }
+                         #img-inner img {width: 81%;
+                                         height: 81%;
+                                        }
+        
+                        #img-inner:nth-of-type(1) {
+                                                background-image: none;}
+                        
+                        .sb-bignav {background-color:transparent;
+                                 text-shadow: transparent;
+                                    }
       
                                 
-  }
+                 }
 
 @media (max-width: 650px){body{overflow-x: hidden;}
-.sezione3{background-color:yellow;}
-      
 
+                       .titolo1 .titolo0{font-size:35px;}
 
-                        .titolo1 .titolo0{font-size:35px;}
-                         #about{margin-left: -80%;
-                                
-                                 }
+                        #about{margin-left: -80%;}
+
                         #final-dissertation{margin-top:-1%;
                                             margin-left:10%;}
                         
-                                           
-               
                         .sub-paragraph2{padding-left:5%;
                                         padding-right:5%;}  
                           
-                     
-                      
-                      .carre_couleur {
-                        width: 80%;
-                        padding-right:-150%;
-                        margin-left:20%;
-                    }
-        .mondadori{margin-top:50%;
-                 }
-        .zanichelli{margin-top:50%;
-                  margin-bottom:25%;}
+                        .text-carousel{display:none;}
+                        .carre_couleur {width: 80%;
+                                        padding-right:-200%;
+                                        margin-left:25%;
+                                         }
+                        .freccia{padding-top:8%;}
+                        .mondadori{margin-top:50%;
+                                   margin-left:32%;}
        
-        .mia-copertina{margin-bottom:25%;
-        margin-left:20%;}
+                        .zanichelli{margin-top:50%;
+                                    margin-bottom:25%;
+                                    margin-left:32%;
+                                   }
+
+                         .feltrinelli{margin-left:32%;}
+                         .mia-copertina{margin-bottom:25%;
+                                         margin-left:26%;
+                                         }
         
-        .Download{margin-left:5%;
-        margin-right:5%;
-        font-size:25px;}
+                        .Download{margin-left:5%;
+                                  margin-right:5%;
+                                font-size:25px;}
 
-        .acced{display:none;}
+                        .acced{display:none;}
 
-        .slide-copertine{
-                        margin-bottom:30%;
-                        }
+                        .slide-copertine{
+                                        margin-bottom:30%;
+                                        }
 
 
-        .step-slide-copertine{font-size: 25px;
-                font-family: Coustard-Regular;
-                color:5D987D;
-                  margin-top:20%;
-                        }
-
+                        .step-slide-copertine{font-size: 25px;
+                                                font-family: Coustard-Regular;
+                                                color:5D987D;
+                                                margin-top:20%;
+                                              }
+                        #foto-copertine{text-align:center;}
+                        
                         #img-inner img {
                                 width: 70%;
-                                height: 70%;
-                               
-                            }
+                                height: 70%;}
                         }
                 
 
 @media (max-width: 550px){body{ overflow-x: hidden;}
-.sezione3{background-color: lightblue;}
-.freccia{margin-top:50%;}
-#about{margin-left: -10%;
-                                }
+                        .freccia{margin-top:50%;}
+
+                        #about{margin-left: -10%;}
                 
                         #final-dissertation{margin-top:-2%;
-                                            margin-left:3%;}    
-                        .titolo2{font-size:16px;
-                                }    
+                                            margin-left:3%;} 
+
+                        .titolo2{font-size:16px;}    
 
                         .carre_couleur {
                                         width: 80%;
                                         padding:5%;
                                         margin-left:25%;
                                     }
+
                         .mondadori{margin-top:50%;
                                  }
+
                         .zanichelli{margin-top:50%;
                                   margin-bottom:25%;}
                        
                         .mia-copertina{margin-bottom:25%;
-                        margin-left:20%;}
+                                        margin-left:20%;}
                         
                         .Download{margin-left:5%;
-                        margin-right:5%;
-                        font-size:25px;}
+                                  margin-right:5%;
+                                  font-size:25px;}
 
                         .acced{display:none;}
 
                         .slide-copertine{margin-bottom:50%;
-                        margin-left:10%;}
+                                         margin-left:10%;}
                       
                         #foto-copertine{margin-left:-65%;}
                         }
